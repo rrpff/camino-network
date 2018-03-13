@@ -1,0 +1,1220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Albergues - Camino Frances - Galicia</name>
+    <description/>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-DB4436-nodesc-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-503-DB4436-nodesc-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Albergues</name>
+      <Placemark>
+        <name>O Cebreiro, 
+Albergue de peregrinos de O Cebreiro</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.04612959999997,42.7077452,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hospital, Albergue de peregrinos de Hospital da Condesa</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.0997643,42.7046018,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alto do Poio, Albergue El Puerto</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.1268225,42.7124619,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fonfria, Albergue A Reboleira</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.15694629999996,42.7313107,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fillobal, Albergue Fillobal</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.2048533,42.7439945,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Triacastela, Albergue Municipal de Triacastela</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.23544249999998,42.7552999,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Triacastela, Albergue Aitzenea</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.24193409999998,42.7561561,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Triacastela, Albergue Berce do Camiño</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.24227369999994,42.7555764,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Triacastela, Albergue Refugio del Oribio</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.24021560000006,42.7566549,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Triacastela, Albergue-Pensión Complexo Xacobeo</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.24133889999996,42.7558397,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Triacastela, Albergue A Horta de Abel</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.239553,42.756152,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>A Balsa, 
+Albergue Ecológico El Beso</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.2533584,42.7661705,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Calvor, 
+Albergue de peregrinos de Calvor</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.3555183,42.7738416,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>San Mamede, Paloma y Leña S.L</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.370452,42.773479,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sarria, Albergue de peregrinos</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.41359999999997,42.77764,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sarria, Albergue Monasterio de La Magdalena</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.42111999999997,42.7789715,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sarria, Albergue De Don Álvaro</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.41683569999998,42.7769727,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sarria, Albergue O Durmiñento</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.41515730000003,42.7773965,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sarria, Albergue los Blasones</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.4160551,42.7772351,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sarria, Albergue Dos Oito Marabedís</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.4175417,42.7763656,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sarria, Albergue Internacional</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.41428010000004,42.7807086,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sarria, Albergue San Lázaro</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.41982370000005,42.7807805,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sarria, Pensión Escalinata</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.41349600000001,42.77718,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sarria, Albergue Mayor</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.41393140000002,42.7770153,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sarria, Albergue A Pedra</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.40453060000004,42.7758205,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sarria, Albergue Oasis</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.40528080000001,42.7757787,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sarria, Albergue Barbacoa del Camino C.B.</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.41961200000003,42.774313,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sarria, Albergue Obradoiro</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.41555100000005,42.777428,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sarria, Albergue Alma do Camiño</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.40741100000003,42.77641,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sarria, Albergue Matías</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.41718609999998,42.776898,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sarria, Albergue Puente Ribeira</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.41150100000004,42.775924,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vilei, Albergue-Pensión Casa Barbadelo</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.44456230000003,42.7692235,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vilei, Albergue-Pensión 108 to Santiago</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.4440742,42.7688011,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Barbadelo, Albergue de peregrinos de Barbadelo</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.4497175,42.7664855,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Barbedelo, Albergue-Pensión A Casa de Carmen</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.4519491,42.7678402,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Barbedelo, Albergue O Pombal</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.448945,42.7646897,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Molino de Marzan, Albergue Molino de Marzán</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.4813461,42.772298,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Morgade, Casa Morgade Pension - Camino de Santiago</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.52139599999998,42.782377,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ferreiros, 
+Albergue de peregrinos de Ferreiros</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.5283384,42.7839843,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ferreiros, Albergue Casa Cruceiro de Ferreiros</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.53322000000003,42.783476,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mirallos, Albergue O Mirallos</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.5364923,42.783622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>A Pena, Casa do Rego</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.54218900000001,42.785165,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mercadoiro, Albergue Mercadoiro</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.57056650000004,42.7891493,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vilacha, Casa Banderas</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.60287100000005,42.795613,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Portomarin, Albergue de peregrinos de Portomarín</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.6147324,42.8089244,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Portomarin, O Mirador</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.61802,42.806177,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Portomarin, Albergue de Peregrinos Ferramenteiro</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.61830320000001,42.8061326,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Portomarin, Albergue-Pensión El Caminante</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.61658590000002,42.8074782,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Portomarin, Albergue Portosantiago</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.61678519999998,42.8080829,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Portomarin, Pension Manuel</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.6143783,42.8086613,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Portomarin, Albergue Ultreia</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.61673500000006,42.8079503,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Portomarin, Novo Porto Albergue</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.61688500000003,42.807224,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Portomarin, Albergue Folgueira</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.61974199999997,42.806622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Portomarin, Albergue Villamartín</name>
+        <description>Rúa do Peregrino, 11</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -7.61496999999997,42.8071965,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gonzar, Albergue de peregrinos de Gonzar</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.696234,42.8264347,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gonzar, Albergue Casa García</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.6962179,42.8250931,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hospital da Cruz, Albergue de peregrinos de Hospital da Cruz</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.7350616,42.8408957,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ventas da Naron, Albergue Casa Molar</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.7478075,42.8442626,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ventas da Naron, Albergue O Cruceiro</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.7490091,42.8440345,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ligonde, Albergue municipal Escuela de Ligonde</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.7811742,42.8599385,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ligonde, Albergue La Fuente del Peregrino</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.781539,42.8601115,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Airexe, Albergue de peregrinos de Airexe-Ligonde</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.7869892,42.865459,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Portos, Albergue A Paso de Formiga</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.8070682,42.8734324,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lestedo, Albergue A Calzada</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.8092837,42.8737626,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Palas de Rei, Albergue De Peregrinos De Palas De Rei</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.86904129999994,42.8731213,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Palas de Rei, Albergue de peregrinos Os Chacotes</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.8571558,42.8740299,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Palas de Rei, Albergue Buen Camino</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.86984389999998,42.8731899,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Palas de Rei, Albergue Mesón de Benito</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.86745819999999,42.8722684,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Palas de Rei, Albergue Castro</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.86850660000005,42.8729916,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Palas de Rei, Albergue San Marcos</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.86819300000002,42.872574,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Palas de Rei, Casa Do Outeiro</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.86758680000003,42.8738215,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Palas de Rei, Albergue A Casina di Marcello</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.87247690000004,42.8732618,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>San Xulian, Albergue O Abrigadoiro</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.903161,42.874486,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ponte Campaña, Albergue Casa Domingo</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.9144907,42.8780712,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Casanova, 
+Albergue de peregrinos de Casanova</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.9285669,42.8787631,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Melide, Albergue de peregrinos de Melide</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.0180669,42.9145053,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Melide, Albergue O Apalpador</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.01788799999997,42.9145337,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Melide, Albergue O Cruceiro</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.01453779999997,42.9139757,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Melide, Albergue Vilela</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.01705430000004,42.9147708,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Melide, Albergue Pereiro</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.01714019999997,42.91321,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Melide, Albergue Melide</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.00677900000005,42.912089,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Melide, Albergue San Antón</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.01721090000001,42.9147386,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Melide, Albergue Alfonso II el Casto</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.01461560000007,42.9182616,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boente, Os Albergues</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.0782504,42.9157983,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boente, Albergue Boente</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.0773115,42.9161357,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Castaneda, Albergue Santiago</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.09790010000006,42.9247566,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ribadixo da Baixo, Albergue público municipal de Rivadiso</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.13041720000001,42.9307944,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ribadixo da Baixo, Albergue Los Caminante</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.13138789999994,42.9304107,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ribadixo da Baixo, Albergue Milpés</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.13610700000004,42.930442,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arzua, Albergue de peregrinos de Arzúa</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.16233209999996,42.926485,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arzua, Albergue da Fonte</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.16429719999996,42.9263153,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arzua, Albergue Don Quijote</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.15530999999999,42.92891,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arzua, Albergue Vía Lactea</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.16426999999999,42.92546,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arzua, Albergue Ultreia</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.15574990000005,42.9288748,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arzua, Albergue Santiago Apóstol</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.15554559999998,42.9291987,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arzua, Albergue Los Caminantes</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.16505119999999,42.9270974,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arzua, Albergue A Conda</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.15985000000001,42.93272,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arzua, Albergue de Selmo</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.15407000000005,42.92982,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arzua, Albergue de Camino</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.15616,42.9286699,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Salceda, Albergue Pousada de Salceda</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.2764816,42.9244874,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Salceda, Albergue de Boni</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.2799363,42.92664,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Santa Irene, Albergue de peregrinos de Santa Irene</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.33580860000006,42.9183881,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Santa Irene, Albergue Santa Irene</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.3316922,42.9167643,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>O Pedrouzo, Albergue de peregrinos de Pedrouzo (O Pino)</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.35879739999996,42.9071185,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>O Pedrouzo, Albergue Porta de Santiago</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.36154069999998,42.9051793,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>O Pedrouzo, Albergue Edreira</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.36055699999997,42.903676,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>O Pedrouzo, Albergue O Burgo</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.35880999999995,42.909191,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>O Pedrouzo, Albergue Otero</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.36334199999999,42.905087,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>O Pedrouzo, Albergue Cruceiro de Pedrouzo</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.36255040000003,42.902721,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>O Pedrouzo, Hostel Rem</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.36298290000002,42.9032669,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Monte de Gozo, Albergue de la Xunta del Monte do Gozo</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.50014229999999,42.8867223,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Santiago de Compostela, 
+Residencia de peregrinos San Lázaro</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.51716829999998,42.8865237,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Santiago de Compostela, Albergue Jaime García Rodríguez</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.5250198,42.885727,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Santiago de Compostela, Albergue Seminario Menor</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.5357338,42.8774162,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Santiago de Compostela, Albergue Acuario</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.52297469999996,42.8860822,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Santiago de Compostela, Albergue Santo Santiago</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.52596689999996,42.8870285,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Santiago de Compostela, Albergue Meiga Backpackers</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.53886209999996,42.8874282,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Santiago de Compostela, Albergue Mundoalbergue</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.54756700000007,42.8786296,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Santiago de Compostela, Albergue O Fogar do Teodomiro</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.54240000000004,42.88142,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Santiago de Compostela, Albergue The Last Stamp</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.54239600000005,42.8808075,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Santiago de Compostela, Albergue Roots and Boots</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.55017900000007,42.879612,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Santiago de Compostela, Albergue la Estación</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.54578019999997,42.8683956,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Santiago de Compostela, Albergue Porta Real</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.5345082,42.8821375,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Santiago de Compostela, Albergue Azabache</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.54352670000003,42.8812086,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Santiago de Compostela, Hospedería San Martín Pinario</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.54483159999995,42.8814599,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

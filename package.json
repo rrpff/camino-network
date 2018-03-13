@@ -2,5 +2,8 @@
   "name": "camino-network",
   "version": "1.0.0",
   "private": true,
-  "description": "My Graphcool Service"
+  "description": "My Graphcool Service",
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.2"
+  }
 }

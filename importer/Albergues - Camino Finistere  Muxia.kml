@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Albergues - Camino Finistere / Muxia</name>
+    <description/>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-DB4436-nodesc-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-503-DB4436-nodesc-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Albergues</name>
+      <Placemark>
+        <name>Negreira, Albergue de peregrinos de Negreira</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.74123280000003,42.9045595,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Negreira, Albergue-Pensión San José</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.73415090000003,42.9111852,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Negreira, Albergue Lua</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.73460439999997,42.9094612,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Negreira, Albergue El Carmen</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.73607509999999,42.9095678,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Negreira, Albergue Alecrin</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/WBCSqdt9pJdw5evbtlluzaOWJIYAro7vVJzxt6YsF0mg1rKpyh3iqvYrEkQEMocCvGDbya9p4FX70faQIJO65JomXJmsgIHWjTxJ4i5pd8JkjiYxH-AtaR57iurl2_ggIgXJbAXX8TQT5AmTH4pUr5w" height="200" width="auto" /><br><br>Impresión general:<br>Estado de conservación: Bien<br>Disponibilidad del albergue: Todo el año<br>Precio: 6 euros (a partir del 1 de mayo de 2013)<br>Plazas<br>Plazas totales: 20<br>Nº de plazas en litera: 4<br>Nº de plazas en suelo:<br>Nº de colchones en suelo:<br>Nº de camas: 16 camas bajas<br>Descripción de habitaciones: Dos habitaciones comunes y una acondicionada para minusválidos<br>Reserva de plaza en el albergue: No<br>Condiciones de admisión para acceder al albergue: Peregrinos con credencial<br>Hora de apertura: 13:00<br>Hora de cierre: 22:00<br>Posibilidad de salir o no cuando se cierra: Sí<br>- See more at: http://caminodesantiago.consumer.es/albergue-de-negreira#sthash.d6YzBIzu.dpuf]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/WBCSqdt9pJdw5evbtlluzaOWJIYAro7vVJzxt6YsF0mg1rKpyh3iqvYrEkQEMocCvGDbya9p4FX70faQIJO65JomXJmsgIHWjTxJ4i5pd8JkjiYxH-AtaR57iurl2_ggIgXJbAXX8TQT5AmTH4pUr5w</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -8.73226869999996,42.9096643,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Negreira, Albergue Anjana</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/LM-8dtKmqzgf__JgDHd1Mx7It5AKyZiJpNZP6Bd9ifj6A30gz1ABCxA6LBgbax-tCbQscWW0z5Shx0Arirt9Ao3NnUCVdRO7peafKOeLhx6fD0BaX9u0H7Q5w57ZoRpHnHkHswS0k-l7_eUO" height="200" width="auto" /><br><br>Impresión general:<br>Estado de conservación: Inaugurado el 1 de abril de 2015<br>Disponibilidad del albergue: Del 20 de marzo al 20 de octubre<br>Precio: 12 euros<br>Plazas<br>Plazas totales: 18<br>Nº de plazas en litera: 18<br>Nº de plazas en suelo:<br>Nº de colchones en suelo:<br>Nº de camas:<br>Descripción de habitaciones: Tres habitaciones distribuidas en 3 plantas. De 4, 6 y 8 plazas.<br>Reserva de plaza en el albergue: Sí<br>Condiciones de admisión para acceder al albergue: Todos los públicos<br>Hora de apertura: 12:00<br>Hora de cierre: 00:00. Hay que dejar el albergue entre las 6 y las 8 del día siguiente.<br>Posibilidad de salir o no cuando se cierra: Sí<br>- See more at: http://caminodesantiago.consumer.es/albergue-anjana#sthash.7Gd3S0mv.dpuf]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/LM-8dtKmqzgf__JgDHd1Mx7It5AKyZiJpNZP6Bd9ifj6A30gz1ABCxA6LBgbax-tCbQscWW0z5Shx0Arirt9Ao3NnUCVdRO7peafKOeLhx6fD0BaX9u0H7Q5w57ZoRpHnHkHswS0k-l7_eUO</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -8.7278545,42.9096688,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vilaserio, Refugio municipal de Vilaserío</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.8547659,42.946371,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vilaserio, Albergue O Rueiro</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.84971199999995,42.943385,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Santa Marina, 
+Albergue Santa Mariña</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.926177,42.957459,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Santa Marina, Albergue Casa Pepa</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -8.9186454,42.9568151,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ponte Olveira, Albergue O Refuxio da Ponte</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -9.01932620000002,42.9646677,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ponte Olveira, Albergue-Pensión Ponte OIveira</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -9.01668900000004,42.961517,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Olveiroa, Albergue de peregrinos de Olveiroa</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -9.03954069999998,42.9675257,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Olveiroa, Albergue Hórreo</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -9.03930100000002,42.966738,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Logoso, Albergue-Pensión O Logoso</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -9.06748600000003,42.973471,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cee, Albergue A Casa da Fonte</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -9.18809699999997,42.9544661,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cee, Albergue O Bordón</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -9.17896689999998,42.9487502,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cee, Albergue Moreira</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -9.18704630000002,42.9520925,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cee, Albergue O Camiño das Estrellas</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -9.193307,42.9568277,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Corcubion, Albergue de peregrinos San Roque</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -9.2012966,42.9374724,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Corcubion, Albergue Camiño de Fisterra</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -9.19206380000003,42.949835,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Finistere, Albergue de peregrinos de Fisterra</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -9.26292000000001,42.90778,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Finistere, Albergue de Paz</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -9.26149650000002,42.9042007,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Finistere, Albergue-Pensión Finistellae</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -9.2626603,42.9043504,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Finistere, Albergue do Sol e da Lua</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -9.26569599999993,42.907163,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Finistere, Albergue O Encontro</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -9.26367099999993,42.9067356,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Finistere, Albergue Cabo da Vila</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -9.26267189999999,42.9095736,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Finistere, Albergue Por Fin</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -9.2645567,42.906646,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Finistere, Albergue Mar de Rostro</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -9.26507430000004,42.9071415,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Finistere, Albergue Arasolis</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -9.26334640000005,42.9033463,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Finistere, Albergue do Mar</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -9.26480049999998,42.9133935,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Finistere, Albergue Mar de Fora</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -9.26574759999994,42.9060898,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Finistere, Albergue de Sonia - Buen Camino</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -9.26599299999998,42.907821,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dumbria, Albergue de Peregrinos de Dumbría</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -9.1122043,43.0055965,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Muxia, Albergue de peregrinos de Muxía</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -9.2159131,43.1019679,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Muxia, Albergue@Muxía</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -9.21597359999998,43.1019222,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Muxia, Albergue Bela Muxía</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -9.21748000000002,43.10712,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Muxia, Albergue da Costa</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -9.2197883,43.1009927,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Muxia, Albergue Arribada</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -9.21793509999998,43.1050132,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lires, Albergue As Eiras</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -9.2432,42.99806,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

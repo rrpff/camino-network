@@ -1,0 +1,2829 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Albergues - St Jean to Santiago</name>
+    <description/>
+    <Style id="icon-22-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-22-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-22">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-22-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-22-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-22-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-DB4436-nodesc-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-503-DB4436-nodesc-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Navarra</name>
+      <Placemark>
+        <name><![CDATA[St Jean Pied de Port, Albergue Le Chemin vers l'Etoile]]></name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/qrRqlevmPMrmMibBnXBRko5sOjlAdcX-_FoFxn9N28x82ypTzp2SKa5jxvJdqDVxpdYDzGS5bgWzP4jv5G_if5IB9aE1XGKcXoa0Qq4_upIV99Cj0AuGA4TTIuxx8HfXyZFPio4SykSO" height="200" width="auto" /><br><br>Rue d'Espagne<br>64220 Saint-Jean-Pied-de-Port, France<br><br><br><br><br>- Impresión general:<br>- Estado de conservación: Como albergue desde el año 2000<br>- Disponibilidad del albergue: <br>- Precio: 15 euros con desayuno. 25 euros la media pensión<br>- Plazas<br>- Plazas totales: 20, incluyendo un cuarto de 2 plazas para minusválidos<br>- Nº de plazas en litera: <br>- Nº de plazas en suelo: <br>- Nº de colchones en suelo: <br>- Nº de camas: <br>- Descripción de habitaciones: 5 habitaciones<br>- Reserva de plaza en el albergue: Sí<br>- Condiciones de admisión para acceder al albergue: Tanto peregrinos como turistas<br>- Hora de apertura: 14:00<br>- Hora de cierre: 22:00<br>- Posibilidad de salir o no cuando se cierra: Sí]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/qrRqlevmPMrmMibBnXBRko5sOjlAdcX-_FoFxn9N28x82ypTzp2SKa5jxvJdqDVxpdYDzGS5bgWzP4jv5G_if5IB9aE1XGKcXoa0Qq4_upIV99Cj0AuGA4TTIuxx8HfXyZFPio4SykSO</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -1.23772,43.16145,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>St Jean Pied de Port, Gîte Ultreïa</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.23701299999993,43.162712,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>St Jean Pied de Port, Albergue de peregrinos de Saint Jean Pied de Port</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.23452829999997,43.1638717,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>St Jean Pied de Port, Albergue Beilari</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.23582929999998,43.1633293,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[St Jean Pied de Port, Albergue l'Auberge du Pèlerin]]></name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.23654550000003,43.163514,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Honto, Casa Ferme Ithurburia</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/hSbitVi0spzMN15yrQKtj-DUgoq8nILoMH54OIAmiNF4tYHmDAYTU3VCDEPwtpCCWvxJS7Y5ZT4KR0w1UlNndfMz5NOk9fZBzkUqaDk3Vj7HBX7852TCjCHaTU9x1b1pUya2XTveJbYb" height="200" width="auto" /><br><br>64220 Saint-Michel, France]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/hSbitVi0spzMN15yrQKtj-DUgoq8nILoMH54OIAmiNF4tYHmDAYTU3VCDEPwtpCCWvxJS7Y5ZT4KR0w1UlNndfMz5NOk9fZBzkUqaDk3Vj7HBX7852TCjCHaTU9x1b1pUya2XTveJbYb</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -1.244748,43.124353,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Honto, Refuge Orisson</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/elUsi2TLiOCtt3ap-PGx2KSazbHXD0OTFK0KWv9uMGshUzPGtYDDaZWLzgWV5onU7UXQNWZvIVKuVJgKeTsP6NHTMnS0CerpFUbp7QHvwDyFFh_ceARDXEpebGxwY_kCpIUfpWiR6QgA" height="200" width="auto" /><br><br>64220 Saint-Michel, France]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/elUsi2TLiOCtt3ap-PGx2KSazbHXD0OTFK0KWv9uMGshUzPGtYDDaZWLzgWV5onU7UXQNWZvIVKuVJgKeTsP6NHTMnS0CerpFUbp7QHvwDyFFh_ceARDXEpebGxwY_kCpIUfpWiR6QgA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -1.239412,43.107899,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Roncesvalles, Albergue de peregrinos de Roncesvalles</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/biRB9uAI1lPGCowEWmh7SNMLJLAMmlSF2dxrewATz8I1pGes1xJGa3fVUQDfdPUNenLv7kAjuq6nwe4otuZsybUQpzMVhtDbf5GqPvWhM63mz92o4uwNJ2L4F5I5taAKUq0uw3Sl2MR-" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/biRB9uAI1lPGCowEWmh7SNMLJLAMmlSF2dxrewATz8I1pGes1xJGa3fVUQDfdPUNenLv7kAjuq6nwe4otuZsybUQpzMVhtDbf5GqPvWhM63mz92o4uwNJ2L4F5I5taAKUq0uw3Sl2MR-</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -1.31951,43.009177,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Valcarlos, Albergue de Luzaide/Valcarlos</name>
+        <description>Navarre, Spain</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -1.300725,43.094804,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Espinal, Albergue Irugoienea</name>
+        <description><![CDATA[•Impresión general: Estado de conservación: Inaugurado en marzo de 2013<br> <br>•Disponibilidad del albergue: Desde Semana Santa hasta finales de octubre<br> •Precio: 10 euros en litera (es necesario el saco de dormir)<br> •Plazas Plazas totales: 25<br> Nº de plazas en litera: 18<br> Nº de plazas en suelo: <br>Nº de colchones en suelo: <br>Nº de camas: 7<br> Descripción de habitaciones: Dos habitaciones dobles en cama. Una habitación triple en cama y dos habitaciones múltiples en literas.<br> Reserva de plaza en el albergue: Sí, se recomienda<br> Condiciones de admisión para acceder al albergue: Peregrinos y público en general<br> Hora de apertura: 13:00<br> Hora de cierre: 23:00<br> Posibilidad de salir o no cuando se cierra: Sí]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -1.364837,42.977054,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Espinal, Albergue Haizea</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/HxWUi01q2kFv4lRR_fCjN0fvsi3_9fPkC8hz-8m4_1k2pYXcOKd-PrVNzdUVknZNkg5FfTQv5DClxzaYjobIJ5TKy2RCsoz0b3HEAtHYhR4fodtM-7LzPjHhCrHoEyihJ2l4rWIqcPP9" height="200" width="auto" /><br><br>•Impresión general: Estado de conservación: La primera planta se acondicionó como albergue en julio de 2013<br> <br>•Disponibilidad del albergue: Todo el año excepto del 15 al 30 de noviembre<br> •Precio: 12 euros<br> •Plazas Plazas totales: 30<br> Nº de plazas en litera: 10<br> Nº de plazas en suelo: <br>Nº de colchones en suelo: <br>Nº de camas: 20<br> Descripción de habitaciones: Habitaciones de 8, 10 y 12 plazas (hay camas individuales y literas)<br> Reserva de plaza en el albergue: Sí<br> Condiciones de admisión para acceder al albergue: Peregrinos y turistas<br> Hora de apertura: 8:00<br> Hora de cierre: 23:00<br> Posibilidad de salir o no cuando se cierra: Consultar]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/HxWUi01q2kFv4lRR_fCjN0fvsi3_9fPkC8hz-8m4_1k2pYXcOKd-PrVNzdUVknZNkg5FfTQv5DClxzaYjobIJ5TKy2RCsoz0b3HEAtHYhR4fodtM-7LzPjHhCrHoEyihJ2l4rWIqcPP9</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -1.366221,42.978452,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Zubiri, Albergue de Peregrinos de Zubiri</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/wC_DiRXdzPwGuNdhLabKcNR0P1Y2iJPl0cAJNCFVsQ_ofIX5i_hNEWL5QnWK_7U1sVTEXnYApeO0pSZy6eERGA2yT1XCdBVEeyyil48-lgRgtJhnwIHL4SJTZr9C3BIYn8iihaTBiU52" height="200" width="auto" /><br><br>- Impresión general:<br>- Estado de conservación: Bien<br>- Disponibilidad del albergue: De marzo a octubre<br>- Precio: 8 euros<br>- Plazas<br>- Plazas totales: 44<br>- Nº de plazas en litera: 44<br>- Nº de plazas en suelo: <br>- Nº de colchones en suelo: <br>- Nº de camas: <br>- Descripción de habitaciones: Dos habitaciones de 26 plazas y el resto en la planta de arriba<br>- Reserva de plaza en el albergue: No se puede<br>- Condiciones de admisión para acceder al albergue: Peregrinos con credencial<br>- Hora de apertura: Sobre las 13:30<br>- Hora de cierre: 22:00<br>- Posibilidad de salir o no cuando se cierra: Sí]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/wC_DiRXdzPwGuNdhLabKcNR0P1Y2iJPl0cAJNCFVsQ_ofIX5i_hNEWL5QnWK_7U1sVTEXnYApeO0pSZy6eERGA2yT1XCdBVEeyyil48-lgRgtJhnwIHL4SJTZr9C3BIYn8iihaTBiU52</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -1.504923,42.929562,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Zubiri, Albergue Zaldiko</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/QbB_o5IseIQ2cbiknMPVhfyrsZG-GswkwjOawrCpKCd9GaOdgXcX0GwjAHlQKvyz69Lwv9eLjH5T39Az-h4VIXQbP9bJjvWl1FkiWfdl8IUktcOkL1jXCMkZS61D6Xh9YmVU-3cySxTf" height="200" width="auto" /><br><br>31630 Zubiri, Navarra, Spain]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/QbB_o5IseIQ2cbiknMPVhfyrsZG-GswkwjOawrCpKCd9GaOdgXcX0GwjAHlQKvyz69Lwv9eLjH5T39Az-h4VIXQbP9bJjvWl1FkiWfdl8IUktcOkL1jXCMkZS61D6Xh9YmVU-3cySxTf</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -1.504052,42.930135,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Zubiri, Albergue El Palo de Avellano</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/mYwYwwVwciknTPQsb10qfz5aiveLq_8ZF9NiC95duOzvb33U5B33801jPBYWZ4ntXj1SVwW4JShF8NJaZjeBaAt5P6jIjm9eTdZfemxKqAuBHbSs6pbFMTvOugq13bC3BMaZpNhlPpN2" height="200" width="auto" /><br><br>31630 Zubiri, Navarra, Spain]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/mYwYwwVwciknTPQsb10qfz5aiveLq_8ZF9NiC95duOzvb33U5B33801jPBYWZ4ntXj1SVwW4JShF8NJaZjeBaAt5P6jIjm9eTdZfemxKqAuBHbSs6pbFMTvOugq13bC3BMaZpNhlPpN2</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -1.504456,42.930677,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Zubiri, Albergue Suseia</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.50413070000002,42.9347548,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Zubiri, Albergue Río Arga Ibaia</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.50362599999994,42.9297946,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Larrasoaña, Albergue de Larrasoaña</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/j3FEbUROfj7B9bWsfGwHZUSYlidBDFH5I3yIV3jnSMAW0Ct5avGUJZV6xyMg4vtQL_gjSqU7PrDuHJaZKSq2JUt2l7TiNA0poM-jG9mDE772d_C9odCUJeTpQBZMGVY1qPidV6-GhjQZ" height="200" width="auto" /><br><br>- Impresión general:<br>- Estado de conservación: <br>- Disponibilidad del albergue: Todo el año excepto del 10 de diciembre al 10 de enero<br>- Precio: 6 euros<br>- Plazas<br>- Plazas totales: 58<br>- Nº de plazas en litera: 58<br>- Nº de plazas en suelo: <br>- Nº de colchones en suelo: <br>- Nº de camas: <br>- Descripción de habitaciones: Las 58 plazas están distribuidas en varios edificios<br>- Reserva de plaza en el albergue: No<br>- Condiciones de admisión para acceder al albergue: Ser peregrino con credencial.<br>- Hora de apertura: Del 1 de abril al 1 de junio de 15:00 a 19:30; En Semana Santa y del 1 de junio al 21 de septiembre de 13:30 a 19:30. Resto del año se suele encontrar abierto<br>- Hora de cierre: <br>- Posibilidad de salir o no cuando se cierra:]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/j3FEbUROfj7B9bWsfGwHZUSYlidBDFH5I3yIV3jnSMAW0Ct5avGUJZV6xyMg4vtQL_gjSqU7PrDuHJaZKSq2JUt2l7TiNA0poM-jG9mDE772d_C9odCUJeTpQBZMGVY1qPidV6-GhjQZ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -1.539448,42.903178,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Larrasoana, Albergue Bide Ederra</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.54138030000001,42.9014661,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Larrasoana, Albergue San Nicolás</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.5385,42.9035,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Zuriain, Albergue La Parada De Zuriain</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.56611090000001,42.8785368,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Zabaldika, Albergue Parroquial de Zabaldika</name>
+        <description><![CDATA[- Impresión general:<br>- Estado de conservación: Inaugurado el 15 de abril de 2013<br>- Disponibilidad del albergue: Del 15 de abril al 15 de octubre<br>- Precio: Donativo voluntario<br>- Plazas<br>- Plazas totales: 18<br>- Nº de plazas en litera: 8<br>- Nº de plazas en suelo: <br>- Nº de colchones en suelo: <br>- Nº de camas: 10<br>- Descripción de habitaciones: Dos habitaciones para 8 plazas en litera y una más amplia con 10 camas bajas<br>- Reserva de plaza en el albergue: No<br>- Condiciones de admisión para acceder al albergue: Peregrino con credencial<br>- Hora de apertura: No hay hora de entrada<br>- Hora de cierre: 22:00<br>- Posibilidad de salir o no cuando se cierra: Consultar]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -1.582407,42.855998,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Huarte, Albergue Municipal de Huarte</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/FMapjunumR5-Tz8AkicnSTVNXcFjOysglwrJGKqYFwYcHUNISmdS52VsdY7Bm8Ff6WLGX1-pPRtHXY_si9I4bE2Yl10M6u08EPWV9stDCdl4wxIEu5EK5DdBVD6R4hYL0YRarkSgJAfF" height="200" width="auto" /><br><br>- Impresión general:<br>- Estado de conservación: Inaugurado en 2004<br>- Disponibilidad del albergue: Desde marzo hasta finales de octubre<br>- Precio: Alojamiento: 10 euros. Alquiler de sábanas: 3 euros<br>- Plazas<br>- Plazas totales: 60<br>- Nº de plazas en litera: 60<br>- Nº de plazas en suelo: <br>- Nº de colchones en suelo: <br>- Nº de camas: <br>- Descripción de habitaciones: 1 habitación en planta baja para personas con minusvalías físicas y acompañantes (8 plazas). Planta Primera: 7 habitaciones: para 20 (1), para 10 (1), para 6 (2), para 4 (2) y para 2 (1) personas.<br>- Reserva de plaza en el albergue: No<br>- Condiciones de admisión para acceder al albergue: Credencial<br>- Hora de apertura: 13:00 h<br>- Hora de cierre: 22:00 h<br>- Posibilidad de salir o no cuando se cierra: Consultar]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/FMapjunumR5-Tz8AkicnSTVNXcFjOysglwrJGKqYFwYcHUNISmdS52VsdY7Bm8Ff6WLGX1-pPRtHXY_si9I4bE2Yl10M6u08EPWV9stDCdl4wxIEu5EK5DdBVD6R4hYL0YRarkSgJAfF</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -1.590303,42.831404,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arre, Albergue de la Trinidad de Arre</name>
+        <description><![CDATA[- Impresión general:<br>- Estado de conservación: Muy bien<br>- Disponibilidad del albergue: Desde el 1 de marzo al 15 diciembre<br>- Precio: 8 euros<br>- Plazas<br>- Plazas totales: 34<br>- Nº de plazas en litera: 34<br>- Nº de plazas en suelo: <br>- Nº de colchones en suelo: <br>- Nº de camas: <br>- Descripción de habitaciones: Cuatro habitaciones, de 20, 8, 4 y 2 plazas<br>- Reserva de plaza en el albergue: Sí, en el teléfono 948 33 29 41<br>- Condiciones de admisión para acceder al albergue: Tienen que ser peregrinos con credencial, y tienen prioridad lo que van a pie<br>- Hora de apertura: 12:00<br>- Hora de cierre: 20:00 (cierre de admisión)<br>- Posibilidad de salir o no cuando se cierra: Consultar]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -1.614722,42.843555,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Villava, Albergue municipal de Villava</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/o9y2QWo2K6ovAohDSmasG3YaJ43b9GVAFPxkOZIueHwCM6rU7FRVpN-UBxG4AhLnEAaso30jIX5o66tSM1bSyUYmmoY_SOlPFkXVLWW50jdHe8x5neAV7kBLX88hv3Rtwg0KnKssy6bL" height="200" width="auto" /><br><br>- Impresión general:<br>- Estado de conservación: Inaugurado el 26 de abril de 2010<br>- Disponibilidad del albergue: Todo el año salvo desde el 23 de diciembre al 15 de enero<br>- Precio: Para peregrinos: 10 euros (alojamiento y desayuno) El precio incluye ropa de cama.<br>- Plazas<br>- Plazas totales: 48<br>- Nº de plazas en litera: 48<br>- Nº de plazas en suelo: <br>- Nº de colchones en suelo: <br>- Nº de camas: <br>- Descripción de habitaciones: Una habitación de 8, dos de 4 y dos de 16<br>- Reserva de plaza en el albergue: Sí<br>- Condiciones de admisión para acceder al albergue: Cualquier persona<br>- Hora de apertura: 12:00<br>- Hora de cierre: No tiene horario de cierre<br>- Posibilidad de salir o no cuando se cierra: Sí]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/o9y2QWo2K6ovAohDSmasG3YaJ43b9GVAFPxkOZIueHwCM6rU7FRVpN-UBxG4AhLnEAaso30jIX5o66tSM1bSyUYmmoY_SOlPFkXVLWW50jdHe8x5neAV7kBLX88hv3Rtwg0KnKssy6bL</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -1.606002,42.832186,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pamplona, Albergue de Jesús y María</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/2qQ5PkO1jKNkCvmn3tSgBxogPkpRef-9o-6baaYoV_pmq1kM6Bsd7ODTsyhZDG2EJUcRGJK3TBZdpvc-cjQzWDwedSejc7dFa0gQC8ddw86zgodsbB5ENAIwVXpWVHL7eig4PfL7xG_P" height="200" width="auto" /><br><br>- Impresión general:<br>- Estado de conservación: Inaugurado en 2007. Han reformado la recepción y el suelo de habitaciones y baños en 2012.<br>- Disponibilidad del albergue: En 2012 está disponible desde el 16 de enero. En Sanfermines (5 al 14 de julio incluidos), y durante las Navidades permanecerá cerrado.<br>- Precio: 7 euros (Incluye funda de almohada y sábana bajera) El alquiler de sábana y manta son 2 euros<br>- Plazas<br>- Plazas totales: 114<br>- Nº de plazas en litera: 114<br>- Nº de plazas en suelo: <br>- Nº de colchones en suelo: <br>- Nº de camas: <br>- Descripción de habitaciones: Las literas están en las dos primeras plantas, en camaretas de 6 y 4 plazas<br>- Reserva de plaza en el albergue: No<br>- Condiciones de admisión para acceder al albergue: Credencial<br>- Hora de apertura: 12:00 h<br>- Hora de cierre: 23:00 h<br>- Posibilidad de salir o no cuando se cierra: No]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/2qQ5PkO1jKNkCvmn3tSgBxogPkpRef-9o-6baaYoV_pmq1kM6Bsd7ODTsyhZDG2EJUcRGJK3TBZdpvc-cjQzWDwedSejc7dFa0gQC8ddw86zgodsbB5ENAIwVXpWVHL7eig4PfL7xG_P</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -1.641566,42.819305,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pamplona, Casa Paderborn</name>
+        <description><![CDATA[- Impresión general:<br>- Estado de conservación: Inaugurado en marzo de 2006<br>- Disponibilidad del albergue: En 2013 desde el 1 de marzo a finales de octubre<br>- Precio: 4 euros por alojamiento más 2 euros por servicio de limpieza<br>- Plazas<br>- Plazas totales: 26<br>- Nº de plazas en litera: 26<br>- Nº de plazas en suelo: <br>- Nº de colchones en suelo: <br>- Nº de camas: <br>- Descripción de habitaciones: Una habitación de 8 plazas, una de 6 y tres habitaciones de 4 plazas.<br>- Reserva de plaza en el albergue: No<br>- Condiciones de admisión para acceder al albergue: Peregrinos con credencial<br>- Hora de apertura: 12:00. A partir de las 10:00 hay servicio de consigna.<br>- Hora de cierre: 22:00<br>- Posibilidad de salir o no cuando se cierra: No]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -1.635847,42.81659,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pamplona, Albergue Casa Ibarrola</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/OYw8BKN6pbzB55tGiqtMS01wMEJ1n4qXZDMD7k9Hdog0m2hI9Ure-dl236wiloGea2zrTPqH7q4rXHm4qoQzXWvmSuV8BbruiHK2PLWzQismTu3CE4bY2vqjcgU2WMI-Ll5gB-9vQ7MA" height="200" width="auto" /><br><br>- Impresión general:<br>- Estado de conservación: Inaugurado en junio de 2012<br>- Disponibilidad del albergue: Todo el año excepto Sanfermines (del 6 al 14 de julio)<br>- Precio: 18 euros con desayuno. Incluye ropa de cama<br>- Plazas<br>- Plazas totales: 20<br>- Nº de plazas en litera: <br>- Nº de plazas en suelo: <br>- Nº de colchones en suelo: <br>- Nº de camas: 20 camas nido, cada una con dos tomas de enchufe, luz, balda y taquilla<br>- Descripción de habitaciones: Una sala con varios módulos de camas nido<br>- Reserva de plaza en el albergue: Sí<br>- Condiciones de admisión para acceder al albergue: Cualquier persona<br>- Hora de apertura: 12:00<br>- Hora de cierre: 23:00<br>- Posibilidad de salir o no cuando se cierra: Sí]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/OYw8BKN6pbzB55tGiqtMS01wMEJ1n4qXZDMD7k9Hdog0m2hI9Ure-dl236wiloGea2zrTPqH7q4rXHm4qoQzXWvmSuV8BbruiHK2PLWzQismTu3CE4bY2vqjcgU2WMI-Ll5gB-9vQ7MA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -1.643223,42.820525,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pamplona, Albergue de Pamplona-Iruñako Aterpea</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.64304149999998,42.8198852,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pamplona, Albergue Plaza Catedral</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.64205179999999,42.8196562,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pamplona, Hostel Hemingway</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/y1m5xOrEdxtqQesG1hc8D9Wq-3GzWaJSg47QYZyBTl-AyAAFYZIRWZ3ncQGX1pXiYmo7nJgqM2IfGUWbxB61rvyXl7Vy3yhDdfngflE0pBsoVZ0XaRAKUrW8BfnS9eIRtbJN-r65GtPd" height="200" width="auto" /><br><br>- Impresión general:<br>- Estado de conservación: Inaugurado el 3 de julio de 2009 y renovado en enero de 2013<br>- Disponibilidad del albergue: Todo el año salvo del 22 de diciembre al 2 de enero<br>- Precio: Entre 13 y 16 euros para peregrinos (ver observaciones)<br>- Plazas<br>- Plazas totales: 29<br>- Nº de plazas en litera: 25<br>- Nº de plazas en suelo: <br>- Nº de colchones en suelo: <br>- Nº de camas: 4<br>- Descripción de habitaciones: Habitación de cama de matrimonio, una habitación de 2 camas, 3 habitaciones de 4 camas , una habitación de 6 camas y una habitación de 7 plazas<br>- Reserva de plaza en el albergue: Sí, por teléfono y a través de la web<br>- Condiciones de admisión para acceder al albergue: Cualquier persona<br>- Hora de apertura: Abierto las 24 horas. Horario de recepción de 8:00 a 00:00.<br>- Hora de cierre: Abierto las 24 horas. Horario de recepción de 8:00 a 00:00.<br>- Posibilidad de salir o no cuando se cierra: Sí, se puede entrar con llave]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/y1m5xOrEdxtqQesG1hc8D9Wq-3GzWaJSg47QYZyBTl-AyAAFYZIRWZ3ncQGX1pXiYmo7nJgqM2IfGUWbxB61rvyXl7Vy3yhDdfngflE0pBsoVZ0XaRAKUrW8BfnS9eIRtbJN-r65GtPd</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -1.63648,42.811789,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pamplona, Aloha Hostel</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/IVdfpUNCeczdYHttojrR4GmLr1yitY5NcuGg84QwDjE3xPEh1gH58ZMXorKNOpIrkDeDHB-KYn0dEK-ViWXzRjHIWIPgI9335mcBss-1tsPOcmjmt3-DmvNKMEUmDbYG0JBXH1fvetbv" height="200" width="auto" /><br><br>•Impresión general: Estado de conservación: Inaugurado el 5 de julio de 2012<br> <br>•Disponibilidad del albergue: Todo el año<br> •Precio: 15 euros para peregrinos con credencial (a partir de 2013). El precio incluye el desayuno y la ropa de cama<br> •Plazas Plazas totales: 26<br> Nº de plazas en litera: 26<br> Nº de plazas en suelo: <br>Nº de colchones en suelo: <br>Nº de camas: <br>Descripción de habitaciones: Una habitación de 10 plazas, otra de 8 y dos de 4 plazas.<br> Reserva de plaza en el albergue: Sí, a través del móvil 648 289 403 y a través de la web<br> Condiciones de admisión para acceder al albergue: Cualquier persona<br> Hora de apertura: Abierto las 24 horas. El horario de recepción es de 8 a 22 horas.<br> Hora de cierre: Abierto las 24 horas. El horario de recepción es de 8 a 22 horas.<br> Posibilidad de salir o no cuando se cierra: Sí, con llave]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/IVdfpUNCeczdYHttojrR4GmLr1yitY5NcuGg84QwDjE3xPEh1gH58ZMXorKNOpIrkDeDHB-KYn0dEK-ViWXzRjHIWIPgI9335mcBss-1tsPOcmjmt3-DmvNKMEUmDbYG0JBXH1fvetbv</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -1.63928,42.808877,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pamplona, Albergue Xarma Hostel Aterpea</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/Pa7lVhsWnLBu7kMDimVBVlM9Mt2Mu-lSCPGSW6KsSiQhBlGeTT3tONHFo8P1P3Nu__XjUemhTUZEiyolU6ytXn-rPqCUd85K92SRZ9kJ7vMPj9bciRO8WIWKagD0A362wo3asfrWBCaS" height="200" width="auto" /><br><br>•Impresión general: Estado de conservación: Inaugurado a primeros de mayo de 2013<br> <br>•Disponibilidad del albergue: Todo el año<br> •Precio: 15/16 euros (salvo viernes y sábado). Viernes y sábado a partir de 18 euros<br> •Plazas Plazas totales: 24<br> Nº de plazas en litera: <br>Nº de plazas en suelo: <br>Nº de colchones en suelo: <br>Nº de camas: <br>Descripción de habitaciones: Seis habitaciones. Una de 6, cuatro de 4 y una doble.<br> Reserva de plaza en el albergue: Sí<br> Condiciones de admisión para acceder al albergue: Cualquier persona.<br> Hora de apertura: Recepción a partir de las 8:00<br> Hora de cierre: 23:00<br> Posibilidad de salir o no cuando se cierra: Sí, se deja una llave para entrar]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/Pa7lVhsWnLBu7kMDimVBVlM9Mt2Mu-lSCPGSW6KsSiQhBlGeTT3tONHFo8P1P3Nu__XjUemhTUZEiyolU6ytXn-rPqCUd85K92SRZ9kJ7vMPj9bciRO8WIWKagD0A362wo3asfrWBCaS</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -1.635075,42.813631,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pamplona, Hostel Ciudadela 7</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.64722159999997,42.8154314,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cizur Menor, Albergue de peregrinos de la Orden de Malta</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/lhpyXxfcyGcFsBxn-pnPCrK9pUPv80zkvfED7w4I2rG6hF2C3c8mxEdIY1-gdc4Y-yd0ETeTpC__0Lc-CmLV5aMh6vOD0RJgb9fejhxYMg_NGeNEQW59FfeCHxS-Jt0hvkKCIOv-Nl4x" height="200" width="auto" /><br><br>- Impresión general:<br>- Estado de conservación: Bien<br>- Disponibilidad del albergue: Desde el 30 de abril al 30 de septiembre<br>- Precio: 4 euros<br>- Plazas<br>- Plazas totales: 27<br>- Nº de plazas en litera: 24<br>- Nº de plazas en suelo:<br>- Nº de colchones en suelo:<br>- Nº de camas: 3<br>- Descripción de habitaciones: Varias habitaciones<br>- Reserva de plaza en el albergue: No<br>- Condiciones de admisión para acceder al albergue: Ser peregrino<br>- Hora de apertura: 12:00<br>- Hora de cierre: 22:00<br>- Posibilidad de salir o no cuando se cierra: No después de las 10 de la noche]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/lhpyXxfcyGcFsBxn-pnPCrK9pUPv80zkvfED7w4I2rG6hF2C3c8mxEdIY1-gdc4Y-yd0ETeTpC__0Lc-CmLV5aMh6vOD0RJgb9fejhxYMg_NGeNEQW59FfeCHxS-Jt0hvkKCIOv-Nl4x</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -1.674803,42.788606,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cizur Menor, Albergue de Maribel</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.676614,42.7883936,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Zariquiegui, La Posada de Ardogi</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/nagC-juVQ6lXD7l7hyaoJYlEfCW8XbudWF7mRMzol40wUsMRH8KNSwVSBKYpJaxi7pWjyUfXoyBimkXraRNlp35JXcSyxMhRJ3EOZIjl1SUXkpqW2l9n6YEccSz64W5k5LEu-Pd2ScHF" height="200" width="auto" /><br><br>- Impresión general:<br>- Estado de conservación: Inaugurado el 22 de junio de 2009<br>- Disponibilidad del albergue: En 2013 a partir del 18 de abril<br>- Precio: 11 euros. La ropa de cama cuesta 3 euros. Menús y cenas a 10/12 euros<br>- Plazas<br>- Plazas totales: 16<br>- Nº de plazas en litera: 16<br>- Nº de plazas en suelo:<br>- Nº de colchones en suelo:<br>- Nº de camas:<br>- Descripción de habitaciones: Dos habitaciones de 8 plazas<br>- Reserva de plaza en el albergue: Sí<br>- Condiciones de admisión para acceder al albergue: Cualquier persona persona pero tienen preferencia los peregrinos<br>- Hora de apertura: 14:00<br>- Hora de cierre: 22:00<br>- Posibilidad de salir o no cuando se cierra: Sí, hay una clave para entrar]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/nagC-juVQ6lXD7l7hyaoJYlEfCW8XbudWF7mRMzol40wUsMRH8KNSwVSBKYpJaxi7pWjyUfXoyBimkXraRNlp35JXcSyxMhRJ3EOZIjl1SUXkpqW2l9n6YEccSz64W5k5LEu-Pd2ScHF</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -1.722488,42.747686,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Zariquiegui - Albergue San Andres</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.7229196,42.747997,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Uterga, Albergue Camino del Perdón</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/Nh4Et1Z8TrqP_DOFmXkG_jIH2HdJRMhCLrlC8TPRHsoUSbGzk9x1w1RqjgvCmfLDfm3PG0H19Y4lp0bGfGnpInop1d_jswajjS1Ia1404qsWbTi20Rdr0r1aL6hmMzEDJ13DwGEAw_UW" height="200" width="auto" /><br><br>- Impresión general:<br>- Estado de conservación: Muy bien<br>- Disponibilidad del albergue: En 2013 del 4 de marzo a principios de noviembre (consultar con antelación a partir del 1 de noviembre)<br>- Precio: 10 euros<br>- Plazas<br>- Plazas totales: 16<br>- Nº de plazas en litera: 16<br>- Nº de plazas en suelo:<br>- Nº de colchones en suelo:<br>- Nº de camas:<br>- Descripción de habitaciones: Habitación con 16 plazas. También ofertan 3 habitaciones dobles con baño a 50 euros<br>- Reserva de plaza en el albergue: No. Sólo se pueden reservar las habitaciones dobles.<br>- Condiciones de admisión para acceder al albergue: Ninguna<br>- Hora de apertura: 8:30 horas<br>- Hora de cierre: 21:30 horas<br>- Posibilidad de salir o no cuando se cierra: Como norma, no]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/Nh4Et1Z8TrqP_DOFmXkG_jIH2HdJRMhCLrlC8TPRHsoUSbGzk9x1w1RqjgvCmfLDfm3PG0H19Y4lp0bGfGnpInop1d_jswajjS1Ia1404qsWbTi20Rdr0r1aL6hmMzEDJ13DwGEAw_UW</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -1.7609451,42.7084574,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Uterga, Casa Baztan</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.76136940000004,42.7082851,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Muruzábal, Albergue El Jardín de Muruzábal</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.7678654,42.6922618,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Obanos, Albergue Usda</name>
+        <description><![CDATA[- Impresión general:<br>- Estado de conservación: Muy bien<br>- Disponibilidad del albergue: De Semana Santa a mediados de octubre<br>- Precio: 8 euros<br>- Plazas<br>- Plazas totales: 36<br>- Nº de plazas en litera: 36<br>- Nº de plazas en suelo:<br>- Nº de colchones en suelo:<br>- Nº de camas:<br>- Descripción de habitaciones: Hay una zona con 10 plazas, otra con 20 y una habitación para los que viene más cansados con seis plazas<br>- Reserva de plaza en el albergue: No<br>- Condiciones de admisión para acceder al albergue: Peregrino con credencial<br>- Hora de apertura: Sobre las 13:30<br>- Hora de cierre: 22:00<br>- Posibilidad de salir o no cuando se cierra: Por norma no, para no molestar]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -1.784664,42.679448,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Puente la Reina, Albergue de los Padres Reparadores</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/rrJ8xGXQfa0kgUKbUAYJfRzbHotH85_akW7anv3ecZ5AL3K4jp6jmCMxkzZVF8zafMtBwyrsFcPL32ZeVXrXU24rie3G7qH-LFgWvI-k7NuPYqTKVZ6Q_QwR0W3Y0w8io6jhchJHHi87" height="200" width="auto" /><br><br>- Impresión general:<br>- Estado de conservación: Muy bien<br>- Disponibilidad del albergue: Todo el año<br>- Precio: 5 euros. Tienen credenciales a 1 euro.<br>- Plazas<br>- Plazas totales: 96<br>- Nº de plazas en litera: 96<br>- Nº de plazas en suelo:<br>- Nº de colchones en suelo:<br>- Nº de camas:<br>- Descripción de habitaciones: Cerca de 10 habitaciones, de 14, 12, 10, 8 y 6 plazas<br>- Reserva de plaza en el albergue: No<br>- Condiciones de admisión para acceder al albergue: Ser peregrino y el de a pie tiene preferencia<br>- Hora de apertura: 12:00<br>- Hora de cierre: 23:00<br>- Posibilidad de salir o no cuando se cierra: No]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/rrJ8xGXQfa0kgUKbUAYJfRzbHotH85_akW7anv3ecZ5AL3K4jp6jmCMxkzZVF8zafMtBwyrsFcPL32ZeVXrXU24rie3G7qH-LFgWvI-k7NuPYqTKVZ6Q_QwR0W3Y0w8io6jhchJHHi87</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -1.810899,42.672994,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Puente la Reina, Albergue Jakue</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/53u9LuMdBl7Cp-zZdynxZfjWKEUoV0QYygD7pZ1icvDcOM1tjhWciap7vFOeUKmzQcGuBnlo_By5iKcru4-CuL_EZaiKKaApdofdNtczcJ6scVTP_wEv1xtnLFxE4yHodfsGUH4w7J1I" height="200" width="auto" /><br><br>- Impresión general:<br>- Estado de conservación: Muy bien<br>- Disponibilidad del albergue: De mediados de marzo a mediados de octubre<br>- Precio: 10 euros. Sirven cenas para el peregrino a 13 euros y desayunos a 4 euros.<br>- Plazas<br>- Plazas totales: 85<br>- Nº de plazas en litera: 38/40<br>- Nº de plazas en suelo:<br>- Nº de colchones en suelo:<br>- Nº de camas: 45<br>- Descripción de habitaciones: Una habitación de 32 plazas, otra de 6 y el resto en habitaciones con baño privado de distinta distribución (de 1 litera + cama supletoria, de cama de matrimonio o de 2 camas)<br>- Reserva de plaza en el albergue: Sí<br>- Condiciones de admisión para acceder al albergue: Ser peregrino<br>- Hora de apertura: 12:00<br>- Hora de cierre: 23:00<br>- Posibilidad de salir o no cuando se cierra: Sí]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/53u9LuMdBl7Cp-zZdynxZfjWKEUoV0QYygD7pZ1icvDcOM1tjhWciap7vFOeUKmzQcGuBnlo_By5iKcru4-CuL_EZaiKKaApdofdNtczcJ6scVTP_wEv1xtnLFxE4yHodfsGUH4w7J1I</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -1.806752,42.676118,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Puente la Reina, Albergue Santiago Apóstol</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.822679,42.6731596,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Puente la Reina - Albergue Puente</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.81364780000001,42.6714345,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Puente la Reina, Albergue Amalur</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.81335190000004,42.6731588,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mañeru, Albergue de peregrinos Lurgorri</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/xSkXpnXUHfjtSGyq96-8KHkAV6ybbmY2E5cskBjBQRQ2Wf3QJBD1Z7bv5uWoacTcKdswukNwFLAqwIsLMd9Uz1bJv1ony0OtRRE3CezWN1jvZrnL2lJG3e5XnLu3hBaf554PxIzVQWXG" height="200" width="auto" /><br><br>- Impresión general:<br>- Estado de conservación: Inaugurado el 4 de julio de 2010<br>- Disponibilidad del albergue: Desde el 1 de marzo al 31 de octubre<br>- Precio: 10 euros con desayuno incluido (café, zumo, tostadas y galletas)<br>- Plazas<br>- Plazas totales: 12<br>- Nº de plazas en litera: 12<br>- Nº de plazas en suelo:<br>- Nº de colchones en suelo:<br>- Nº de camas:<br>- Descripción de habitaciones: Una habitación común<br>- Reserva de plaza en el albergue: No<br>- Condiciones de admisión para acceder al albergue: Preferentemente peregrinos<br>- Hora de apertura: 12:00<br>- Hora de cierre: 22:00<br>- Posibilidad de salir o no cuando se cierra: Sí]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/xSkXpnXUHfjtSGyq96-8KHkAV6ybbmY2E5cskBjBQRQ2Wf3QJBD1Z7bv5uWoacTcKdswukNwFLAqwIsLMd9Uz1bJv1ony0OtRRE3CezWN1jvZrnL2lJG3e5XnLu3hBaf554PxIzVQWXG</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -1.863191,42.668983,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cirauqui, Albergue Maralotx de Cirauqui</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/LtN_bDFcitO01kStaJ1huWPytfUziGQWuZM2LIyQUo5eemeupMddBOu9PeKtb9vWxb7l33GXHQ5VPluchonX7OyGDSB5NdhrgH2iqWvahsqtB0NM4BC7CwgJlEQ0YQfuRzHV7jy1sAiO" height="200" width="auto" /><br><br>- Impresión general:<br>- Estado de conservación: Bien<br>- Disponibilidad del albergue: Desde el 1 de marzo al 31 de octubre<br>- Precio: 10 euros. Ofrecen cenas a 10 euros<br>- Plazas<br>- Plazas totales: 32<br>- Nº de plazas en litera: 28<br>- Nº de plazas en suelo:<br>- Nº de colchones en suelo:<br>- Nº de camas: 4. Hay dos habitaciones dobles aparte, a 40 euros<br>- Descripción de habitaciones: Las literas están distribuidas en habitaciones de 6, 10 y 12 plazas<br>- Reserva de plaza en el albergue: Se admiten reservas<br>- Condiciones de admisión para acceder al albergue:<br>- Hora de apertura: 13:00 (Hay que dejar el albergue antes de las ocho de la mañana)<br>- Hora de cierre: 22:00<br>- Posibilidad de salir o no cuando se cierra: Sí]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/LtN_bDFcitO01kStaJ1huWPytfUziGQWuZM2LIyQUo5eemeupMddBOu9PeKtb9vWxb7l33GXHQ5VPluchonX7OyGDSB5NdhrgH2iqWvahsqtB0NM4BC7CwgJlEQ0YQfuRzHV7jy1sAiO</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -1.892156,42.67579,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lorca, Albergue la Bodega del camino</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/gy6KlAXeP6Lz5Sy3orDKpAe019GTsUDhZ5-EPVoMDvrJac2nSLb9WEyA2D9qZ2_M2X_800XSGF1pxDk0t92qzaT-DIZtsZG4fWiO8lBhk3pDR2iP11gSagEnWsZL-k91LJ_Taxo2v2pr" height="200" width="auto" /><br><br>- Impresión general:<br>- Estado de conservación: Muy bien<br>- Disponibilidad del albergue: Abierto de Semana Santa a octubre (incluido). El resto de año se abre a grupos (previa reserva) o en casos excepcionales (llamando al 948 54 11 20)<br>- Precio: Para peregrinos con credencial: desde 8 euros en litera. Habitaciones dobles desde 25 euros (con baño compartido) hasta 40 en habitaciones dobles con servicios, ducha, TV, aire acondicionado<br>- Plazas<br>- Plazas totales: 40<br>- Nº de plazas en litera: 30<br>- Nº de plazas en suelo:<br>- Nº de colchones en suelo:<br>- Nº de camas: 10<br>- Descripción de habitaciones: Dispone de 5 habitaciones dobles y 4 múltiples de 6, 8, 10 plazas en literas. Todas las habitaciones con servicios y ducha. Aire acondicionado en las abuhardilladas.<br>- Reserva de plaza en el albergue: Sí<br>- Condiciones de admisión para acceder al albergue: Cualquier persona, previa presentación DNI<br>- Hora de apertura: 09:00<br>- Hora de cierre: 20:00<br>- Posibilidad de salir o no cuando se cierra: Las habitaciones dobles disponen de llave de la puerta exterior, el resto puede salir dentro del horario previsto para acceder a las múltiples.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/gy6KlAXeP6Lz5Sy3orDKpAe019GTsUDhZ5-EPVoMDvrJac2nSLb9WEyA2D9qZ2_M2X_800XSGF1pxDk0t92qzaT-DIZtsZG4fWiO8lBhk3pDR2iP11gSagEnWsZL-k91LJ_Taxo2v2pr</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -1.9457816,42.6721776,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lorca, Albergue de Lorca</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -1.9448805,42.6729308,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Villatuerta, Albergue La Casa Mágica</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/JZdkYg1yXRCt5DxmXQG7ET65lrzF2ZU8m5qehOetRPSUk0FgagbcG6HgI8AI-ucDH6rlgAcFWKOhMrqruK1Sx5NJ8lzfUoN5-l9AL0CoqSpiGbQcoGWhGe1bd-NRaqVQy0DlJu0ij_6z" height="200" width="auto" /><br><br>- Impresión general:<br>- Estado de conservación: Muy bien<br>- Disponibilidad del albergue: Desde el 25 de marzo al 1 de noviembre<br>- Precio: 10/12 euros<br>- Plazas<br>- Plazas totales: 40<br>- Nº de plazas en litera: 30<br>- Nº de plazas en suelo:<br>- Nº de colchones en suelo:<br>- Nº de camas: 10<br>- Descripción de habitaciones: 5 habitaciones<br>- Reserva de plaza en el albergue: Sí<br>- Condiciones de admisión para acceder al albergue: Ser peregrino<br>- Hora de apertura: 12:00<br>- Hora de cierre: 22:00<br>- Posibilidad de salir o no cuando se cierra: Sí]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/JZdkYg1yXRCt5DxmXQG7ET65lrzF2ZU8m5qehOetRPSUk0FgagbcG6HgI8AI-ucDH6rlgAcFWKOhMrqruK1Sx5NJ8lzfUoN5-l9AL0CoqSpiGbQcoGWhGe1bd-NRaqVQy0DlJu0ij_6z</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -1.992881,42.658821,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Estella, Hospital de Peregrinos de Estella</name>
+        <description><![CDATA[- Impresión general:<br>- Estado de conservación: Muy bien<br>- Disponibilidad del albergue: Todo el año salvo del 19 de diciembre al 15 de enero<br>- Precio: 6 euros con con sábana incluida<br>- Plazas<br>- Plazas totales: 96<br>- Nº de plazas en litera: 96<br>- Nº de plazas en suelo:<br>- Nº de colchones en suelo:<br>- Nº de camas:<br>- Descripción de habitaciones: Cinco salas, con sus servicios. Cuatro de 16 plazas y una de 32 plazas.<br>- Reserva de plaza en el albergue: No<br>- Condiciones de admisión para acceder al albergue: Ser peregrino<br>- Hora de apertura: Depende del tiempo. De octubre a Abril a las 14:00. Mayo y Junio a las 13:30 y los meses de verano a las 11:30 (horarios orientativos)<br>- Hora de cierre: A las 22.00 horas todo el año<br>- Posibilidad de salir o no cuando se cierra: Como norma no]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -2.033329,42.672529,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Estella, Albergue parroquial San Miguel</name>
+        <description><![CDATA[- Impresión general:<br>- Estado de conservación: Abrió en abril de 2008<br>- Disponibilidad del albergue: Desde Semana Santa al 1 de noviembre<br>- Precio: Donativo<br>- Plazas<br>- Plazas totales: 32<br>- Nº de plazas en litera: 32<br>- Nº de plazas en suelo:<br>- Nº de colchones en suelo:<br>- Nº de camas:<br>- Descripción de habitaciones: 2 salas<br>- Reserva de plaza en el albergue: No<br>- Condiciones de admisión para acceder al albergue: Peregrino con credencial<br>- Hora de apertura: 13:00<br>- Hora de cierre: 22.00<br>- Posibilidad de salir o no cuando se cierra: No]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -2.027562,42.671566,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Estella, Albergue de ANFAS de Estella</name>
+        <description><![CDATA[- Impresión general:<br>- Estado de conservación: Bien<br>- Disponibilidad del albergue: En 2012 desde el 11 de mayo hasta el 30 de septiembre, ambos incluidos.<br>- Precio: 7 euros<br>- Plazas<br>- Plazas totales: 34<br>- Nº de plazas en litera: 34<br>- Nº de plazas en suelo:<br>- Nº de colchones en suelo:<br>- Nº de camas:<br>- Descripción de habitaciones: Un dormitorio dividido en dos zonas<br>- Reserva de plaza en el albergue: No<br>- Condiciones de admisión para acceder al albergue: Peregrino con credencial<br>- Hora de apertura: 12:00<br>- Hora de cierre: 22.00<br>- Posibilidad de salir o no cuando se cierra: Sí]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -2.025684,42.671507,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ayegui, Albergue San Cipriano de Ayegui</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/Rz3gh6rQGQ1OWvku8BDL5aIIEeXMm08bI_aCW2UyxnNyp68ZFQ4l0tI_xXa-f-JILuDIABkpcjDw1biaGi7VKjlE-Jk8nAWh1bEbTxEHVuA-1D-PUMCU-peGPVuUM2XUIPoWT6ToxKSf" height="200" width="auto" /><br><br>- Impresión general:<br>- Estado de conservación: Abierto en verano de 2007<br>- Disponibilidad del albergue: Todo el año<br>- Precio: 6 euros<br>- Plazas<br>- Plazas totales: 80<br>- Nº de plazas en litera:<br>- Nº de plazas en suelo:<br>- Nº de colchones en suelo:<br>- Nº de camas: 80 camas bajas<br>- Descripción de habitaciones: Dos habitaciones<br>- Reserva de plaza en el albergue: No<br>- Condiciones de admisión para acceder al albergue: Peregrino con credencial<br>- Hora de apertura: 13:00<br>- Hora de cierre: 22.00<br>- Posibilidad de salir o no cuando se cierra: No]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/Rz3gh6rQGQ1OWvku8BDL5aIIEeXMm08bI_aCW2UyxnNyp68ZFQ4l0tI_xXa-f-JILuDIABkpcjDw1biaGi7VKjlE-Jk8nAWh1bEbTxEHVuA-1D-PUMCU-peGPVuUM2XUIPoWT6ToxKSf</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -2.036574,42.658719,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Villamayor de Monjardín, Albergue Hogar Monjardín</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/hJy9yOtCi0rU8BH29on_je454RGd5TVVdCVMzR_cc3UoZKpzkRjgzxIQOMBW5DiKIyOS05w560Vb07JXzSCZ4jewYzk1nXBDzutWaYvqVLZbav2-aLvcZL-UZlU2A3Kk9dBEfA38A2Q3" height="200" width="auto" /><br><br>- Impresión general:<br>- Estado de conservación: Bien<br>- Disponibilidad del albergue: De abril a noviembre<br>- Precio: 5 euros por alojamiento, 10 euros por cenar y 5 por desayunar<br>- Plazas<br>- Plazas totales: 25<br>- Nº de plazas en litera: 25<br>- Nº de plazas en suelo:<br>- Nº de colchones en suelo: 0<br>- Nº de camas: 0<br>- Descripción de habitaciones: Cinco habitaciones, de 2, 4, 5, 6 y 8 personas<br>- Reserva de plaza en el albergue: No<br>- Condiciones de admisión para acceder al albergue: Peregrinos con credencial<br>- Hora de apertura: Se encuentra abierto todo el día<br>- Hora de cierre: Depende de la temporada, entre las 22 h y las 23 h<br>- Posibilidad de salir o no cuando se cierra: Sí]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/hJy9yOtCi0rU8BH29on_je454RGd5TVVdCVMzR_cc3UoZKpzkRjgzxIQOMBW5DiKIyOS05w560Vb07JXzSCZ4jewYzk1nXBDzutWaYvqVLZbav2-aLvcZL-UZlU2A3Kk9dBEfA38A2Q3</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -2.104166,42.628781,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Villamayor de Monjardín, Albergue Villamayor de Monjardín</name>
+        <description><![CDATA[- Impresión general:<br>- Estado de conservación: Inaugurado el 1 de marzo de 2013<br>- Disponibilidad del albergue: Del 1 de marzo al 1 de noviembre. El resto del año está abierto para grupos previa reserva.<br>- Precio: 15 euros (incluye desayuno, sábana y funda de almohada e Internet). 40 euros la habitación doble.<br>- Plazas<br>- Plazas totales: 20<br>- Nº de plazas en litera: 20<br>- Nº de plazas en suelo:<br>- Nº de colchones en suelo:<br>- Nº de camas:<br>- Descripción de habitaciones: Una de 6 plazas, otra de 12 y una habitación de dos en litera.<br>- Reserva de plaza en el albergue: Sí<br>- Condiciones de admisión para acceder al albergue: Peregrinos y turistas<br>- Hora de apertura: 14:00<br>- Hora de cierre: 22:00<br>- Posibilidad de salir o no cuando se cierra: Consultar]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -2.104923,42.629349,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Los Arcos, Albergue de la Fuente Casa de Austria</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/jnXx9EmZOHZtIpqultKq_twRcheOSHzOAidPw7Lng3GRkODD89uV_56XmM-CjAbWvZcaK7OPznFzu_E8ZuHHdIDFrP61ja4qFXlWHkY32dUUmZgoF8tcXfqTmn7vaRzR401WCNjpYfeU" height="200" width="auto" /><br><br>- Impresión general:<br>- Estado de conservación: Muy bien<br>- Disponibilidad del albergue: Todo el año salvo enero<br>- Precio: 9 euros en las habitaciones grandes. Consultar en las pequeñas. Desayuno por 3 euros<br>- Plazas<br>- Plazas totales: 43<br>- Nº de plazas en litera: 43<br>- Nº de plazas en suelo:<br>- Nº de colchones en suelo:<br>- Nº de camas:<br>- Descripción de habitaciones: Una de 13 plazas, una de 12, una de 10 y dos habitaciones de 4.<br>- Reserva de plaza en el albergue: Sí<br>- Condiciones de admisión para acceder al albergue: Ser peregrino con credencial<br>- Hora de apertura: Entre las 12:00 y las 13:00 horas<br>- Hora de cierre: A las 22.30 se apaga la luz y se pide silencio<br>- Posibilidad de salir o no cuando se cierra: No]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/jnXx9EmZOHZtIpqultKq_twRcheOSHzOAidPw7Lng3GRkODD89uV_56XmM-CjAbWvZcaK7OPznFzu_E8ZuHHdIDFrP61ja4qFXlWHkY32dUUmZgoF8tcXfqTmn7vaRzR401WCNjpYfeU</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -2.193178,42.572014,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Los Arcos, Albergue Isaac Santiago</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/M0iBMUtafeo8RNiou-j8Wi3sUFZa1RcBB5H8W5ks_c_t_Hq7hIAO23LnAxciP27sxLYZbjXnMi29-lTmOahvVgNF6N_JF8qsNg016Wvxz2wFpzWXu_FoTbjSTwb-gSx8PDM_FCHaYMBQ" height="200" width="auto" /><br><br>- Impresión general:<br>- Estado de conservación: Muy bien<br>- Disponibilidad del albergue: En 2012 desde finales de marzo al 30 de octubre<br>- Precio: 6 euros: 4,5 por alojamiento + 1,5 por la sábana y el almohadón<br>- Plazas<br>- Plazas totales: 70<br>- Nº de plazas en litera: 70<br>- Nº de plazas en suelo:<br>- Nº de colchones en suelo:<br>- Nº de camas:<br>- Descripción de habitaciones: Una sala con la mitad de las plazas y varias habitaciones de distinta capacidad<br>- Reserva de plaza en el albergue: No<br>- Condiciones de admisión para acceder al albergue: Ser peregrino con credencial<br>- Hora de apertura: 12:00<br>- Hora de cierre: 22:00<br>- Posibilidad de salir o no cuando se cierra: No, pero en verano es algo más flexible]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/M0iBMUtafeo8RNiou-j8Wi3sUFZa1RcBB5H8W5ks_c_t_Hq7hIAO23LnAxciP27sxLYZbjXnMi29-lTmOahvVgNF6N_JF8qsNg016Wvxz2wFpzWXu_FoTbjSTwb-gSx8PDM_FCHaYMBQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -2.193988,42.568533,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Los Arcos, Casa Alberdi</name>
+        <description><![CDATA[- Impresión general:<br>- Estado de conservación: Bien<br>- Disponibilidad del albergue: Todo el año<br>- Precio: 10 euros en litera<br>- Plazas<br>- Plazas totales: 30<br>- Nº de plazas en litera: 24<br>- Nº de plazas en suelo:<br>- Nº de colchones en suelo:<br>- Nº de camas: 6<br>- Descripción de habitaciones: Dos habitaciones dobles a 33 euros (posibilidad de tres camas) y tres habitaciones con litera de mayor capacidad<br>- Reserva de plaza en el albergue: Sí<br>- Condiciones de admisión para acceder al albergue: Fundamentalmente peregrinos<br>- Hora de apertura: 14:00<br>- Hora de cierre: 23:00<br>- Posibilidad de salir o no cuando se cierra: Sí, se deja la llave]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -2.194777,42.569201,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Los Arcos, Albergue Casa de la Abuela</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/8NIBq6SWPwZXRPGxFIxyuXxMZOiqDB2HVSGJR_HzgtH2nJ4Opiri4thQ4vjVWdi5Zszofdv_T8XeoVcafgXgRLwxc9McEdW5JPwvbGgKRgj8T79jQo1O2ELFqbkqZIX8nqhrJPNsVFR4" height="200" width="auto" /><br><br>- Impresión general:<br>- Estado de conservación: Inaugurado el 1 de septiembre de 2010<br>- Disponibilidad del albergue: En 2013 abre desde el 15 de marzo hasta el 31 de octubre<br>- Precio: 9 euros en litera. Hay habitaciones dobles a 35 (comparten baño) y 45 euros (con baño)<br>- Plazas<br>- Plazas totales: 32<br>- Nº de plazas en litera: 24<br>- Nº de plazas en suelo:<br>- Nº de colchones en suelo:<br>- Nº de camas: 8, en cuatro habitaciones dobles<br>- Descripción de habitaciones: Las literas están distribuidas en 2 habitaciones de 6 y una de 12<br>- Reserva de plaza en el albergue: Sí, pero no se admitirán para la Semana Santa<br>- Condiciones de admisión para acceder al albergue: Peregrinos<br>- Hora de apertura: 12:00<br>- Hora de cierre: 22:00. Hay que dejar el albergue a las 8 de la mañana<br>- Posibilidad de salir o no cuando se cierra: No]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/8NIBq6SWPwZXRPGxFIxyuXxMZOiqDB2HVSGJR_HzgtH2nJ4Opiri4thQ4vjVWdi5Zszofdv_T8XeoVcafgXgRLwxc9McEdW5JPwvbGgKRgj8T79jQo1O2ELFqbkqZIX8nqhrJPNsVFR4</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -2.191762,42.569482,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sansol, 
+Albergue privado Sansol</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.2655493,42.5537007,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Torres del Rio, Albergue La Pata de Oca</name>
+        <description><![CDATA[- Impresión general:<br>- Estado de conservación: Inaugurado el 1 de junio de 2010<br>- Disponibilidad del albergue: Todo el año<br>- Precio: Alojamiento en litera desde 5 a 10 euros<br>- Plazas<br>- Plazas totales: 42<br>- Nº de plazas en litera: 32<br>- Nº de plazas en suelo:<br>- Nº de colchones en suelo:<br>- Nº de camas: 10 en cinco habitaciones dobles (consultar precio)<br>- Descripción de habitaciones: Habitaciones de diferente capacidad en dos plantas y 5 habitaciones dobles<br>- Reserva de plaza en el albergue: Sí<br>- Condiciones de admisión para acceder al albergue: Cualquier persona<br>- Hora de apertura: Todo el día<br>- Hora de cierre: 00:00<br>- Posibilidad de salir o no cuando se cierra: Sí]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -2.271622,42.551918,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Torres del Rio, Albergue Casa Mariela</name>
+        <description><![CDATA[- Impresión general:<br>- Estado de conservación: Abierto en julio de 2009<br>- Disponibilidad del albergue: Todo el año<br>- Precio: 7 euros el alojamiento. 10 euros con desayuno incluido<br>- Plazas<br>- Plazas totales: 50<br>- Nº de plazas en litera: 50<br>- Nº de plazas en suelo:<br>- Nº de colchones en suelo:<br>- Nº de camas:<br>- Descripción de habitaciones: 5 habitaciones de literas + 2 habitaciones privadas<br>- Reserva de plaza en el albergue: Sí<br>- Condiciones de admisión para acceder al albergue: Ser peregrino<br>- Hora de apertura: 10:00<br>- Hora de cierre: 22:00 (De julio a septiembre a las 23:00)<br>- Posibilidad de salir o no cuando se cierra: No]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -2.271084,42.551907,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Viana, Alberguería Andrés Muñoz</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/zac899Ib_9S1JJXaDX_QMQzu6yqkRHk0nudMGQi6hmACn06ewOenfL_b0efuoqU9oCcTpkiHjjhpQZhupttlwBWPcLHnvx6gs55YN08vIwdRQn38M7bljZLjpEhJtjeESlxk9UsppiYq" height="200" width="auto" /><br><br>- Impresión general:<br>- Estado de conservación: Muy bien<br>- Disponibilidad del albergue: Todo el año. Del 15 de marzo al 31 de octubre abierto de continuo. De noviembre a marzo se abre a petición del peregrino que llame al 609 141 798<br>- Precio: 6 euros<br>- Plazas<br>- Plazas totales: 54 en literas triples<br>- Nº de plazas en litera:<br>- Nº de plazas en suelo:<br>- Nº de colchones en suelo:<br>- Nº de camas:<br>- Descripción de habitaciones: 4 habitaciones: Dos de 18 plazas y dos de 9.<br>- Reserva de plaza en el albergue: No<br>- Condiciones de admisión para acceder al albergue: Peregrino con credencial<br>- Hora de apertura: De abril a octubre a las 12 h y el resto del año cuando llega algún peregrino<br>- Hora de cierre: 22:00 h<br>- Posibilidad de salir o no cuando se cierra: Sí, se deja la llave]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/zac899Ib_9S1JJXaDX_QMQzu6yqkRHk0nudMGQi6hmACn06ewOenfL_b0efuoqU9oCcTpkiHjjhpQZhupttlwBWPcLHnvx6gs55YN08vIwdRQn38M7bljZLjpEhJtjeESlxk9UsppiYq</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -2.369691,42.514937,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Viana, Albergue Izar</name>
+        <description><![CDATA[- Impresión general:<br>- Estado de conservación: Abierto desde el 1 de marzo de 2013<br>- Disponibilidad del albergue: De marzo a noviembre. El resto del año sólo con reservas anticipadas.<br>- Precio: 8 euros en litera (habitación de 18 plazas); 10 euros en litera (habitaciones de 6 y 8 plazas); 15 euros en habitación doble.<br>- Plazas<br>- Plazas totales: 44<br>- Nº de plazas en litera: 40<br>- Nº de plazas en suelo:<br>- Nº de colchones en suelo:<br>- Nº de camas: 4<br>- Descripción de habitaciones: Una habitación de 18 plazas, 3 habitaciones de entre 6 y 8 plazas y dos habitaciones dobles<br>- Reserva de plaza en el albergue: Sí<br>- Condiciones de admisión para acceder al albergue: Peregrinos y turistas<br>- Hora de apertura: 12:00<br>- Hora de cierre: 22:00<br>- Posibilidad de salir o no cuando se cierra: En principio no. Consultar]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -2.3684602,42.5152651,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Viana, Albergue parroquial Santa María</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.3719284,42.5151621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>La Rioja</name>
+      <Placemark>
+        <name>Logrono, Albergue municipal</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/Ea9Vp4-o6NT-TRXQq7bVYLin1tsmVgiluHFPYqzVb6h4FJpfCpUKCtVDcAsDL19nrT7MllqclLrKiXI1EpK0A8iwG_ireEftV24Odv2OWO0jqDTs1yYQG8Yc3EAbtL4gH1MrnBlR415h" height="200" width="auto" /><br><br>Localidad: Logroño<br>Dirección: C. Rua Vieja, 32<br>Año de apertura: -<br>Titularidad: Municipal<br>Gestión: Asociación Riojana de Amigos del Camino<br>Exclusivo para peregrinos: Sí<br>Teléfono de contacto: 941-24-86-86<br>Mail de contacto: info@asantiago.org<br>Admite reserva: No<br>Expide la credencial: Sí<br>Número de plazas: 88<br>Dormitorios: 3<br>Disponibilidad (meses inclusives): Todo el año<br>Hora de apertura: 13:00 (de abril a octubre) / 15:00 (resto del año)<br>Hora de cierre: 22:00 (de abril a octubre) / 21:30 (resto del año)<br>Precio: 7 euros<br>Acondicionamiento: Adecuado <br>Observaciones:<br>Web: (no tiene o desconocida)<br><br>Servicios y equipamiento del albergue<br>Cocina de uso libre: No, comedor equipado de microondas y frigorífico<br>Lavadora y secadora: Sí, de pago<br>Resguardo para bicicletas: Sí<br>Internet: Sí, de pago<br>Wi-Fi: No<br>Bar-restaurante: No<br>Alojamiento privado: No]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/Ea9Vp4-o6NT-TRXQq7bVYLin1tsmVgiluHFPYqzVb6h4FJpfCpUKCtVDcAsDL19nrT7MllqclLrKiXI1EpK0A8iwG_ireEftV24Odv2OWO0jqDTs1yYQG8Yc3EAbtL4gH1MrnBlR415h</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -2.444734,42.468344,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Logroño, Albergue parroquial Santiago El Real</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/nz6DC4RmvckRg4RvpVqlIOS-f2vrWk7V2Hv8V4v7UyE2iualfSbv0plo6UwVJCTrLoNoUP1hkiS9G467k4DmEJnqfw0KwKojOYpFS4BOQrKrxQUWmdcT2ZcLa64PFJsq1vqo9Wevr4fW" height="200" width="auto" /><br><br>Location: Logroño<br>Address: C. Barriocepo, 8<br>Año de Hours: -<br>Ownership: Private Hostel<br>Management: Private<br>Exclusive to pilgrims: Yes<br>Telephone: 941-20-95-01<br>Email contact: info@santioagoelreal.org<br>Admit Reserve: No<br>Issuing the credential: No<br>Number of seats: 30 on mattresses on the floor<br>Bedrooms: -<br>Availability (months inclusive): From June to September (in the other months is replaced by another location, at number 58 of the road)<br>Opening Time: Morning<br>Closing Time: Does not close<br>Precio: donation<br>Conditioning: - <br>Comments: They propose a pregaria after dinner.<br>Web: (no or unknown)<br><br>Hostel Services and equipment<br>Free use kitchen: No<br>Washer & Dryer: No<br>Ward Bicycle: No<br>Internet: No<br>Wi-Fi: No<br>Bar-Restaurant: No, but it offers dinner and breakfast community<br>Private Accommodation: No]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/nz6DC4RmvckRg4RvpVqlIOS-f2vrWk7V2Hv8V4v7UyE2iualfSbv0plo6UwVJCTrLoNoUP1hkiS9G467k4DmEJnqfw0KwKojOYpFS4BOQrKrxQUWmdcT2ZcLa64PFJsq1vqo9Wevr4fW</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -2.447902,42.467709,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Logrono, Albergue Albas</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.43611999999996,42.46804,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Logroño, Albergue Check In Rioja</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/EV2oCUdkhsQQkKzw8dkTyhWqZSb_fcFcKQaKy8YYHU7i-qLRVxLMee8HCYS31u-E8KfEp780j26MyRF0ySPzXrKImi1QCzJjTqqeIxGlDhEQSIUJS1NmA0wdZg76KqdDmxxJgU7HTmtM" height="200" width="auto" /><br><br>26001 Logroño, La Rioja, Spain<br><br><br> <br><br><br>Location: Logroño<br>Address: C. Los Baños, 2<br>Año de Hours: 2012<br>Ownership: Private Hostel<br>Management: Private<br>Exclusive to pilgrims: Yes<br>Telephone: 941-27-23-29<br>Email contacto: info@checkinrioja.com<br>Supports backup: Yes<br>Issuing the credential: Yes<br>Number of places: 30<br>Bedrooms: 1<br>Availability (months inclusive): March to October<br>Hora de Apertura: 12:00<br>End time: 22:30<br>Price: 10.50 Euro<br>Fitting: Good <br>Remarks: The owner, Nacho Najera has made numerous roads to Santiago.<br>Web: www.checkinrioja.com (http://www.checkinrioja.com/)<br><br>Hostel Services and equipment<br><br>Free use kitchen: Yes<br>Washer and dryer: Yes, payment<br>Bicycle Shelter: Yes<br>Internet: No<br>Wi-Fi: Sí, free<br>Bar-Restaurant: No<br>Private Accommodation: No<br><br><img src="https://lh4.googleusercontent.com/proxy/YfBbR5UfEtcNCyF9vA11F2gDoOyebNO-1oJLVyVmTzeA_J7EcgxQsIBSVNeySQ1Dg-sICu3Y1nKI9yDU4c8xi5FI21KMO24oJg" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/EV2oCUdkhsQQkKzw8dkTyhWqZSb_fcFcKQaKy8YYHU7i-qLRVxLMee8HCYS31u-E8KfEp780j26MyRF0ySPzXrKImi1QCzJjTqqeIxGlDhEQSIUJS1NmA0wdZg76KqdDmxxJgU7HTmtM https://lh4.googleusercontent.com/proxy/YfBbR5UfEtcNCyF9vA11F2gDoOyebNO-1oJLVyVmTzeA_J7EcgxQsIBSVNeySQ1Dg-sICu3Y1nKI9yDU4c8xi5FI21KMO24oJg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -2.442537,42.467437,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Logroño, Hostel Entresueños</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/xXLndORBsxlBW-sObIl4zolaBpdxgU4u2UQqB08IHC0iCn2xBlQTa3Z8ZHvQU1MCdg4iZ_H7pJzZYY2i_zcef4S3fRpXM6U4gmpDd0VxBV86Ha8Xfl5Mqo-dWUwqzQLZVVid-w-GSA7g" height="200" width="auto" /><br><br>Localidad: LogroñoDirección: C. Portales, 12 bajo esq.Año de apertura: 2012Titularidad: Albergue privadoGestión: ParticularExclusivo para peregrinos: NoTeléfono de contacto: 941-27-13-34 / 941-27-13-35Mail de contacto: info@hostellogrono.comAdmite reserva: SíExpide la credencial: NoNúmero de plazas: 75Dormitorios: Varios, entre 2 y 14 plazasDisponibilidad (meses inclusives): Todo el año, excepto en las Fiestas de NavidadHora de apertura: No tieneHora de cierre: No tienePrecio: 14 euros para peregrinosAcondicionamiento: Bueno Observaciones:Web: www.hostellogrono.comServicios y equipamiento del albergueCocina de uso libre: NoLavadora y secadora: NoResguardo para bicicletas: SíInternet: Sí, gratisWi-Fi: SíBar-restaurante: NoAlojamiento privado: El propio albergue dispone de habitaciones dobles]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/xXLndORBsxlBW-sObIl4zolaBpdxgU4u2UQqB08IHC0iCn2xBlQTa3Z8ZHvQU1MCdg4iZ_H7pJzZYY2i_zcef4S3fRpXM6U4gmpDd0VxBV86Ha8Xfl5Mqo-dWUwqzQLZVVid-w-GSA7g</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -2.444404,42.466541,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Logroño, Albergue de peregrinos Logroño</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/TkyqotECLufsps6A1D3RRv6_M_vAnTnN26Uf-rHpchVTJmBXgxH15hjxA0l_9LEUqjKb7u0DJ1Yy_msI80E7rLnUi1zAZ0Y31BeSmssMUPMMprXr9mK7P11N6slbRoZ1fpMGmAbxzenI" height="200" width="auto" /><br><br>Location: Logroño<br>Address: C. Captain Gallarza, 10 Mezzanine and 2nd left.<br>Año de Hours: 2013<br>Ownership: Private Hostel<br>Management: Private<br>Exclusive to pilgrims: Yes<br>Telephone: 608-23-47-23 / 941-25-42-26<br>Email contact: info@alberguelogrono.es<br>Supports backup: Yes<br>Issuing the credential: No<br>Number of places: 30<br>Bedrooms: Various, from a maximum of 6 people<br>Availability (months inclusive): All year (except from December 25 to January 1)<br>Hora de Apertura: 10:00<br>Closing time: No<br>Price: 10 euros<br>Conditioning: - <br>Comment:<br>Web: www.alberguelogrono.es<br><br>Hostel Services and equipment<br>Free use kitchen: Yes<br>Washer and dryer: Yes, payment<br>Bicycle Shelter: Yes<br>Internet: Sí, free<br>Wi-Fi: She<br>Bar-Restaurant: No<br>Private accommodation: Yes, has several single, double and triple.]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/TkyqotECLufsps6A1D3RRv6_M_vAnTnN26Uf-rHpchVTJmBXgxH15hjxA0l_9LEUqjKb7u0DJ1Yy_msI80E7rLnUi1zAZ0Y31BeSmssMUPMMprXr9mK7P11N6slbRoZ1fpMGmAbxzenI</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -2.447595,42.466279,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Navarrete, Albergue de Peregrinos Navarrete</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.56083599999999,42.429688,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Navarrete, Albergue El Cántaro</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5638715,42.4304329,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Navarrete, La Casa del Peregrino</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.55960789999995,42.4311901,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Navarrete, Albergue Buen Camino</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5611636,42.4290635,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Navarrete, A la Sombra del Laurel</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5689903,42.4298059,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ventosa, Albergue San Saturnino</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.6261938,42.4040698,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Najera, Albergue de peregrinos de Nájera</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.7341044,42.4149342,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Najera, Albergue Calle Mayor</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.73283289999995,42.4180231,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Najera, Albergue Puerta de Nájera</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.73347839999997,42.4177381,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Najera, Albergue Sancho III - La Judería</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.73485890000006,42.4155192,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Najera, Albergue Nido de Cigüeña</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.73513439999999,42.4182492,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Najera, Albergue El Peregrino</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.71393290000003,42.4151625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Azofra, Albergue de peregrinos de Azofra</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.8006124,42.4247336,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ciruena, Albergue Virgen de Guadalupe</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.89424550000001,42.4127619,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ciruena, Albergue Victoria</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.89422100000002,42.410152,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Santo Domingo de la Calzada, Albergue de la Cofradía del Santo</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.95252770000002,42.4408808,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Santo Domingo de la Calzada, Albergue de la Abadía Cisterciense</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.95136009999999,42.4405271,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Granon, Albergue parroquial San Juan Bautista</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.02730889999998,42.4503641,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Granon, Albergue La Casa de las Sonrisas</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.02778850000004,42.4502398,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Castilla y León</name>
+      <Placemark>
+        <name>Redecilla del Camino - Albergue San Lazaro</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.0641744,42.4385023,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Viloria de Rioja, Refugio Acacio & Orietta]]></name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.0995412,42.4256719,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Viloria de Rioja, Albergue Parada Viloria</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.10008990000006,42.42699,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Belorado, Albergue Municipal El Corro</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.18756789999998,42.4186814,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Belorado, Albergue parroquial de Belorado</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.18932570000004,42.4194209,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Belorado, Albergue - Restaurante Cuatro Cantones</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.19064750000007,42.421138,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Belorado, Albergue Caminante</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.18920130000004,42.4206288,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Belorado, Albergue A Santiago</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.18352300000004,42.418086,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tosantos, 
+Albergue parroquial San Francisco de Asís</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.2424724,42.4137618,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tosantos, Albergue Los Arancones</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.2424849,42.4143718,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Villambistia, Albergue de peregrinos San Roque</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.2616735,42.4063316,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Espinosa, Albergue La Campana</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.2799768,42.4057453,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Espinosa, Albergue Espinosa del Camino</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.2793868,42.4055473,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Villafranca Montes de Oca, Albergue de peregrinos de Villafranca Montes de Oca</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.3084404,42.3891861,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Villafranca Montes de Oca, Albergue San Antón Abad
+</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.309754,42.38749,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>San Juan de Ortega, Albergue parroquial de San Juan de Ortega</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.43673590000003,42.3761914,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ages, Albergue Municipal de Ages</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.47929899999997,42.36957,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ages, Albergue El Pajar de Agés</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.4791362,42.3698879,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ages, Albergue San Rafael</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.47831999999994,42.369729,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ages, Albergue Casa Caracol</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.4787071,42.3693885,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Atapuerca, Centro Turistico El Peregrino</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.50693339999998,42.3762085,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Atapuerca, Albergue La Hutte</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.50700430000006,42.3776654,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cardeñuela Riopico, Albergue de peregrinos de Cardeñuela Riopico</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.5568774,42.3596618,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cardeñuela Riopico, Albergue Vía Minera</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.5609114,42.3591623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cardeñuela Riopico, Albergue Santa Fe</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.5598278,42.3586073,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Burgos, Albergue de peregrinos Casa del Cubo y de los Lerma</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.70382840000002,42.3423118,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Burgos, Albergue Casa de Peregrinos de Emaús</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.69011,42.3397999,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Burgos, Albergue Santiago y Santa Catalina</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.70192880000002,42.3416727,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tardajos, Albergue La Fábrica</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.81003899999996,42.344889,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tardajos, Albergue de peregrinos de Tardajos</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.8159573,42.3479948,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rabe de la Calzadas, Albergue Liberanos Domine</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.8353658,42.3397914,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hornillos del Camino, 
+Albergue de peregrinos de Hornillos del Camino</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.92598090000001,42.338869,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hornillos del Camino, Albergue El Alfar de Hornillos</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.9240825,42.3384789,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hornillos del Camino, Albergue Meeting Point</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.92686000000003,42.338628,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>San Bol, Albergue de peregrinos de San Bol</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -3.99053530000003,42.3239095,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hontonas, Albergue de peregrinos Antiguo Hospital de San Juan</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.0447511,42.3127331,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hontonas, Mesón Albergue El Puntido</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.04413009999996,42.3128512,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hontonas, Albergue Santa Brígida</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.04450889999998,42.3127437,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hontonas, Albergue Juan de Yepes</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.04321200000004,42.3127499,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>San Anton, Albergue del Hospital de San Antón</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.09907859999998,42.2927716,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Castrojeriz, Albergue de peregrinos San Esteban</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.14062979999994,42.2888183,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Castrojeriz, Refugio de peregrinos de San Juan</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.14256509999996,42.2890057,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Castrojeriz, Albergue Casa Nostra</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.13538429999994,42.2886173,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Castrojeriz, Albergue del camping de Castrojeriz</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.12775899999997,42.29248,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Castrojeriz, Albergue Ultreia</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.13389540000003,42.2894016,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Castrojeriz, Albergue Rosalía</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.14188899999999,42.2884003,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ermita de San Nicolas, 
+Albergue de San Nicolás de Puente Fitero</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.2431688,42.2790234,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Itero de la Vega, Albergue de peregrinos de Itero de la Vega</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.2576849,42.2878102,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Itero de la Vega, Albergue La Mochila</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.25818700000002,42.287327,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Itero de la Vega, Albergue Puente Fitero</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.25727000000006,42.28729,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Itero de la Vega, Albergue Hogar del Peregrino</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.258016,42.288156,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boadilla del Camino, Albergue de peregrinos de Boadilla del Camino</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.345935,42.2600963,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boadilla del Camino, Albergue En El Camino</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.34656999999993,42.25822,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boadilla del Camino, Albergue Putzu</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.34463000000005,42.2610699,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boadilla del Camino, Albergue Titas</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.34836999999993,42.26018,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fromista, Albergue de peregrinos de Frómista</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.40706220000004,42.2664655,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fromista, Albergue Estrella Del Camino</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.4045251,42.2694991,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fromista, Albergue Canal De Castilla</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.39910099999997,42.268465,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fromista, Acogida de invierno Betania</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.4040906,42.2696955,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Poblacion de Campos, Albergue de peregrinos de Población de Campos</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.4446349,42.269116,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Villarmentero de Campos, 
+Albergue Amanecer Villarmentero</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.50071309999998,42.2984121,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Villalcazar de Sirga, Albergue de peregrinos Casa del Peregrino</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.542616,42.3163409,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Villalcazar de Sirga, Albergue Don Camino</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.5453197,42.316214,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Carrion de los Condes, Albergue parroquial Santa María</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.6024443,42.3384815,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Carrion de los Condes, Albergue-hospedería del Convento de Santa Clara</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.59995670000001,42.3369095,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Carrion de los Condes, Albergue eclesial Espíritu Santo</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.60226139999997,42.3362883,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Calzadilla de la Cueza, Albergue de peregrinos de Calzadilla de la Cueza</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.8026803,42.3291876,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Calzadilla de la Cueza, Albergue de Peregrinos Camino Real</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.802457,42.328915,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ledigos, Albergue El Palomar</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.8640198,42.3551625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ledigos, Albergue La Morena</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.86552000000006,42.35474,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Terradillos de los Templarios, Albergue Jacques De Molay</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.89031950000003,42.362882,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Terradillos de los Templarios, Albergue Los Templarios</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.88441,42.364474,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Moratinos, Albergue San Bruno</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.92781330000003,42.3610017,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Moratinos, Albergue-hostal Moratinos</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.92581999999993,42.360388,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>San Nicolas de Real Camino, Albergue Laganares</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -4.95179699999994,42.363538,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sahagun, Albergue de peregrinos Cluny</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.02742379999995,42.3711564,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sahagun, Albergue-hospedería de las Madres Benedictinas</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.03576099999998,42.3695877,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sahagun, Albergue Viatoris</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.02448549999997,42.3719091,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Calzada del Coto, 
+Albergue de peregrinos San Roque</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.0788379,42.3882193,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Calzadilla de los Hermanillos, Albergue de peregrinos de Calzadilla de los Hermanillos</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.15946059999999,42.4346069,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Calzadilla de los Hermanillos, Albergue Vía Trajana</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.15559210000004,42.4334239,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bercianos del Real Camino, Albergue parroquial Casa Rectoral</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.14492689999997,42.3859828,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bercianos de Real Camino, Albergue Santa Clara</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.14539919999993,42.3884876,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El Burgo Ranero, Albergue de peregrinos Domenico Laffi</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.2187419,42.4233456,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El Burgo Ranero, Albergue La Laguna</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.21968449999997,42.4238698,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Reliegos, Albergue de peregrinos de Reliegos</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.35325979999993,42.4746269,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Reliegos, Albergue La Parada</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.35386310000001,42.475051,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Reliegos, Albergue Piedras Blancas II</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.35390050000001,42.474132,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Reliegos, Albergue de Ada</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.35316420000004,42.47256,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Reliegos, Albergue Gil</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.35362559999999,42.4738648,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mansilla de las Mulas, Albergue de peregrinos de Mansilla de las Mulas</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.41840350000007,42.4998084,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mansilla de las Mulas, Albergue El Jardín del Camino</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.41463999999996,42.49772,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mansilla de las Mulas, Albergue Gaia</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.41561300000001,42.4972269,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Puente Villarente, Albergue San Pelayo</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.45630419999998,42.5448059,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Puente Villarente, Albergue El Delfín Verde</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.45537100000001,42.544268,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arcahueja, Albergue La Torre</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.49735469999996,42.5664131,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Leon, Albergue del convento de las carbajalas</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.56849609999995,42.5952622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Leon, Albergue-Residencia San Francisco de Asís</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.56305280000004,42.5903874,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Leon, Albergue Santo Tomás de Canterbury</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.5502927,42.578504,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Leon, Albergue-Residencia Miguel de Unamuno</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.56895829999996,42.6000265,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Leon, Albergue Muralla Leonesa</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.56614719999993,42.5964604,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trobajo del Camino, Albergue Casa Simón</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.58944980000001,42.5749677,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Virgen del Camino, Albergue de peregrinos Don Antonino y Doña Cinia</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.6394839,42.5776709,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Villar de Mazarife, Albergue de Jesús</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.72610429999997,42.4837194,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Villar de Mazarife, Albergue San Antonio de Pádua</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.72648230000004,42.4842183,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Villar de Mazarife, Albergue Tío Pepe</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.72666159999994,42.4831071,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Villavante, Albergue Santa Lucía</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.83486730000004,42.4619865,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Puente Orbigo, Acogida La Casa de la Inspiración</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.87648899999999,42.4638587,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hospital de Orbigo, Albergue parroquial Karl Leisner</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.88372340000001,42.463532,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hospital de Orbigo, Albergue San Miguel</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.88433850000001,42.4633955,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hospital de Orbigo, Albergue Verde</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.88466410000001,42.4594845,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hospital de Orbigo, Albergue La Encina</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.87970129999997,42.4685238,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Villadangos del Paramo, Albergue de peregrinos de Villadangos del Páramo</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.76524889999996,42.5196119,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>San Martin del Camino, Albergue de peregrinos de San Martín del Camino</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.80989,42.4942354,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>San Martin del Camino, Albergue Ana</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.80660809999995,42.4962098,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>San Martin del Camino, Albergue Vieira</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.80302890000007,42.4980395,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Villares de Orbigo, Albergue Villares de Órbigo</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.91022599999997,42.469611,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Santibanex de Valdeiglesias, Albergue parroquial de Santibáñez de Valdeiglesias</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.93076999999994,42.45785,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Santibanez de Valdeiglesias, Albergue Camino Francés</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -5.93024000000003,42.4584199,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>San Justo de la Vega, Refugio Amanecer</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.01466809999999,42.4541659,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Astorga, Albergue de peregrinos Siervas de María</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.05130220000001,42.4528599,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Astorga, Albergue San Javier</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.05788659999996,42.4567764,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Valdeviejas, Albergue de peregrinos Ecce Homo</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.0806322,42.4602886,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Murias de Rechivaldo, Albergue de peregrinos de Murias de Rechivaldo</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.1076367,42.4602728,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Murias de Rechivaldo, Albergue Las Águedas</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.10768419999999,42.4592141,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Murias de Rechivaldo, Albergue Casa Flor</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.10737080000001,42.4607219,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Castrillo de Polvazares, 
+Albergue de peregrinos de Castrillo de los Polvazares</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.1306232,42.4650177,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Santa Catalina de Somoza, Albergue Hospedería San Blas</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.15894700000001,42.4552369,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Santa Catalina de Somoza, Albergue El Caminante</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.15823019999993,42.455228,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El Ganso, Albergue Gabino</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.20935570000006,42.4626883,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rabanal del Camino, Albergue de peregrinos de Rabanal del Camino</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.28390000000002,42.48065,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rabanal del Camino, Albergue Gaucelmo</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.2852606,42.4818913,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rabanal del Camino, Albergue Nuestra Señora del Pilar</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.28448900000001,42.480641,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rabanal del Camino, Albergue La Senda</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.28088300000002,42.481344,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Foncebadon, Albergue parroquial Domus Dei</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.34351500000002,42.491883,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Foncebadon, Albergue Monte Irago</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.34177199999999,42.491339,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Foncebadon, Albergue La Posada del Druida</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.34254950000002,42.4913214,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Foncebadon, Albergue Roger de Lauria</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.3420081,42.4914547,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Manjarin, Refugio de Manjarín</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.3867541,42.4903718,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El Acebo, Albergue parroquial Santiago Apóstol</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.4570427,42.4990134,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El Acebo, Albergue Mesón El Acebo</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.45727399999998,42.4990318,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El Acebo, Albergue La Casa del Peregrino</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.4597678,42.5014576,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Riego de Ambros, Albergue de peregrinos de Riego de Ambrós</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.479305,42.5215377,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Molinaseca, Albergue Santa Marina</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.5261941,42.5408456,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Molinaseca, Albergue de peregrinos San Roque</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.5281628,42.5418861,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ponferrada, Albergue parroquial San Nicolás de Flue</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.58640579999997,42.5434676,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ponferrada, Albergue Alea</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.58223720000001,42.5466879,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ponferrada, Albergue Guiana</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.59175449999998,42.5428,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fuentesnuevas, Albergue El Camino</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.64259600000003,42.5713011,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camponaraya, Albergue Naraya</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.68566780000003,42.5931437,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camponaraya, Albergue La Medina</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.66150979999998,42.5763202,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cacabelos, Albergue de peregrinos de Cacabelos</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.73116660000005,42.6002471,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cacabelos, Albergue La Gallega</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.724782,42.599892,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pieros, Albergue El Serbal y la Luna</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.7488295,42.6057915,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Villafranca del Bierzo, 
+Albergue de peregrinos de Villafranca del Bierzo</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.80648080000003,42.6045723,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Villafranca del Bierzo, Albergue Ave Fénix</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.80825200000004,42.603962,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Villafranca del Bierzo, Albergue de la Piedra</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.81353100000001,42.6101358,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Villafranca del Bierzo, Albergue Leo</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.8109422,42.608482,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Villafranca del Bierzo, Albergue-Hospedería San Nicolás El Real</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.80841069999997,42.6078076,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pereje, Albergue de peregrinos de Pereje</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.8438816,42.6261124,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trabadelo, Albergue de peregrinos de Trabadelo</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.8822694,42.64953,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trabadelo, Albergue parroquial Trabadelo</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.8823445,42.6493406,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trabadelo, Albergue Crispeta</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.8761861,42.6481174,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trabadelo, Albergue Camino y Leyenda</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.88184550000005,42.64953,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Portela de Valcarce, Albergue El Peregrino</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.9179964,42.6600757,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ambasmestas, 
+Albergue Das Ánimas</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.9285268,42.6653577,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ambasmestas, Albergue Camynos</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.92664300000001,42.663157,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ambasmestas, Albergue Casa del Pescador</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.9268477,42.6643439,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vega de Valcarce, Albergue de peregrinos de Vega de Valcarce</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.9452691,42.66505,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vega de Valcarce, Refugio Vegetariano ISANA</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.94631000000004,42.66525,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vega de Valcarce, Albergue Sarracín</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.94140360000006,42.6638294,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vega de Valcarce, Albergue Santa María Magdalena</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.94697719999999,42.6653717,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vega de Valcarce, Albergue El Paso</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.94738469999993,42.665229,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ruitelan, Albergue Pequeño Potala</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.9671559,42.6730728,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Las Herrerias, Refugio de Las Herrerías</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -6.9808835,42.6707103,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Faba, Albergue de La Faba</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.0066488,42.6839812,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Laguna, Albergue La Escuela</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -7.02214619999995,42.7014559,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

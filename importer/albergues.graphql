@@ -1,0 +1,4748 @@
+mutation ImportAlbergues {
+  NegreiraAlberguedeperegrinosdeNegreira429045595874123280000003: createLocation(
+    name: "Negreira, Albergue de peregrinos de Negreira",
+    latitude: 42.9045595,
+    longitude: -8.74123280000003
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  NegreiraAlberguePensinSanJos429111852873415090000003: createLocation(
+    name: "Negreira, Albergue-Pensión San José",
+    latitude: 42.9111852,
+    longitude: -8.73415090000003
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  NegreiraAlbergueLua429094612873460439999997: createLocation(
+    name: "Negreira, Albergue Lua",
+    latitude: 42.9094612,
+    longitude: -8.73460439999997
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  NegreiraAlbergueElCarmen429095678873607509999999: createLocation(
+    name: "Negreira, Albergue El Carmen",
+    latitude: 42.9095678,
+    longitude: -8.73607509999999
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  NegreiraAlbergueAlecrin429096643873226869999996: createLocation(
+    name: "Negreira, Albergue Alecrin",
+    latitude: 42.9096643,
+    longitude: -8.73226869999996
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  NegreiraAlbergueAnjana42909668887278545: createLocation(
+    name: "Negreira, Albergue Anjana",
+    latitude: 42.9096688,
+    longitude: -8.7278545
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  VilaserioRefugiomunicipaldeVilasero4294637188547659: createLocation(
+    name: "Vilaserio, Refugio municipal de Vilaserío",
+    latitude: 42.946371,
+    longitude: -8.8547659
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  VilaserioAlbergueORueiro42943385884971199999995: createLocation(
+    name: "Vilaserio, Albergue O Rueiro",
+    latitude: 42.943385,
+    longitude: -8.84971199999995
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SantaMarinaAlbergueSantaMaria429574598926177: createLocation(
+    name: "Santa Marina, Albergue Santa Mariña",
+    latitude: 42.957459,
+    longitude: -8.926177
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SantaMarinaAlbergueCasaPepa42956815189186454: createLocation(
+    name: "Santa Marina, Albergue Casa Pepa",
+    latitude: 42.9568151,
+    longitude: -8.9186454
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  PonteOlveiraAlbergueORefuxiodaPonte429646677901932620000002: createLocation(
+    name: "Ponte Olveira, Albergue O Refuxio da Ponte",
+    latitude: 42.9646677,
+    longitude: -9.01932620000002
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  PonteOlveiraAlberguePensinPonteOIveira42961517901668900000004: createLocation(
+    name: "Ponte Olveira, Albergue-Pensión Ponte OIveira",
+    latitude: 42.961517,
+    longitude: -9.01668900000004
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  OlveiroaAlberguedeperegrinosdeOlveiroa429675257903954069999998: createLocation(
+    name: "Olveiroa, Albergue de peregrinos de Olveiroa",
+    latitude: 42.9675257,
+    longitude: -9.03954069999998
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  OlveiroaAlbergueHrreo42966738903930100000002: createLocation(
+    name: "Olveiroa, Albergue Hórreo",
+    latitude: 42.966738,
+    longitude: -9.03930100000002
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  LogosoAlberguePensinOLogoso42973471906748600000003: createLocation(
+    name: "Logoso, Albergue-Pensión O Logoso",
+    latitude: 42.973471,
+    longitude: -9.06748600000003
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  CeeAlbergueACasadaFonte429544661918809699999997: createLocation(
+    name: "Cee, Albergue A Casa da Fonte",
+    latitude: 42.9544661,
+    longitude: -9.18809699999997
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  CeeAlbergueOBordn429487502917896689999998: createLocation(
+    name: "Cee, Albergue O Bordón",
+    latitude: 42.9487502,
+    longitude: -9.17896689999998
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  CeeAlbergueMoreira429520925918704630000002: createLocation(
+    name: "Cee, Albergue Moreira",
+    latitude: 42.9520925,
+    longitude: -9.18704630000002
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  CeeAlbergueOCamiodasEstrellas4295682779193307: createLocation(
+    name: "Cee, Albergue O Camiño das Estrellas",
+    latitude: 42.9568277,
+    longitude: -9.193307
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  CorcubionAlberguedeperegrinosSanRoque42937472492012966: createLocation(
+    name: "Corcubion, Albergue de peregrinos San Roque",
+    latitude: 42.9374724,
+    longitude: -9.2012966
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  CorcubionAlbergueCamiodeFisterra42949835919206380000003: createLocation(
+    name: "Corcubion, Albergue Camiño de Fisterra",
+    latitude: 42.949835,
+    longitude: -9.19206380000003
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  FinistereAlberguedeperegrinosdeFisterra4290778926292000000001: createLocation(
+    name: "Finistere, Albergue de peregrinos de Fisterra",
+    latitude: 42.90778,
+    longitude: -9.26292000000001
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  FinistereAlberguedePaz429042007926149650000002: createLocation(
+    name: "Finistere, Albergue de Paz",
+    latitude: 42.9042007,
+    longitude: -9.26149650000002
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  FinistereAlberguePensinFinistellae42904350492626603: createLocation(
+    name: "Finistere, Albergue-Pensión Finistellae",
+    latitude: 42.9043504,
+    longitude: -9.2626603
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  FinistereAlberguedoSoledaLua42907163926569599999993: createLocation(
+    name: "Finistere, Albergue do Sol e da Lua",
+    latitude: 42.907163,
+    longitude: -9.26569599999993
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  FinistereAlbergueOEncontro429067356926367099999993: createLocation(
+    name: "Finistere, Albergue O Encontro",
+    latitude: 42.9067356,
+    longitude: -9.26367099999993
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  FinistereAlbergueCabodaVila429095736926267189999999: createLocation(
+    name: "Finistere, Albergue Cabo da Vila",
+    latitude: 42.9095736,
+    longitude: -9.26267189999999
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  FinistereAlberguePorFin4290664692645567: createLocation(
+    name: "Finistere, Albergue Por Fin",
+    latitude: 42.906646,
+    longitude: -9.2645567
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  FinistereAlbergueMardeRostro429071415926507430000004: createLocation(
+    name: "Finistere, Albergue Mar de Rostro",
+    latitude: 42.9071415,
+    longitude: -9.26507430000004
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  FinistereAlbergueArasolis429033463926334640000005: createLocation(
+    name: "Finistere, Albergue Arasolis",
+    latitude: 42.9033463,
+    longitude: -9.26334640000005
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  FinistereAlberguedoMar429133935926480049999998: createLocation(
+    name: "Finistere, Albergue do Mar",
+    latitude: 42.9133935,
+    longitude: -9.26480049999998
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  FinistereAlbergueMardeFora429060898926574759999994: createLocation(
+    name: "Finistere, Albergue Mar de Fora",
+    latitude: 42.9060898,
+    longitude: -9.26574759999994
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  FinistereAlberguedeSoniaBuenCamino42907821926599299999998: createLocation(
+    name: "Finistere, Albergue de Sonia - Buen Camino",
+    latitude: 42.907821,
+    longitude: -9.26599299999998
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  DumbriaAlberguedePeregrinosdeDumbra43005596591122043: createLocation(
+    name: "Dumbria, Albergue de Peregrinos de Dumbría",
+    latitude: 43.0055965,
+    longitude: -9.1122043
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  MuxiaAlberguedeperegrinosdeMuxa43101967992159131: createLocation(
+    name: "Muxia, Albergue de peregrinos de Muxía",
+    latitude: 43.1019679,
+    longitude: -9.2159131
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  MuxiaAlbergueMuxa431019222921597359999998: createLocation(
+    name: "Muxia, Albergue@Muxía",
+    latitude: 43.1019222,
+    longitude: -9.21597359999998
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  MuxiaAlbergueBelaMuxa4310712921748000000002: createLocation(
+    name: "Muxia, Albergue Bela Muxía",
+    latitude: 43.10712,
+    longitude: -9.21748000000002
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  MuxiaAlberguedaCosta43100992792197883: createLocation(
+    name: "Muxia, Albergue da Costa",
+    latitude: 43.1009927,
+    longitude: -9.2197883
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  MuxiaAlbergueArribada431050132921793509999998: createLocation(
+    name: "Muxia, Albergue Arribada",
+    latitude: 43.1050132,
+    longitude: -9.21793509999998
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  LiresAlbergueAsEiras429980692432: createLocation(
+    name: "Lires, Albergue As Eiras",
+    latitude: 42.99806,
+    longitude: -9.2432
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  OCebreiroAlberguedeperegrinosdeOCebreiro427077452704612959999997: createLocation(
+    name: "O Cebreiro, Albergue de peregrinos de O Cebreiro",
+    latitude: 42.7077452,
+    longitude: -7.04612959999997
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  HospitalAlberguedeperegrinosdeHospitaldaCondesa42704601870997643: createLocation(
+    name: "Hospital, Albergue de peregrinos de Hospital da Condesa",
+    latitude: 42.7046018,
+    longitude: -7.0997643
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  AltodoPoioAlbergueElPuerto42712461971268225: createLocation(
+    name: "Alto do Poio, Albergue El Puerto",
+    latitude: 42.7124619,
+    longitude: -7.1268225
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  FonfriaAlbergueAReboleira427313107715694629999996: createLocation(
+    name: "Fonfria, Albergue A Reboleira",
+    latitude: 42.7313107,
+    longitude: -7.15694629999996
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  FillobalAlbergueFillobal42743994572048533: createLocation(
+    name: "Fillobal, Albergue Fillobal",
+    latitude: 42.7439945,
+    longitude: -7.2048533
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  TriacastelaAlbergueMunicipaldeTriacastela427552999723544249999998: createLocation(
+    name: "Triacastela, Albergue Municipal de Triacastela",
+    latitude: 42.7552999,
+    longitude: -7.23544249999998
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  TriacastelaAlbergueAitzenea427561561724193409999998: createLocation(
+    name: "Triacastela, Albergue Aitzenea",
+    latitude: 42.7561561,
+    longitude: -7.24193409999998
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  TriacastelaAlbergueBercedoCamio427555764724227369999994: createLocation(
+    name: "Triacastela, Albergue Berce do Camiño",
+    latitude: 42.7555764,
+    longitude: -7.24227369999994
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  TriacastelaAlbergueRefugiodelOribio427566549724021560000006: createLocation(
+    name: "Triacastela, Albergue Refugio del Oribio",
+    latitude: 42.7566549,
+    longitude: -7.24021560000006
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  TriacastelaAlberguePensinComplexoXacobeo427558397724133889999996: createLocation(
+    name: "Triacastela, Albergue-Pensión Complexo Xacobeo",
+    latitude: 42.7558397,
+    longitude: -7.24133889999996
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  TriacastelaAlbergueAHortadeAbel427561527239553: createLocation(
+    name: "Triacastela, Albergue A Horta de Abel",
+    latitude: 42.756152,
+    longitude: -7.239553
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  ABalsaAlbergueEcolgicoElBeso42766170572533584: createLocation(
+    name: "A Balsa, Albergue Ecológico El Beso",
+    latitude: 42.7661705,
+    longitude: -7.2533584
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  CalvorAlberguedeperegrinosdeCalvor42773841673555183: createLocation(
+    name: "Calvor, Albergue de peregrinos de Calvor",
+    latitude: 42.7738416,
+    longitude: -7.3555183
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SanMamedePalomayLeaSL427734797370452: createLocation(
+    name: "San Mamede, Paloma y Leña S.L",
+    latitude: 42.773479,
+    longitude: -7.370452
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SarriaAlberguedeperegrinos4277764741359999999997: createLocation(
+    name: "Sarria, Albergue de peregrinos",
+    latitude: 42.77764,
+    longitude: -7.41359999999997
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SarriaAlbergueMonasteriodeLaMagdalena427789715742111999999997: createLocation(
+    name: "Sarria, Albergue Monasterio de La Magdalena",
+    latitude: 42.7789715,
+    longitude: -7.42111999999997
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SarriaAlbergueDeDonlvaro427769727741683569999998: createLocation(
+    name: "Sarria, Albergue De Don Álvaro",
+    latitude: 42.7769727,
+    longitude: -7.41683569999998
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SarriaAlbergueODurmiento427773965741515730000003: createLocation(
+    name: "Sarria, Albergue O Durmiñento",
+    latitude: 42.7773965,
+    longitude: -7.41515730000003
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SarriaAlberguelosBlasones42777235174160551: createLocation(
+    name: "Sarria, Albergue los Blasones",
+    latitude: 42.7772351,
+    longitude: -7.4160551
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SarriaAlbergueDosOitoMarabeds42776365674175417: createLocation(
+    name: "Sarria, Albergue Dos Oito Marabedís",
+    latitude: 42.7763656,
+    longitude: -7.4175417
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SarriaAlbergueInternacional427807086741428010000004: createLocation(
+    name: "Sarria, Albergue Internacional",
+    latitude: 42.7807086,
+    longitude: -7.41428010000004
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SarriaAlbergueSanLzaro427807805741982370000005: createLocation(
+    name: "Sarria, Albergue San Lázaro",
+    latitude: 42.7807805,
+    longitude: -7.41982370000005
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SarriaPensinEscalinata4277718741349600000001: createLocation(
+    name: "Sarria, Pensión Escalinata",
+    latitude: 42.77718,
+    longitude: -7.41349600000001
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SarriaAlbergueMayor427770153741393140000002: createLocation(
+    name: "Sarria, Albergue Mayor",
+    latitude: 42.7770153,
+    longitude: -7.41393140000002
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SarriaAlbergueAPedra427758205740453060000004: createLocation(
+    name: "Sarria, Albergue A Pedra",
+    latitude: 42.7758205,
+    longitude: -7.40453060000004
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SarriaAlbergueOasis427757787740528080000001: createLocation(
+    name: "Sarria, Albergue Oasis",
+    latitude: 42.7757787,
+    longitude: -7.40528080000001
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SarriaAlbergueBarbacoadelCaminoCB42774313741961200000003: createLocation(
+    name: "Sarria, Albergue Barbacoa del Camino C.B.",
+    latitude: 42.774313,
+    longitude: -7.41961200000003
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SarriaAlbergueObradoiro42777428741555100000005: createLocation(
+    name: "Sarria, Albergue Obradoiro",
+    latitude: 42.777428,
+    longitude: -7.41555100000005
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SarriaAlbergueAlmadoCamio4277641740741100000003: createLocation(
+    name: "Sarria, Albergue Alma do Camiño",
+    latitude: 42.77641,
+    longitude: -7.40741100000003
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SarriaAlbergueMatas42776898741718609999998: createLocation(
+    name: "Sarria, Albergue Matías",
+    latitude: 42.776898,
+    longitude: -7.41718609999998
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SarriaAlberguePuenteRibeira42775924741150100000004: createLocation(
+    name: "Sarria, Albergue Puente Ribeira",
+    latitude: 42.775924,
+    longitude: -7.41150100000004
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  VileiAlberguePensinCasaBarbadelo427692235744456230000003: createLocation(
+    name: "Vilei, Albergue-Pensión Casa Barbadelo",
+    latitude: 42.7692235,
+    longitude: -7.44456230000003
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  VileiAlberguePensin108toSantiago42768801174440742: createLocation(
+    name: "Vilei, Albergue-Pensión 108 to Santiago",
+    latitude: 42.7688011,
+    longitude: -7.4440742
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  BarbadeloAlberguedeperegrinosdeBarbadelo42766485574497175: createLocation(
+    name: "Barbadelo, Albergue de peregrinos de Barbadelo",
+    latitude: 42.7664855,
+    longitude: -7.4497175
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  BarbedeloAlberguePensinACasadeCarmen42767840274519491: createLocation(
+    name: "Barbedelo, Albergue-Pensión A Casa de Carmen",
+    latitude: 42.7678402,
+    longitude: -7.4519491
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  BarbedeloAlbergueOPombal4276468977448945: createLocation(
+    name: "Barbedelo, Albergue O Pombal",
+    latitude: 42.7646897,
+    longitude: -7.448945
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  MolinodeMarzanAlbergueMolinodeMarzn4277229874813461: createLocation(
+    name: "Molino de Marzan, Albergue Molino de Marzán",
+    latitude: 42.772298,
+    longitude: -7.4813461
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  MorgadeCasaMorgadePensionCaminodeSantiago42782377752139599999998: createLocation(
+    name: "Morgade, Casa Morgade Pension - Camino de Santiago",
+    latitude: 42.782377,
+    longitude: -7.52139599999998
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  FerreirosAlberguedeperegrinosdeFerreiros42783984375283384: createLocation(
+    name: "Ferreiros, Albergue de peregrinos de Ferreiros",
+    latitude: 42.7839843,
+    longitude: -7.5283384
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  FerreirosAlbergueCasaCruceirodeFerreiros42783476753322000000003: createLocation(
+    name: "Ferreiros, Albergue Casa Cruceiro de Ferreiros",
+    latitude: 42.783476,
+    longitude: -7.53322000000003
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  MirallosAlbergueOMirallos4278362275364923: createLocation(
+    name: "Mirallos, Albergue O Mirallos",
+    latitude: 42.783622,
+    longitude: -7.5364923
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  APenaCasadoRego42785165754218900000001: createLocation(
+    name: "A Pena, Casa do Rego",
+    latitude: 42.785165,
+    longitude: -7.54218900000001
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  MercadoiroAlbergueMercadoiro427891493757056650000004: createLocation(
+    name: "Mercadoiro, Albergue Mercadoiro",
+    latitude: 42.7891493,
+    longitude: -7.57056650000004
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  VilachaCasaBanderas42795613760287100000005: createLocation(
+    name: "Vilacha, Casa Banderas",
+    latitude: 42.795613,
+    longitude: -7.60287100000005
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  PortomarinAlberguedeperegrinosdePortomarn42808924476147324: createLocation(
+    name: "Portomarin, Albergue de peregrinos de Portomarín",
+    latitude: 42.8089244,
+    longitude: -7.6147324
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  PortomarinOMirador42806177761802: createLocation(
+    name: "Portomarin, O Mirador",
+    latitude: 42.806177,
+    longitude: -7.61802
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  PortomarinAlberguedePeregrinosFerramenteiro428061326761830320000001: createLocation(
+    name: "Portomarin, Albergue de Peregrinos Ferramenteiro",
+    latitude: 42.8061326,
+    longitude: -7.61830320000001
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  PortomarinAlberguePensinElCaminante428074782761658590000002: createLocation(
+    name: "Portomarin, Albergue-Pensión El Caminante",
+    latitude: 42.8074782,
+    longitude: -7.61658590000002
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  PortomarinAlberguePortosantiago428080829761678519999998: createLocation(
+    name: "Portomarin, Albergue Portosantiago",
+    latitude: 42.8080829,
+    longitude: -7.61678519999998
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  PortomarinPensionManuel42808661376143783: createLocation(
+    name: "Portomarin, Pension Manuel",
+    latitude: 42.8086613,
+    longitude: -7.6143783
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  PortomarinAlbergueUltreia428079503761673500000006: createLocation(
+    name: "Portomarin, Albergue Ultreia",
+    latitude: 42.8079503,
+    longitude: -7.61673500000006
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  PortomarinNovoPortoAlbergue42807224761688500000003: createLocation(
+    name: "Portomarin, Novo Porto Albergue",
+    latitude: 42.807224,
+    longitude: -7.61688500000003
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  PortomarinAlbergueFolgueira42806622761974199999997: createLocation(
+    name: "Portomarin, Albergue Folgueira",
+    latitude: 42.806622,
+    longitude: -7.61974199999997
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  PortomarinAlbergueVillamartn428071965761496999999997: createLocation(
+    name: "Portomarin, Albergue Villamartín",
+    latitude: 42.8071965,
+    longitude: -7.61496999999997
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  GonzarAlberguedeperegrinosdeGonzar4282643477696234: createLocation(
+    name: "Gonzar, Albergue de peregrinos de Gonzar",
+    latitude: 42.8264347,
+    longitude: -7.696234
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  GonzarAlbergueCasaGarca42825093176962179: createLocation(
+    name: "Gonzar, Albergue Casa García",
+    latitude: 42.8250931,
+    longitude: -7.6962179
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  HospitaldaCruzAlberguedeperegrinosdeHospitaldaCruz42840895777350616: createLocation(
+    name: "Hospital da Cruz, Albergue de peregrinos de Hospital da Cruz",
+    latitude: 42.8408957,
+    longitude: -7.7350616
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  VentasdaNaronAlbergueCasaMolar42844262677478075: createLocation(
+    name: "Ventas da Naron, Albergue Casa Molar",
+    latitude: 42.8442626,
+    longitude: -7.7478075
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  VentasdaNaronAlbergueOCruceiro42844034577490091: createLocation(
+    name: "Ventas da Naron, Albergue O Cruceiro",
+    latitude: 42.8440345,
+    longitude: -7.7490091
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  LigondeAlberguemunicipalEscueladeLigonde42859938577811742: createLocation(
+    name: "Ligonde, Albergue municipal Escuela de Ligonde",
+    latitude: 42.8599385,
+    longitude: -7.7811742
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  LigondeAlbergueLaFuentedelPeregrino4286011157781539: createLocation(
+    name: "Ligonde, Albergue La Fuente del Peregrino",
+    latitude: 42.8601115,
+    longitude: -7.781539
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  AirexeAlberguedeperegrinosdeAirexeLigonde4286545977869892: createLocation(
+    name: "Airexe, Albergue de peregrinos de Airexe-Ligonde",
+    latitude: 42.865459,
+    longitude: -7.7869892
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  PortosAlbergueAPasodeFormiga42873432478070682: createLocation(
+    name: "Portos, Albergue A Paso de Formiga",
+    latitude: 42.8734324,
+    longitude: -7.8070682
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  LestedoAlbergueACalzada42873762678092837: createLocation(
+    name: "Lestedo, Albergue A Calzada",
+    latitude: 42.8737626,
+    longitude: -7.8092837
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  PalasdeReiAlbergueDePeregrinosDePalasDeRei428731213786904129999994: createLocation(
+    name: "Palas de Rei, Albergue De Peregrinos De Palas De Rei",
+    latitude: 42.8731213,
+    longitude: -7.86904129999994
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  PalasdeReiAlberguedeperegrinosOsChacotes42874029978571558: createLocation(
+    name: "Palas de Rei, Albergue de peregrinos Os Chacotes",
+    latitude: 42.8740299,
+    longitude: -7.8571558
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  PalasdeReiAlbergueBuenCamino428731899786984389999998: createLocation(
+    name: "Palas de Rei, Albergue Buen Camino",
+    latitude: 42.8731899,
+    longitude: -7.86984389999998
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  PalasdeReiAlbergueMesndeBenito428722684786745819999999: createLocation(
+    name: "Palas de Rei, Albergue Mesón de Benito",
+    latitude: 42.8722684,
+    longitude: -7.86745819999999
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  PalasdeReiAlbergueCastro428729916786850660000005: createLocation(
+    name: "Palas de Rei, Albergue Castro",
+    latitude: 42.8729916,
+    longitude: -7.86850660000005
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  PalasdeReiAlbergueSanMarcos42872574786819300000002: createLocation(
+    name: "Palas de Rei, Albergue San Marcos",
+    latitude: 42.872574,
+    longitude: -7.86819300000002
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  PalasdeReiCasaDoOuteiro428738215786758680000003: createLocation(
+    name: "Palas de Rei, Casa Do Outeiro",
+    latitude: 42.8738215,
+    longitude: -7.86758680000003
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  PalasdeReiAlbergueACasinadiMarcello428732618787247690000004: createLocation(
+    name: "Palas de Rei, Albergue A Casina di Marcello",
+    latitude: 42.8732618,
+    longitude: -7.87247690000004
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SanXulianAlbergueOAbrigadoiro428744867903161: createLocation(
+    name: "San Xulian, Albergue O Abrigadoiro",
+    latitude: 42.874486,
+    longitude: -7.903161
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  PonteCampaaAlbergueCasaDomingo42878071279144907: createLocation(
+    name: "Ponte Campaña, Albergue Casa Domingo",
+    latitude: 42.8780712,
+    longitude: -7.9144907
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  CasanovaAlberguedeperegrinosdeCasanova42878763179285669: createLocation(
+    name: "Casanova, Albergue de peregrinos de Casanova",
+    latitude: 42.8787631,
+    longitude: -7.9285669
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  MelideAlberguedeperegrinosdeMelide42914505380180669: createLocation(
+    name: "Melide, Albergue de peregrinos de Melide",
+    latitude: 42.9145053,
+    longitude: -8.0180669
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  MelideAlbergueOApalpador429145337801788799999997: createLocation(
+    name: "Melide, Albergue O Apalpador",
+    latitude: 42.9145337,
+    longitude: -8.01788799999997
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  MelideAlbergueOCruceiro429139757801453779999997: createLocation(
+    name: "Melide, Albergue O Cruceiro",
+    latitude: 42.9139757,
+    longitude: -8.01453779999997
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  MelideAlbergueVilela429147708801705430000004: createLocation(
+    name: "Melide, Albergue Vilela",
+    latitude: 42.9147708,
+    longitude: -8.01705430000004
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  MelideAlberguePereiro4291321801714019999997: createLocation(
+    name: "Melide, Albergue Pereiro",
+    latitude: 42.91321,
+    longitude: -8.01714019999997
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  MelideAlbergueMelide42912089800677900000005: createLocation(
+    name: "Melide, Albergue Melide",
+    latitude: 42.912089,
+    longitude: -8.00677900000005
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  MelideAlbergueSanAntn429147386801721090000001: createLocation(
+    name: "Melide, Albergue San Antón",
+    latitude: 42.9147386,
+    longitude: -8.01721090000001
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  MelideAlbergueAlfonsoIIelCasto429182616801461560000007: createLocation(
+    name: "Melide, Albergue Alfonso II el Casto",
+    latitude: 42.9182616,
+    longitude: -8.01461560000007
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  BoenteOsAlbergues42915798380782504: createLocation(
+    name: "Boente, Os Albergues",
+    latitude: 42.9157983,
+    longitude: -8.0782504
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  BoenteAlbergueBoente42916135780773115: createLocation(
+    name: "Boente, Albergue Boente",
+    latitude: 42.9161357,
+    longitude: -8.0773115
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  CastanedaAlbergueSantiago429247566809790010000006: createLocation(
+    name: "Castaneda, Albergue Santiago",
+    latitude: 42.9247566,
+    longitude: -8.09790010000006
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  RibadixodaBaixoAlberguepblicomunicipaldeRivadiso429307944813041720000001: createLocation(
+    name: "Ribadixo da Baixo, Albergue público municipal de Rivadiso",
+    latitude: 42.9307944,
+    longitude: -8.13041720000001
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  RibadixodaBaixoAlbergueLosCaminante429304107813138789999994: createLocation(
+    name: "Ribadixo da Baixo, Albergue Los Caminante",
+    latitude: 42.9304107,
+    longitude: -8.13138789999994
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  RibadixodaBaixoAlbergueMilps42930442813610700000004: createLocation(
+    name: "Ribadixo da Baixo, Albergue Milpés",
+    latitude: 42.930442,
+    longitude: -8.13610700000004
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  ArzuaAlberguedeperegrinosdeArza42926485816233209999996: createLocation(
+    name: "Arzua, Albergue de peregrinos de Arzúa",
+    latitude: 42.926485,
+    longitude: -8.16233209999996
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  ArzuaAlberguedaFonte429263153816429719999996: createLocation(
+    name: "Arzua, Albergue da Fonte",
+    latitude: 42.9263153,
+    longitude: -8.16429719999996
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  ArzuaAlbergueDonQuijote4292891815530999999999: createLocation(
+    name: "Arzua, Albergue Don Quijote",
+    latitude: 42.92891,
+    longitude: -8.15530999999999
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  ArzuaAlbergueVaLactea4292546816426999999999: createLocation(
+    name: "Arzua, Albergue Vía Lactea",
+    latitude: 42.92546,
+    longitude: -8.16426999999999
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  ArzuaAlbergueUltreia429288748815574990000005: createLocation(
+    name: "Arzua, Albergue Ultreia",
+    latitude: 42.9288748,
+    longitude: -8.15574990000005
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  ArzuaAlbergueSantiagoApstol429291987815554559999998: createLocation(
+    name: "Arzua, Albergue Santiago Apóstol",
+    latitude: 42.9291987,
+    longitude: -8.15554559999998
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  ArzuaAlbergueLosCaminantes429270974816505119999999: createLocation(
+    name: "Arzua, Albergue Los Caminantes",
+    latitude: 42.9270974,
+    longitude: -8.16505119999999
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  ArzuaAlbergueAConda4293272815985000000001: createLocation(
+    name: "Arzua, Albergue A Conda",
+    latitude: 42.93272,
+    longitude: -8.15985000000001
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  ArzuaAlberguedeSelmo4292982815407000000005: createLocation(
+    name: "Arzua, Albergue de Selmo",
+    latitude: 42.92982,
+    longitude: -8.15407000000005
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  ArzuaAlberguedeCamino429286699815616: createLocation(
+    name: "Arzua, Albergue de Camino",
+    latitude: 42.9286699,
+    longitude: -8.15616
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SalcedaAlberguePousadadeSalceda42924487482764816: createLocation(
+    name: "Salceda, Albergue Pousada de Salceda",
+    latitude: 42.9244874,
+    longitude: -8.2764816
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SalcedaAlberguedeBoni429266482799363: createLocation(
+    name: "Salceda, Albergue de Boni",
+    latitude: 42.92664,
+    longitude: -8.2799363
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SantaIreneAlberguedeperegrinosdeSantaIrene429183881833580860000006: createLocation(
+    name: "Santa Irene, Albergue de peregrinos de Santa Irene",
+    latitude: 42.9183881,
+    longitude: -8.33580860000006
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SantaIreneAlbergueSantaIrene42916764383316922: createLocation(
+    name: "Santa Irene, Albergue Santa Irene",
+    latitude: 42.9167643,
+    longitude: -8.3316922
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  OPedrouzoAlberguedeperegrinosdePedrouzoOPino429071185835879739999996: createLocation(
+    name: "O Pedrouzo, Albergue de peregrinos de Pedrouzo (O Pino)",
+    latitude: 42.9071185,
+    longitude: -8.35879739999996
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  OPedrouzoAlberguePortadeSantiago429051793836154069999998: createLocation(
+    name: "O Pedrouzo, Albergue Porta de Santiago",
+    latitude: 42.9051793,
+    longitude: -8.36154069999998
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  OPedrouzoAlbergueEdreira42903676836055699999997: createLocation(
+    name: "O Pedrouzo, Albergue Edreira",
+    latitude: 42.903676,
+    longitude: -8.36055699999997
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  OPedrouzoAlbergueOBurgo42909191835880999999995: createLocation(
+    name: "O Pedrouzo, Albergue O Burgo",
+    latitude: 42.909191,
+    longitude: -8.35880999999995
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  OPedrouzoAlbergueOtero42905087836334199999999: createLocation(
+    name: "O Pedrouzo, Albergue Otero",
+    latitude: 42.905087,
+    longitude: -8.36334199999999
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  OPedrouzoAlbergueCruceirodePedrouzo42902721836255040000003: createLocation(
+    name: "O Pedrouzo, Albergue Cruceiro de Pedrouzo",
+    latitude: 42.902721,
+    longitude: -8.36255040000003
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  OPedrouzoHostelRem429032669836298290000002: createLocation(
+    name: "O Pedrouzo, Hostel Rem",
+    latitude: 42.9032669,
+    longitude: -8.36298290000002
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  MontedeGozoAlberguedelaXuntadelMontedoGozo428867223850014229999999: createLocation(
+    name: "Monte de Gozo, Albergue de la Xunta del Monte do Gozo",
+    latitude: 42.8867223,
+    longitude: -8.50014229999999
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SantiagodeCompostelaResidenciadeperegrinosSanLzaro428865237851716829999998: createLocation(
+    name: "Santiago de Compostela, Residencia de peregrinos San Lázaro",
+    latitude: 42.8865237,
+    longitude: -8.51716829999998
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SantiagodeCompostelaAlbergueJaimeGarcaRodrguez4288572785250198: createLocation(
+    name: "Santiago de Compostela, Albergue Jaime García Rodríguez",
+    latitude: 42.885727,
+    longitude: -8.5250198
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SantiagodeCompostelaAlbergueSeminarioMenor42877416285357338: createLocation(
+    name: "Santiago de Compostela, Albergue Seminario Menor",
+    latitude: 42.8774162,
+    longitude: -8.5357338
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SantiagodeCompostelaAlbergueAcuario428860822852297469999996: createLocation(
+    name: "Santiago de Compostela, Albergue Acuario",
+    latitude: 42.8860822,
+    longitude: -8.52297469999996
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SantiagodeCompostelaAlbergueSantoSantiago428870285852596689999996: createLocation(
+    name: "Santiago de Compostela, Albergue Santo Santiago",
+    latitude: 42.8870285,
+    longitude: -8.52596689999996
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SantiagodeCompostelaAlbergueMeigaBackpackers428874282853886209999996: createLocation(
+    name: "Santiago de Compostela, Albergue Meiga Backpackers",
+    latitude: 42.8874282,
+    longitude: -8.53886209999996
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SantiagodeCompostelaAlbergueMundoalbergue428786296854756700000007: createLocation(
+    name: "Santiago de Compostela, Albergue Mundoalbergue",
+    latitude: 42.8786296,
+    longitude: -8.54756700000007
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SantiagodeCompostelaAlbergueOFogardoTeodomiro4288142854240000000004: createLocation(
+    name: "Santiago de Compostela, Albergue O Fogar do Teodomiro",
+    latitude: 42.88142,
+    longitude: -8.54240000000004
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SantiagodeCompostelaAlbergueTheLastStamp428808075854239600000005: createLocation(
+    name: "Santiago de Compostela, Albergue The Last Stamp",
+    latitude: 42.8808075,
+    longitude: -8.54239600000005
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SantiagodeCompostelaAlbergueRootsandBoots42879612855017900000007: createLocation(
+    name: "Santiago de Compostela, Albergue Roots and Boots",
+    latitude: 42.879612,
+    longitude: -8.55017900000007
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SantiagodeCompostelaAlberguelaEstacin428683956854578019999997: createLocation(
+    name: "Santiago de Compostela, Albergue la Estación",
+    latitude: 42.8683956,
+    longitude: -8.54578019999997
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SantiagodeCompostelaAlberguePortaReal42882137585345082: createLocation(
+    name: "Santiago de Compostela, Albergue Porta Real",
+    latitude: 42.8821375,
+    longitude: -8.5345082
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SantiagodeCompostelaAlbergueAzabache428812086854352670000003: createLocation(
+    name: "Santiago de Compostela, Albergue Azabache",
+    latitude: 42.8812086,
+    longitude: -8.54352670000003
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SantiagodeCompostelaHospederaSanMartnPinario428814599854483159999995: createLocation(
+    name: "Santiago de Compostela, Hospedería San Martín Pinario",
+    latitude: 42.8814599,
+    longitude: -8.54483159999995
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+
+
+  StJeanPieddePortGteUltrea43162712123701299999993: createLocation(
+    name: "St Jean Pied de Port, Gîte Ultreïa",
+    latitude: 43.162712,
+    longitude: -1.23701299999993
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  StJeanPieddePortAlberguedeperegrinosdeSaintJeanPieddePort431638717123452829999997: createLocation(
+    name: "St Jean Pied de Port, Albergue de peregrinos de Saint Jean Pied de Port",
+    latitude: 43.1638717,
+    longitude: -1.23452829999997
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  StJeanPieddePortAlbergueBeilari431633293123582929999998: createLocation(
+    name: "St Jean Pied de Port, Albergue Beilari",
+    latitude: 43.1633293,
+    longitude: -1.23582929999998
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+
+
+  HontoCasaFermeIthurburia431243531244748: createLocation(
+    name: "Honto, Casa Ferme Ithurburia",
+    latitude: 43.124353,
+    longitude: -1.244748
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  HontoRefugeOrisson431078991239412: createLocation(
+    name: "Honto, Refuge Orisson",
+    latitude: 43.107899,
+    longitude: -1.239412
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  RoncesvallesAlberguedeperegrinosdeRoncesvalles43009177131951: createLocation(
+    name: "Roncesvalles, Albergue de peregrinos de Roncesvalles",
+    latitude: 43.009177,
+    longitude: -1.31951
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  ValcarlosAlberguedeLuzaideValcarlos430948041300725: createLocation(
+    name: "Valcarlos, Albergue de Luzaide/Valcarlos",
+    latitude: 43.094804,
+    longitude: -1.300725
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  EspinalAlbergueIrugoienea429770541364837: createLocation(
+    name: "Espinal, Albergue Irugoienea",
+    latitude: 42.977054,
+    longitude: -1.364837
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  EspinalAlbergueHaizea429784521366221: createLocation(
+    name: "Espinal, Albergue Haizea",
+    latitude: 42.978452,
+    longitude: -1.366221
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  ZubiriAlberguedePeregrinosdeZubiri429295621504923: createLocation(
+    name: "Zubiri, Albergue de Peregrinos de Zubiri",
+    latitude: 42.929562,
+    longitude: -1.504923
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  ZubiriAlbergueZaldiko429301351504052: createLocation(
+    name: "Zubiri, Albergue Zaldiko",
+    latitude: 42.930135,
+    longitude: -1.504052
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  ZubiriAlbergueElPalodeAvellano429306771504456: createLocation(
+    name: "Zubiri, Albergue El Palo de Avellano",
+    latitude: 42.930677,
+    longitude: -1.504456
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  ZubiriAlbergueSuseia429347548150413070000002: createLocation(
+    name: "Zubiri, Albergue Suseia",
+    latitude: 42.9347548,
+    longitude: -1.50413070000002
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  ZubiriAlbergueRoArgaIbaia429297946150362599999994: createLocation(
+    name: "Zubiri, Albergue Río Arga Ibaia",
+    latitude: 42.9297946,
+    longitude: -1.50362599999994
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  LarrasoaaAlberguedeLarrasoaa429031781539448: createLocation(
+    name: "Larrasoaña, Albergue de Larrasoaña",
+    latitude: 42.903178,
+    longitude: -1.539448
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  LarrasoanaAlbergueBideEderra429014661154138030000001: createLocation(
+    name: "Larrasoana, Albergue Bide Ederra",
+    latitude: 42.9014661,
+    longitude: -1.54138030000001
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  LarrasoanaAlbergueSanNicols42903515385: createLocation(
+    name: "Larrasoana, Albergue San Nicolás",
+    latitude: 42.9035,
+    longitude: -1.5385
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  ZuriainAlbergueLaParadaDeZuriain428785368156611090000001: createLocation(
+    name: "Zuriain, Albergue La Parada De Zuriain",
+    latitude: 42.8785368,
+    longitude: -1.56611090000001
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  ZabaldikaAlbergueParroquialdeZabaldika428559981582407: createLocation(
+    name: "Zabaldika, Albergue Parroquial de Zabaldika",
+    latitude: 42.855998,
+    longitude: -1.582407
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  HuarteAlbergueMunicipaldeHuarte428314041590303: createLocation(
+    name: "Huarte, Albergue Municipal de Huarte",
+    latitude: 42.831404,
+    longitude: -1.590303
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  ArreAlberguedelaTrinidaddeArre428435551614722: createLocation(
+    name: "Arre, Albergue de la Trinidad de Arre",
+    latitude: 42.843555,
+    longitude: -1.614722
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  VillavaAlberguemunicipaldeVillava428321861606002: createLocation(
+    name: "Villava, Albergue municipal de Villava",
+    latitude: 42.832186,
+    longitude: -1.606002
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  PamplonaAlberguedeJessyMara428193051641566: createLocation(
+    name: "Pamplona, Albergue de Jesús y María",
+    latitude: 42.819305,
+    longitude: -1.641566
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  PamplonaCasaPaderborn42816591635847: createLocation(
+    name: "Pamplona, Casa Paderborn",
+    latitude: 42.81659,
+    longitude: -1.635847
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  PamplonaAlbergueCasaIbarrola428205251643223: createLocation(
+    name: "Pamplona, Albergue Casa Ibarrola",
+    latitude: 42.820525,
+    longitude: -1.643223
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  PamplonaAlberguedePamplonaIruakoAterpea428198852164304149999998: createLocation(
+    name: "Pamplona, Albergue de Pamplona-Iruñako Aterpea",
+    latitude: 42.8198852,
+    longitude: -1.64304149999998
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  PamplonaAlberguePlazaCatedral428196562164205179999999: createLocation(
+    name: "Pamplona, Albergue Plaza Catedral",
+    latitude: 42.8196562,
+    longitude: -1.64205179999999
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  PamplonaHostelHemingway42811789163648: createLocation(
+    name: "Pamplona, Hostel Hemingway",
+    latitude: 42.811789,
+    longitude: -1.63648
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  PamplonaAlohaHostel42808877163928: createLocation(
+    name: "Pamplona, Aloha Hostel",
+    latitude: 42.808877,
+    longitude: -1.63928
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  PamplonaAlbergueXarmaHostelAterpea428136311635075: createLocation(
+    name: "Pamplona, Albergue Xarma Hostel Aterpea",
+    latitude: 42.813631,
+    longitude: -1.635075
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  PamplonaHostelCiudadela7428154314164722159999997: createLocation(
+    name: "Pamplona, Hostel Ciudadela 7",
+    latitude: 42.8154314,
+    longitude: -1.64722159999997
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  CizurMenorAlberguedeperegrinosdelaOrdendeMalta427886061674803: createLocation(
+    name: "Cizur Menor, Albergue de peregrinos de la Orden de Malta",
+    latitude: 42.788606,
+    longitude: -1.674803
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  CizurMenorAlberguedeMaribel4278839361676614: createLocation(
+    name: "Cizur Menor, Albergue de Maribel",
+    latitude: 42.7883936,
+    longitude: -1.676614
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  ZariquieguiLaPosadadeArdogi427476861722488: createLocation(
+    name: "Zariquiegui, La Posada de Ardogi",
+    latitude: 42.747686,
+    longitude: -1.722488
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  ZariquieguiAlbergueSanAndres4274799717229196: createLocation(
+    name: "Zariquiegui - Albergue San Andres",
+    latitude: 42.747997,
+    longitude: -1.7229196
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  UtergaAlbergueCaminodelPerdn42708457417609451: createLocation(
+    name: "Uterga, Albergue Camino del Perdón",
+    latitude: 42.7084574,
+    longitude: -1.7609451
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  UtergaCasaBaztan427082851176136940000004: createLocation(
+    name: "Uterga, Casa Baztan",
+    latitude: 42.7082851,
+    longitude: -1.76136940000004
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  MuruzbalAlbergueElJardndeMuruzbal42692261817678654: createLocation(
+    name: "Muruzábal, Albergue El Jardín de Muruzábal",
+    latitude: 42.6922618,
+    longitude: -1.7678654
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  ObanosAlbergueUsda426794481784664: createLocation(
+    name: "Obanos, Albergue Usda",
+    latitude: 42.679448,
+    longitude: -1.784664
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  PuentelaReinaAlberguedelosPadresReparadores426729941810899: createLocation(
+    name: "Puente la Reina, Albergue de los Padres Reparadores",
+    latitude: 42.672994,
+    longitude: -1.810899
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  PuentelaReinaAlbergueJakue426761181806752: createLocation(
+    name: "Puente la Reina, Albergue Jakue",
+    latitude: 42.676118,
+    longitude: -1.806752
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  PuentelaReinaAlbergueSantiagoApstol4267315961822679: createLocation(
+    name: "Puente la Reina, Albergue Santiago Apóstol",
+    latitude: 42.6731596,
+    longitude: -1.822679
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  PuentelaReinaAlberguePuente426714345181364780000001: createLocation(
+    name: "Puente la Reina - Albergue Puente",
+    latitude: 42.6714345,
+    longitude: -1.81364780000001
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  PuentelaReinaAlbergueAmalur426731588181335190000004: createLocation(
+    name: "Puente la Reina, Albergue Amalur",
+    latitude: 42.6731588,
+    longitude: -1.81335190000004
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  MaeruAlberguedeperegrinosLurgorri426689831863191: createLocation(
+    name: "Mañeru, Albergue de peregrinos Lurgorri",
+    latitude: 42.668983,
+    longitude: -1.863191
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  CirauquiAlbergueMaralotxdeCirauqui42675791892156: createLocation(
+    name: "Cirauqui, Albergue Maralotx de Cirauqui",
+    latitude: 42.67579,
+    longitude: -1.892156
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  LorcaAlberguelaBodegadelcamino42672177619457816: createLocation(
+    name: "Lorca, Albergue la Bodega del camino",
+    latitude: 42.6721776,
+    longitude: -1.9457816
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  LorcaAlberguedeLorca42672930819448805: createLocation(
+    name: "Lorca, Albergue de Lorca",
+    latitude: 42.6729308,
+    longitude: -1.9448805
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  VillatuertaAlbergueLaCasaMgica426588211992881: createLocation(
+    name: "Villatuerta, Albergue La Casa Mágica",
+    latitude: 42.658821,
+    longitude: -1.992881
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  EstellaHospitaldePeregrinosdeEstella426725292033329: createLocation(
+    name: "Estella, Hospital de Peregrinos de Estella",
+    latitude: 42.672529,
+    longitude: -2.033329
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  EstellaAlbergueparroquialSanMiguel426715662027562: createLocation(
+    name: "Estella, Albergue parroquial San Miguel",
+    latitude: 42.671566,
+    longitude: -2.027562
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  EstellaAlberguedeANFASdeEstella426715072025684: createLocation(
+    name: "Estella, Albergue de ANFAS de Estella",
+    latitude: 42.671507,
+    longitude: -2.025684
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  AyeguiAlbergueSanCiprianodeAyegui426587192036574: createLocation(
+    name: "Ayegui, Albergue San Cipriano de Ayegui",
+    latitude: 42.658719,
+    longitude: -2.036574
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  VillamayordeMonjardnAlbergueHogarMonjardn426287812104166: createLocation(
+    name: "Villamayor de Monjardín, Albergue Hogar Monjardín",
+    latitude: 42.628781,
+    longitude: -2.104166
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  VillamayordeMonjardnAlbergueVillamayordeMonjardn426293492104923: createLocation(
+    name: "Villamayor de Monjardín, Albergue Villamayor de Monjardín",
+    latitude: 42.629349,
+    longitude: -2.104923
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  LosArcosAlberguedelaFuenteCasadeAustria425720142193178: createLocation(
+    name: "Los Arcos, Albergue de la Fuente Casa de Austria",
+    latitude: 42.572014,
+    longitude: -2.193178
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  LosArcosAlbergueIsaacSantiago425685332193988: createLocation(
+    name: "Los Arcos, Albergue Isaac Santiago",
+    latitude: 42.568533,
+    longitude: -2.193988
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  LosArcosCasaAlberdi425692012194777: createLocation(
+    name: "Los Arcos, Casa Alberdi",
+    latitude: 42.569201,
+    longitude: -2.194777
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  LosArcosAlbergueCasadelaAbuela425694822191762: createLocation(
+    name: "Los Arcos, Albergue Casa de la Abuela",
+    latitude: 42.569482,
+    longitude: -2.191762
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SansolAlbergueprivadoSansol42553700722655493: createLocation(
+    name: "Sansol, Albergue privado Sansol",
+    latitude: 42.5537007,
+    longitude: -2.2655493
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  TorresdelRioAlbergueLaPatadeOca425519182271622: createLocation(
+    name: "Torres del Rio, Albergue La Pata de Oca",
+    latitude: 42.551918,
+    longitude: -2.271622
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  TorresdelRioAlbergueCasaMariela425519072271084: createLocation(
+    name: "Torres del Rio, Albergue Casa Mariela",
+    latitude: 42.551907,
+    longitude: -2.271084
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  VianaAlbergueraAndrsMuoz425149372369691: createLocation(
+    name: "Viana, Alberguería Andrés Muñoz",
+    latitude: 42.514937,
+    longitude: -2.369691
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  VianaAlbergueIzar42515265123684602: createLocation(
+    name: "Viana, Albergue Izar",
+    latitude: 42.5152651,
+    longitude: -2.3684602
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  VianaAlbergueparroquialSantaMara42515162123719284: createLocation(
+    name: "Viana, Albergue parroquial Santa María",
+    latitude: 42.5151621,
+    longitude: -2.3719284
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  LogronoAlberguemunicipal424683442444734: createLocation(
+    name: "Logrono, Albergue municipal",
+    latitude: 42.468344,
+    longitude: -2.444734
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  LogrooAlbergueparroquialSantiagoElReal424677092447902: createLocation(
+    name: "Logroño, Albergue parroquial Santiago El Real",
+    latitude: 42.467709,
+    longitude: -2.447902
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  LogronoAlbergueAlbas4246804243611999999996: createLocation(
+    name: "Logrono, Albergue Albas",
+    latitude: 42.46804,
+    longitude: -2.43611999999996
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  LogrooAlbergueCheckInRioja424674372442537: createLocation(
+    name: "Logroño, Albergue Check In Rioja",
+    latitude: 42.467437,
+    longitude: -2.442537
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  LogrooHostelEntresueos424665412444404: createLocation(
+    name: "Logroño, Hostel Entresueños",
+    latitude: 42.466541,
+    longitude: -2.444404
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  LogrooAlberguedeperegrinosLogroo424662792447595: createLocation(
+    name: "Logroño, Albergue de peregrinos Logroño",
+    latitude: 42.466279,
+    longitude: -2.447595
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  NavarreteAlberguedePeregrinosNavarrete42429688256083599999999: createLocation(
+    name: "Navarrete, Albergue de Peregrinos Navarrete",
+    latitude: 42.429688,
+    longitude: -2.56083599999999
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  NavarreteAlbergueElCntaro42430432925638715: createLocation(
+    name: "Navarrete, Albergue El Cántaro",
+    latitude: 42.4304329,
+    longitude: -2.5638715
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  NavarreteLaCasadelPeregrino424311901255960789999995: createLocation(
+    name: "Navarrete, La Casa del Peregrino",
+    latitude: 42.4311901,
+    longitude: -2.55960789999995
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  NavarreteAlbergueBuenCamino42429063525611636: createLocation(
+    name: "Navarrete, Albergue Buen Camino",
+    latitude: 42.4290635,
+    longitude: -2.5611636
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  NavarreteAlaSombradelLaurel42429805925689903: createLocation(
+    name: "Navarrete, A la Sombra del Laurel",
+    latitude: 42.4298059,
+    longitude: -2.5689903
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  VentosaAlbergueSanSaturnino42404069826261938: createLocation(
+    name: "Ventosa, Albergue San Saturnino",
+    latitude: 42.4040698,
+    longitude: -2.6261938
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  NajeraAlberguedeperegrinosdeNjera42414934227341044: createLocation(
+    name: "Najera, Albergue de peregrinos de Nájera",
+    latitude: 42.4149342,
+    longitude: -2.7341044
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  NajeraAlbergueCalleMayor424180231273283289999995: createLocation(
+    name: "Najera, Albergue Calle Mayor",
+    latitude: 42.4180231,
+    longitude: -2.73283289999995
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  NajeraAlberguePuertadeNjera424177381273347839999997: createLocation(
+    name: "Najera, Albergue Puerta de Nájera",
+    latitude: 42.4177381,
+    longitude: -2.73347839999997
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  NajeraAlbergueSanchoIIILaJudera424155192273485890000006: createLocation(
+    name: "Najera, Albergue Sancho III - La Judería",
+    latitude: 42.4155192,
+    longitude: -2.73485890000006
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  NajeraAlbergueNidodeCigea424182492273513439999999: createLocation(
+    name: "Najera, Albergue Nido de Cigüeña",
+    latitude: 42.4182492,
+    longitude: -2.73513439999999
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  NajeraAlbergueElPeregrino424151625271393290000003: createLocation(
+    name: "Najera, Albergue El Peregrino",
+    latitude: 42.4151625,
+    longitude: -2.71393290000003
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  AzofraAlberguedeperegrinosdeAzofra42424733628006124: createLocation(
+    name: "Azofra, Albergue de peregrinos de Azofra",
+    latitude: 42.4247336,
+    longitude: -2.8006124
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  CiruenaAlbergueVirgendeGuadalupe424127619289424550000001: createLocation(
+    name: "Ciruena, Albergue Virgen de Guadalupe",
+    latitude: 42.4127619,
+    longitude: -2.89424550000001
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  CiruenaAlbergueVictoria42410152289422100000002: createLocation(
+    name: "Ciruena, Albergue Victoria",
+    latitude: 42.410152,
+    longitude: -2.89422100000002
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SantoDomingodelaCalzadaAlberguedelaCofradadelSanto424408808295252770000002: createLocation(
+    name: "Santo Domingo de la Calzada, Albergue de la Cofradía del Santo",
+    latitude: 42.4408808,
+    longitude: -2.95252770000002
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SantoDomingodelaCalzadaAlberguedelaAbadaCisterciense424405271295136009999999: createLocation(
+    name: "Santo Domingo de la Calzada, Albergue de la Abadía Cisterciense",
+    latitude: 42.4405271,
+    longitude: -2.95136009999999
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  GranonAlbergueparroquialSanJuanBautista424503641302730889999998: createLocation(
+    name: "Granon, Albergue parroquial San Juan Bautista",
+    latitude: 42.4503641,
+    longitude: -3.02730889999998
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  GranonAlbergueLaCasadelasSonrisas424502398302778850000004: createLocation(
+    name: "Granon, Albergue La Casa de las Sonrisas",
+    latitude: 42.4502398,
+    longitude: -3.02778850000004
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  RedecilladelCaminoAlbergueSanLazaro42438502330641744: createLocation(
+    name: "Redecilla del Camino - Albergue San Lazaro",
+    latitude: 42.4385023,
+    longitude: -3.0641744
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+
+
+  ViloriadeRiojaAlbergueParadaViloria4242699310008990000006: createLocation(
+    name: "Viloria de Rioja, Albergue Parada Viloria",
+    latitude: 42.42699,
+    longitude: -3.10008990000006
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  BeloradoAlbergueMunicipalElCorro424186814318756789999998: createLocation(
+    name: "Belorado, Albergue Municipal El Corro",
+    latitude: 42.4186814,
+    longitude: -3.18756789999998
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  BeloradoAlbergueparroquialdeBelorado424194209318932570000004: createLocation(
+    name: "Belorado, Albergue parroquial de Belorado",
+    latitude: 42.4194209,
+    longitude: -3.18932570000004
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  BeloradoAlbergueRestauranteCuatroCantones42421138319064750000007: createLocation(
+    name: "Belorado, Albergue - Restaurante Cuatro Cantones",
+    latitude: 42.421138,
+    longitude: -3.19064750000007
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  BeloradoAlbergueCaminante424206288318920130000004: createLocation(
+    name: "Belorado, Albergue Caminante",
+    latitude: 42.4206288,
+    longitude: -3.18920130000004
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  BeloradoAlbergueASantiago42418086318352300000004: createLocation(
+    name: "Belorado, Albergue A Santiago",
+    latitude: 42.418086,
+    longitude: -3.18352300000004
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  TosantosAlbergueparroquialSanFranciscodeAss42413761832424724: createLocation(
+    name: "Tosantos, Albergue parroquial San Francisco de Asís",
+    latitude: 42.4137618,
+    longitude: -3.2424724
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  TosantosAlbergueLosArancones42414371832424849: createLocation(
+    name: "Tosantos, Albergue Los Arancones",
+    latitude: 42.4143718,
+    longitude: -3.2424849
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  VillambistiaAlberguedeperegrinosSanRoque42406331632616735: createLocation(
+    name: "Villambistia, Albergue de peregrinos San Roque",
+    latitude: 42.4063316,
+    longitude: -3.2616735
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  EspinosaAlbergueLaCampana42405745332799768: createLocation(
+    name: "Espinosa, Albergue La Campana",
+    latitude: 42.4057453,
+    longitude: -3.2799768
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  EspinosaAlbergueEspinosadelCamino42405547332793868: createLocation(
+    name: "Espinosa, Albergue Espinosa del Camino",
+    latitude: 42.4055473,
+    longitude: -3.2793868
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  VillafrancaMontesdeOcaAlberguedeperegrinosdeVillafrancaMontesdeOca42389186133084404: createLocation(
+    name: "Villafranca Montes de Oca, Albergue de peregrinos de Villafranca Montes de Oca",
+    latitude: 42.3891861,
+    longitude: -3.3084404
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  VillafrancaMontesdeOcaAlbergueSanAntnAbad42387493309754: createLocation(
+    name: "Villafranca Montes de Oca, Albergue San Antón Abad",
+    latitude: 42.38749,
+    longitude: -3.309754
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SanJuandeOrtegaAlbergueparroquialdeSanJuandeOrtega423761914343673590000003: createLocation(
+    name: "San Juan de Ortega, Albergue parroquial de San Juan de Ortega",
+    latitude: 42.3761914,
+    longitude: -3.43673590000003
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  AgesAlbergueMunicipaldeAges4236957347929899999997: createLocation(
+    name: "Ages, Albergue Municipal de Ages",
+    latitude: 42.36957,
+    longitude: -3.47929899999997
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  AgesAlbergueElPajardeAgs42369887934791362: createLocation(
+    name: "Ages, Albergue El Pajar de Agés",
+    latitude: 42.3698879,
+    longitude: -3.4791362
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  AgesAlbergueSanRafael42369729347831999999994: createLocation(
+    name: "Ages, Albergue San Rafael",
+    latitude: 42.369729,
+    longitude: -3.47831999999994
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  AgesAlbergueCasaCaracol42369388534787071: createLocation(
+    name: "Ages, Albergue Casa Caracol",
+    latitude: 42.3693885,
+    longitude: -3.4787071
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  AtapuercaCentroTuristicoElPeregrino423762085350693339999998: createLocation(
+    name: "Atapuerca, Centro Turistico El Peregrino",
+    latitude: 42.3762085,
+    longitude: -3.50693339999998
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  AtapuercaAlbergueLaHutte423776654350700430000006: createLocation(
+    name: "Atapuerca, Albergue La Hutte",
+    latitude: 42.3776654,
+    longitude: -3.50700430000006
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  CardeuelaRiopicoAlberguedeperegrinosdeCardeuelaRiopico42359661835568774: createLocation(
+    name: "Cardeñuela Riopico, Albergue de peregrinos de Cardeñuela Riopico",
+    latitude: 42.3596618,
+    longitude: -3.5568774
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  CardeuelaRiopicoAlbergueVaMinera42359162335609114: createLocation(
+    name: "Cardeñuela Riopico, Albergue Vía Minera",
+    latitude: 42.3591623,
+    longitude: -3.5609114
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  CardeuelaRiopicoAlbergueSantaFe42358607335598278: createLocation(
+    name: "Cardeñuela Riopico, Albergue Santa Fe",
+    latitude: 42.3586073,
+    longitude: -3.5598278
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  BurgosAlberguedeperegrinosCasadelCuboydelosLerma423423118370382840000002: createLocation(
+    name: "Burgos, Albergue de peregrinos Casa del Cubo y de los Lerma",
+    latitude: 42.3423118,
+    longitude: -3.70382840000002
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  BurgosAlbergueCasadePeregrinosdeEmas423397999369011: createLocation(
+    name: "Burgos, Albergue Casa de Peregrinos de Emaús",
+    latitude: 42.3397999,
+    longitude: -3.69011
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  BurgosAlbergueSantiagoySantaCatalina423416727370192880000002: createLocation(
+    name: "Burgos, Albergue Santiago y Santa Catalina",
+    latitude: 42.3416727,
+    longitude: -3.70192880000002
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  TardajosAlbergueLaFbrica42344889381003899999996: createLocation(
+    name: "Tardajos, Albergue La Fábrica",
+    latitude: 42.344889,
+    longitude: -3.81003899999996
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  TardajosAlberguedeperegrinosdeTardajos42347994838159573: createLocation(
+    name: "Tardajos, Albergue de peregrinos de Tardajos",
+    latitude: 42.3479948,
+    longitude: -3.8159573
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  RabedelaCalzadasAlbergueLiberanosDomine42339791438353658: createLocation(
+    name: "Rabe de la Calzadas, Albergue Liberanos Domine",
+    latitude: 42.3397914,
+    longitude: -3.8353658
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  HornillosdelCaminoAlberguedeperegrinosdeHornillosdelCamino42338869392598090000001: createLocation(
+    name: "Hornillos del Camino, Albergue de peregrinos de Hornillos del Camino",
+    latitude: 42.338869,
+    longitude: -3.92598090000001
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  HornillosdelCaminoAlbergueElAlfardeHornillos42338478939240825: createLocation(
+    name: "Hornillos del Camino, Albergue El Alfar de Hornillos",
+    latitude: 42.3384789,
+    longitude: -3.9240825
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  HornillosdelCaminoAlbergueMeetingPoint42338628392686000000003: createLocation(
+    name: "Hornillos del Camino, Albergue Meeting Point",
+    latitude: 42.338628,
+    longitude: -3.92686000000003
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SanBolAlberguedeperegrinosdeSanBol423239095399053530000003: createLocation(
+    name: "San Bol, Albergue de peregrinos de San Bol",
+    latitude: 42.3239095,
+    longitude: -3.99053530000003
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  HontonasAlberguedeperegrinosAntiguoHospitaldeSanJuan42312733140447511: createLocation(
+    name: "Hontonas, Albergue de peregrinos Antiguo Hospital de San Juan",
+    latitude: 42.3127331,
+    longitude: -4.0447511
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  HontonasMesnAlbergueElPuntido423128512404413009999996: createLocation(
+    name: "Hontonas, Mesón Albergue El Puntido",
+    latitude: 42.3128512,
+    longitude: -4.04413009999996
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  HontonasAlbergueSantaBrgida423127437404450889999998: createLocation(
+    name: "Hontonas, Albergue Santa Brígida",
+    latitude: 42.3127437,
+    longitude: -4.04450889999998
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  HontonasAlbergueJuandeYepes423127499404321200000004: createLocation(
+    name: "Hontonas, Albergue Juan de Yepes",
+    latitude: 42.3127499,
+    longitude: -4.04321200000004
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SanAntonAlberguedelHospitaldeSanAntn422927716409907859999998: createLocation(
+    name: "San Anton, Albergue del Hospital de San Antón",
+    latitude: 42.2927716,
+    longitude: -4.09907859999998
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  CastrojerizAlberguedeperegrinosSanEsteban422888183414062979999994: createLocation(
+    name: "Castrojeriz, Albergue de peregrinos San Esteban",
+    latitude: 42.2888183,
+    longitude: -4.14062979999994
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  CastrojerizRefugiodeperegrinosdeSanJuan422890057414256509999996: createLocation(
+    name: "Castrojeriz, Refugio de peregrinos de San Juan",
+    latitude: 42.2890057,
+    longitude: -4.14256509999996
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  CastrojerizAlbergueCasaNostra422886173413538429999994: createLocation(
+    name: "Castrojeriz, Albergue Casa Nostra",
+    latitude: 42.2886173,
+    longitude: -4.13538429999994
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  CastrojerizAlberguedelcampingdeCastrojeriz4229248412775899999997: createLocation(
+    name: "Castrojeriz, Albergue del camping de Castrojeriz",
+    latitude: 42.29248,
+    longitude: -4.12775899999997
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  CastrojerizAlbergueUltreia422894016413389540000003: createLocation(
+    name: "Castrojeriz, Albergue Ultreia",
+    latitude: 42.2894016,
+    longitude: -4.13389540000003
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  CastrojerizAlbergueRosala422884003414188899999999: createLocation(
+    name: "Castrojeriz, Albergue Rosalía",
+    latitude: 42.2884003,
+    longitude: -4.14188899999999
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  ErmitadeSanNicolasAlberguedeSanNicolsdePuenteFitero42279023442431688: createLocation(
+    name: "Ermita de San Nicolas, Albergue de San Nicolás de Puente Fitero",
+    latitude: 42.2790234,
+    longitude: -4.2431688
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  IterodelaVegaAlberguedeperegrinosdeIterodelaVega42287810242576849: createLocation(
+    name: "Itero de la Vega, Albergue de peregrinos de Itero de la Vega",
+    latitude: 42.2878102,
+    longitude: -4.2576849
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  IterodelaVegaAlbergueLaMochila42287327425818700000002: createLocation(
+    name: "Itero de la Vega, Albergue La Mochila",
+    latitude: 42.287327,
+    longitude: -4.25818700000002
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  IterodelaVegaAlberguePuenteFitero4228729425727000000006: createLocation(
+    name: "Itero de la Vega, Albergue Puente Fitero",
+    latitude: 42.28729,
+    longitude: -4.25727000000006
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  IterodelaVegaAlbergueHogardelPeregrino422881564258016: createLocation(
+    name: "Itero de la Vega, Albergue Hogar del Peregrino",
+    latitude: 42.288156,
+    longitude: -4.258016
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  BoadilladelCaminoAlberguedeperegrinosdeBoadilladelCamino4226009634345935: createLocation(
+    name: "Boadilla del Camino, Albergue de peregrinos de Boadilla del Camino",
+    latitude: 42.2600963,
+    longitude: -4.345935
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  BoadilladelCaminoAlbergueEnElCamino4225822434656999999993: createLocation(
+    name: "Boadilla del Camino, Albergue En El Camino",
+    latitude: 42.25822,
+    longitude: -4.34656999999993
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  BoadilladelCaminoAlberguePutzu422610699434463000000005: createLocation(
+    name: "Boadilla del Camino, Albergue Putzu",
+    latitude: 42.2610699,
+    longitude: -4.34463000000005
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  BoadilladelCaminoAlbergueTitas4226018434836999999993: createLocation(
+    name: "Boadilla del Camino, Albergue Titas",
+    latitude: 42.26018,
+    longitude: -4.34836999999993
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  FromistaAlberguedeperegrinosdeFrmista422664655440706220000004: createLocation(
+    name: "Fromista, Albergue de peregrinos de Frómista",
+    latitude: 42.2664655,
+    longitude: -4.40706220000004
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  FromistaAlbergueEstrellaDelCamino42269499144045251: createLocation(
+    name: "Fromista, Albergue Estrella Del Camino",
+    latitude: 42.2694991,
+    longitude: -4.4045251
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  FromistaAlbergueCanalDeCastilla42268465439910099999997: createLocation(
+    name: "Fromista, Albergue Canal De Castilla",
+    latitude: 42.268465,
+    longitude: -4.39910099999997
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  FromistaAcogidadeinviernoBetania42269695544040906: createLocation(
+    name: "Fromista, Acogida de invierno Betania",
+    latitude: 42.2696955,
+    longitude: -4.4040906
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  PoblaciondeCamposAlberguedeperegrinosdePoblacindeCampos4226911644446349: createLocation(
+    name: "Poblacion de Campos, Albergue de peregrinos de Población de Campos",
+    latitude: 42.269116,
+    longitude: -4.4446349
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  VillarmenterodeCamposAlbergueAmanecerVillarmentero422984121450071309999998: createLocation(
+    name: "Villarmentero de Campos, Albergue Amanecer Villarmentero",
+    latitude: 42.2984121,
+    longitude: -4.50071309999998
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  VillalcazardeSirgaAlberguedeperegrinosCasadelPeregrino4231634094542616: createLocation(
+    name: "Villalcazar de Sirga, Albergue de peregrinos Casa del Peregrino",
+    latitude: 42.3163409,
+    longitude: -4.542616
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  VillalcazardeSirgaAlbergueDonCamino4231621445453197: createLocation(
+    name: "Villalcazar de Sirga, Albergue Don Camino",
+    latitude: 42.316214,
+    longitude: -4.5453197
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  CarriondelosCondesAlbergueparroquialSantaMara42338481546024443: createLocation(
+    name: "Carrion de los Condes, Albergue parroquial Santa María",
+    latitude: 42.3384815,
+    longitude: -4.6024443
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  CarriondelosCondesAlberguehospederadelConventodeSantaClara423369095459995670000001: createLocation(
+    name: "Carrion de los Condes, Albergue-hospedería del Convento de Santa Clara",
+    latitude: 42.3369095,
+    longitude: -4.59995670000001
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  CarriondelosCondesAlbergueeclesialEsprituSanto423362883460226139999997: createLocation(
+    name: "Carrion de los Condes, Albergue eclesial Espíritu Santo",
+    latitude: 42.3362883,
+    longitude: -4.60226139999997
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  CalzadilladelaCuezaAlberguedeperegrinosdeCalzadilladelaCueza42329187648026803: createLocation(
+    name: "Calzadilla de la Cueza, Albergue de peregrinos de Calzadilla de la Cueza",
+    latitude: 42.3291876,
+    longitude: -4.8026803
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  CalzadilladelaCuezaAlberguedePeregrinosCaminoReal423289154802457: createLocation(
+    name: "Calzadilla de la Cueza, Albergue de Peregrinos Camino Real",
+    latitude: 42.328915,
+    longitude: -4.802457
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  LedigosAlbergueElPalomar42355162548640198: createLocation(
+    name: "Ledigos, Albergue El Palomar",
+    latitude: 42.3551625,
+    longitude: -4.8640198
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  LedigosAlbergueLaMorena4235474486552000000006: createLocation(
+    name: "Ledigos, Albergue La Morena",
+    latitude: 42.35474,
+    longitude: -4.86552000000006
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  TerradillosdelosTemplariosAlbergueJacquesDeMolay42362882489031950000003: createLocation(
+    name: "Terradillos de los Templarios, Albergue Jacques De Molay",
+    latitude: 42.362882,
+    longitude: -4.89031950000003
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  TerradillosdelosTemplariosAlbergueLosTemplarios42364474488441: createLocation(
+    name: "Terradillos de los Templarios, Albergue Los Templarios",
+    latitude: 42.364474,
+    longitude: -4.88441
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  MoratinosAlbergueSanBruno423610017492781330000003: createLocation(
+    name: "Moratinos, Albergue San Bruno",
+    latitude: 42.3610017,
+    longitude: -4.92781330000003
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  MoratinosAlberguehostalMoratinos42360388492581999999993: createLocation(
+    name: "Moratinos, Albergue-hostal Moratinos",
+    latitude: 42.360388,
+    longitude: -4.92581999999993
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SanNicolasdeRealCaminoAlbergueLaganares42363538495179699999994: createLocation(
+    name: "San Nicolas de Real Camino, Albergue Laganares",
+    latitude: 42.363538,
+    longitude: -4.95179699999994
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SahagunAlberguedeperegrinosCluny423711564502742379999995: createLocation(
+    name: "Sahagun, Albergue de peregrinos Cluny",
+    latitude: 42.3711564,
+    longitude: -5.02742379999995
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SahagunAlberguehospederadelasMadresBenedictinas423695877503576099999998: createLocation(
+    name: "Sahagun, Albergue-hospedería de las Madres Benedictinas",
+    latitude: 42.3695877,
+    longitude: -5.03576099999998
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SahagunAlbergueViatoris423719091502448549999997: createLocation(
+    name: "Sahagun, Albergue Viatoris",
+    latitude: 42.3719091,
+    longitude: -5.02448549999997
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  CalzadadelCotoAlberguedeperegrinosSanRoque42388219350788379: createLocation(
+    name: "Calzada del Coto, Albergue de peregrinos San Roque",
+    latitude: 42.3882193,
+    longitude: -5.0788379
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  CalzadilladelosHermanillosAlberguedeperegrinosdeCalzadilladelosHermanillos424346069515946059999999: createLocation(
+    name: "Calzadilla de los Hermanillos, Albergue de peregrinos de Calzadilla de los Hermanillos",
+    latitude: 42.4346069,
+    longitude: -5.15946059999999
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  CalzadilladelosHermanillosAlbergueVaTrajana424334239515559210000004: createLocation(
+    name: "Calzadilla de los Hermanillos, Albergue Vía Trajana",
+    latitude: 42.4334239,
+    longitude: -5.15559210000004
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  BercianosdelRealCaminoAlbergueparroquialCasaRectoral423859828514492689999997: createLocation(
+    name: "Bercianos del Real Camino, Albergue parroquial Casa Rectoral",
+    latitude: 42.3859828,
+    longitude: -5.14492689999997
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  BercianosdeRealCaminoAlbergueSantaClara423884876514539919999993: createLocation(
+    name: "Bercianos de Real Camino, Albergue Santa Clara",
+    latitude: 42.3884876,
+    longitude: -5.14539919999993
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  ElBurgoRaneroAlberguedeperegrinosDomenicoLaffi42423345652187419: createLocation(
+    name: "El Burgo Ranero, Albergue de peregrinos Domenico Laffi",
+    latitude: 42.4233456,
+    longitude: -5.2187419
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  ElBurgoRaneroAlbergueLaLaguna424238698521968449999997: createLocation(
+    name: "El Burgo Ranero, Albergue La Laguna",
+    latitude: 42.4238698,
+    longitude: -5.21968449999997
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  ReliegosAlberguedeperegrinosdeReliegos424746269535325979999993: createLocation(
+    name: "Reliegos, Albergue de peregrinos de Reliegos",
+    latitude: 42.4746269,
+    longitude: -5.35325979999993
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  ReliegosAlbergueLaParada42475051535386310000001: createLocation(
+    name: "Reliegos, Albergue La Parada",
+    latitude: 42.475051,
+    longitude: -5.35386310000001
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  ReliegosAlberguePiedrasBlancasII42474132535390050000001: createLocation(
+    name: "Reliegos, Albergue Piedras Blancas II",
+    latitude: 42.474132,
+    longitude: -5.35390050000001
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  ReliegosAlberguedeAda4247256535316420000004: createLocation(
+    name: "Reliegos, Albergue de Ada",
+    latitude: 42.47256,
+    longitude: -5.35316420000004
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  ReliegosAlbergueGil424738648535362559999999: createLocation(
+    name: "Reliegos, Albergue Gil",
+    latitude: 42.4738648,
+    longitude: -5.35362559999999
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  MansilladelasMulasAlberguedeperegrinosdeMansilladelasMulas424998084541840350000007: createLocation(
+    name: "Mansilla de las Mulas, Albergue de peregrinos de Mansilla de las Mulas",
+    latitude: 42.4998084,
+    longitude: -5.41840350000007
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  MansilladelasMulasAlbergueElJardndelCamino4249772541463999999996: createLocation(
+    name: "Mansilla de las Mulas, Albergue El Jardín del Camino",
+    latitude: 42.49772,
+    longitude: -5.41463999999996
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  MansilladelasMulasAlbergueGaia424972269541561300000001: createLocation(
+    name: "Mansilla de las Mulas, Albergue Gaia",
+    latitude: 42.4972269,
+    longitude: -5.41561300000001
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  PuenteVillarenteAlbergueSanPelayo425448059545630419999998: createLocation(
+    name: "Puente Villarente, Albergue San Pelayo",
+    latitude: 42.5448059,
+    longitude: -5.45630419999998
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  PuenteVillarenteAlbergueElDelfnVerde42544268545537100000001: createLocation(
+    name: "Puente Villarente, Albergue El Delfín Verde",
+    latitude: 42.544268,
+    longitude: -5.45537100000001
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  ArcahuejaAlbergueLaTorre425664131549735469999996: createLocation(
+    name: "Arcahueja, Albergue La Torre",
+    latitude: 42.5664131,
+    longitude: -5.49735469999996
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  LeonAlberguedelconventodelascarbajalas425952622556849609999995: createLocation(
+    name: "Leon, Albergue del convento de las carbajalas",
+    latitude: 42.5952622,
+    longitude: -5.56849609999995
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  LeonAlbergueResidenciaSanFranciscodeAss425903874556305280000004: createLocation(
+    name: "Leon, Albergue-Residencia San Francisco de Asís",
+    latitude: 42.5903874,
+    longitude: -5.56305280000004
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  LeonAlbergueSantoTomsdeCanterbury4257850455502927: createLocation(
+    name: "Leon, Albergue Santo Tomás de Canterbury",
+    latitude: 42.578504,
+    longitude: -5.5502927
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  LeonAlbergueResidenciaMigueldeUnamuno426000265556895829999996: createLocation(
+    name: "Leon, Albergue-Residencia Miguel de Unamuno",
+    latitude: 42.6000265,
+    longitude: -5.56895829999996
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  LeonAlbergueMurallaLeonesa425964604556614719999993: createLocation(
+    name: "Leon, Albergue Muralla Leonesa",
+    latitude: 42.5964604,
+    longitude: -5.56614719999993
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  TrobajodelCaminoAlbergueCasaSimn425749677558944980000001: createLocation(
+    name: "Trobajo del Camino, Albergue Casa Simón",
+    latitude: 42.5749677,
+    longitude: -5.58944980000001
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  LaVirgendelCaminoAlberguedeperegrinosDonAntoninoyDoaCinia42577670956394839: createLocation(
+    name: "La Virgen del Camino, Albergue de peregrinos Don Antonino y Doña Cinia",
+    latitude: 42.5776709,
+    longitude: -5.6394839
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  VillardeMazarifeAlberguedeJess424837194572610429999997: createLocation(
+    name: "Villar de Mazarife, Albergue de Jesús",
+    latitude: 42.4837194,
+    longitude: -5.72610429999997
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  VillardeMazarifeAlbergueSanAntoniodePdua424842183572648230000004: createLocation(
+    name: "Villar de Mazarife, Albergue San Antonio de Pádua",
+    latitude: 42.4842183,
+    longitude: -5.72648230000004
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  VillardeMazarifeAlbergueToPepe424831071572666159999994: createLocation(
+    name: "Villar de Mazarife, Albergue Tío Pepe",
+    latitude: 42.4831071,
+    longitude: -5.72666159999994
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  VillavanteAlbergueSantaLuca424619865583486730000004: createLocation(
+    name: "Villavante, Albergue Santa Lucía",
+    latitude: 42.4619865,
+    longitude: -5.83486730000004
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  PuenteOrbigoAcogidaLaCasadelaInspiracin424638587587648899999999: createLocation(
+    name: "Puente Orbigo, Acogida La Casa de la Inspiración",
+    latitude: 42.4638587,
+    longitude: -5.87648899999999
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  HospitaldeOrbigoAlbergueparroquialKarlLeisner42463532588372340000001: createLocation(
+    name: "Hospital de Orbigo, Albergue parroquial Karl Leisner",
+    latitude: 42.463532,
+    longitude: -5.88372340000001
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  HospitaldeOrbigoAlbergueSanMiguel424633955588433850000001: createLocation(
+    name: "Hospital de Orbigo, Albergue San Miguel",
+    latitude: 42.4633955,
+    longitude: -5.88433850000001
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  HospitaldeOrbigoAlbergueVerde424594845588466410000001: createLocation(
+    name: "Hospital de Orbigo, Albergue Verde",
+    latitude: 42.4594845,
+    longitude: -5.88466410000001
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  HospitaldeOrbigoAlbergueLaEncina424685238587970129999997: createLocation(
+    name: "Hospital de Orbigo, Albergue La Encina",
+    latitude: 42.4685238,
+    longitude: -5.87970129999997
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  VilladangosdelParamoAlberguedeperegrinosdeVilladangosdelPramo425196119576524889999996: createLocation(
+    name: "Villadangos del Paramo, Albergue de peregrinos de Villadangos del Páramo",
+    latitude: 42.5196119,
+    longitude: -5.76524889999996
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SanMartindelCaminoAlberguedeperegrinosdeSanMartndelCamino424942354580989: createLocation(
+    name: "San Martin del Camino, Albergue de peregrinos de San Martín del Camino",
+    latitude: 42.4942354,
+    longitude: -5.80989
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SanMartindelCaminoAlbergueAna424962098580660809999995: createLocation(
+    name: "San Martin del Camino, Albergue Ana",
+    latitude: 42.4962098,
+    longitude: -5.80660809999995
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SanMartindelCaminoAlbergueVieira424980395580302890000007: createLocation(
+    name: "San Martin del Camino, Albergue Vieira",
+    latitude: 42.4980395,
+    longitude: -5.80302890000007
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  VillaresdeOrbigoAlbergueVillaresderbigo42469611591022599999997: createLocation(
+    name: "Villares de Orbigo, Albergue Villares de Órbigo",
+    latitude: 42.469611,
+    longitude: -5.91022599999997
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SantibanexdeValdeiglesiasAlbergueparroquialdeSantibezdeValdeiglesias4245785593076999999994: createLocation(
+    name: "Santibanex de Valdeiglesias, Albergue parroquial de Santibáñez de Valdeiglesias",
+    latitude: 42.45785,
+    longitude: -5.93076999999994
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SantibanezdeValdeiglesiasAlbergueCaminoFrancs424584199593024000000003: createLocation(
+    name: "Santibanez de Valdeiglesias, Albergue Camino Francés",
+    latitude: 42.4584199,
+    longitude: -5.93024000000003
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SanJustodelaVegaRefugioAmanecer424541659601466809999999: createLocation(
+    name: "San Justo de la Vega, Refugio Amanecer",
+    latitude: 42.4541659,
+    longitude: -6.01466809999999
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  AstorgaAlberguedeperegrinosSiervasdeMara424528599605130220000001: createLocation(
+    name: "Astorga, Albergue de peregrinos Siervas de María",
+    latitude: 42.4528599,
+    longitude: -6.05130220000001
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  AstorgaAlbergueSanJavier424567764605788659999996: createLocation(
+    name: "Astorga, Albergue San Javier",
+    latitude: 42.4567764,
+    longitude: -6.05788659999996
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  ValdeviejasAlberguedeperegrinosEcceHomo42460288660806322: createLocation(
+    name: "Valdeviejas, Albergue de peregrinos Ecce Homo",
+    latitude: 42.4602886,
+    longitude: -6.0806322
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  MuriasdeRechivaldoAlberguedeperegrinosdeMuriasdeRechivaldo42460272861076367: createLocation(
+    name: "Murias de Rechivaldo, Albergue de peregrinos de Murias de Rechivaldo",
+    latitude: 42.4602728,
+    longitude: -6.1076367
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  MuriasdeRechivaldoAlbergueLasguedas424592141610768419999999: createLocation(
+    name: "Murias de Rechivaldo, Albergue Las Águedas",
+    latitude: 42.4592141,
+    longitude: -6.10768419999999
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  MuriasdeRechivaldoAlbergueCasaFlor424607219610737080000001: createLocation(
+    name: "Murias de Rechivaldo, Albergue Casa Flor",
+    latitude: 42.4607219,
+    longitude: -6.10737080000001
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  CastrillodePolvazaresAlberguedeperegrinosdeCastrillodelosPolvazares42465017761306232: createLocation(
+    name: "Castrillo de Polvazares, Albergue de peregrinos de Castrillo de los Polvazares",
+    latitude: 42.4650177,
+    longitude: -6.1306232
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SantaCatalinadeSomozaAlbergueHospederaSanBlas424552369615894700000001: createLocation(
+    name: "Santa Catalina de Somoza, Albergue Hospedería San Blas",
+    latitude: 42.4552369,
+    longitude: -6.15894700000001
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  SantaCatalinadeSomozaAlbergueElCaminante42455228615823019999993: createLocation(
+    name: "Santa Catalina de Somoza, Albergue El Caminante",
+    latitude: 42.455228,
+    longitude: -6.15823019999993
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  ElGansoAlbergueGabino424626883620935570000006: createLocation(
+    name: "El Ganso, Albergue Gabino",
+    latitude: 42.4626883,
+    longitude: -6.20935570000006
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  RabanaldelCaminoAlberguedeperegrinosdeRabanaldelCamino4248065628390000000002: createLocation(
+    name: "Rabanal del Camino, Albergue de peregrinos de Rabanal del Camino",
+    latitude: 42.48065,
+    longitude: -6.28390000000002
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  RabanaldelCaminoAlbergueGaucelmo42481891362852606: createLocation(
+    name: "Rabanal del Camino, Albergue Gaucelmo",
+    latitude: 42.4818913,
+    longitude: -6.2852606
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  RabanaldelCaminoAlbergueNuestraSeoradelPilar42480641628448900000001: createLocation(
+    name: "Rabanal del Camino, Albergue Nuestra Señora del Pilar",
+    latitude: 42.480641,
+    longitude: -6.28448900000001
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  RabanaldelCaminoAlbergueLaSenda42481344628088300000002: createLocation(
+    name: "Rabanal del Camino, Albergue La Senda",
+    latitude: 42.481344,
+    longitude: -6.28088300000002
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  FoncebadonAlbergueparroquialDomusDei42491883634351500000002: createLocation(
+    name: "Foncebadon, Albergue parroquial Domus Dei",
+    latitude: 42.491883,
+    longitude: -6.34351500000002
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  FoncebadonAlbergueMonteIrago42491339634177199999999: createLocation(
+    name: "Foncebadon, Albergue Monte Irago",
+    latitude: 42.491339,
+    longitude: -6.34177199999999
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  FoncebadonAlbergueLaPosadadelDruida424913214634254950000002: createLocation(
+    name: "Foncebadon, Albergue La Posada del Druida",
+    latitude: 42.4913214,
+    longitude: -6.34254950000002
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  FoncebadonAlbergueRogerdeLauria42491454763420081: createLocation(
+    name: "Foncebadon, Albergue Roger de Lauria",
+    latitude: 42.4914547,
+    longitude: -6.3420081
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  ManjarinRefugiodeManjarn42490371863867541: createLocation(
+    name: "Manjarin, Refugio de Manjarín",
+    latitude: 42.4903718,
+    longitude: -6.3867541
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  ElAceboAlbergueparroquialSantiagoApstol42499013464570427: createLocation(
+    name: "El Acebo, Albergue parroquial Santiago Apóstol",
+    latitude: 42.4990134,
+    longitude: -6.4570427
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  ElAceboAlbergueMesnElAcebo424990318645727399999998: createLocation(
+    name: "El Acebo, Albergue Mesón El Acebo",
+    latitude: 42.4990318,
+    longitude: -6.45727399999998
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  ElAceboAlbergueLaCasadelPeregrino42501457664597678: createLocation(
+    name: "El Acebo, Albergue La Casa del Peregrino",
+    latitude: 42.5014576,
+    longitude: -6.4597678
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  RiegodeAmbrosAlberguedeperegrinosdeRiegodeAmbrs4252153776479305: createLocation(
+    name: "Riego de Ambros, Albergue de peregrinos de Riego de Ambrós",
+    latitude: 42.5215377,
+    longitude: -6.479305
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  MolinasecaAlbergueSantaMarina42540845665261941: createLocation(
+    name: "Molinaseca, Albergue Santa Marina",
+    latitude: 42.5408456,
+    longitude: -6.5261941
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  MolinasecaAlberguedeperegrinosSanRoque42541886165281628: createLocation(
+    name: "Molinaseca, Albergue de peregrinos San Roque",
+    latitude: 42.5418861,
+    longitude: -6.5281628
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  PonferradaAlbergueparroquialSanNicolsdeFlue425434676658640579999997: createLocation(
+    name: "Ponferrada, Albergue parroquial San Nicolás de Flue",
+    latitude: 42.5434676,
+    longitude: -6.58640579999997
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  PonferradaAlbergueAlea425466879658223720000001: createLocation(
+    name: "Ponferrada, Albergue Alea",
+    latitude: 42.5466879,
+    longitude: -6.58223720000001
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  PonferradaAlbergueGuiana425428659175449999998: createLocation(
+    name: "Ponferrada, Albergue Guiana",
+    latitude: 42.5428,
+    longitude: -6.59175449999998
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  FuentesnuevasAlbergueElCamino425713011664259600000003: createLocation(
+    name: "Fuentesnuevas, Albergue El Camino",
+    latitude: 42.5713011,
+    longitude: -6.64259600000003
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  CamponarayaAlbergueNaraya425931437668566780000003: createLocation(
+    name: "Camponaraya, Albergue Naraya",
+    latitude: 42.5931437,
+    longitude: -6.68566780000003
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  CamponarayaAlbergueLaMedina425763202666150979999998: createLocation(
+    name: "Camponaraya, Albergue La Medina",
+    latitude: 42.5763202,
+    longitude: -6.66150979999998
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  CacabelosAlberguedeperegrinosdeCacabelos426002471673116660000005: createLocation(
+    name: "Cacabelos, Albergue de peregrinos de Cacabelos",
+    latitude: 42.6002471,
+    longitude: -6.73116660000005
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  CacabelosAlbergueLaGallega425998926724782: createLocation(
+    name: "Cacabelos, Albergue La Gallega",
+    latitude: 42.599892,
+    longitude: -6.724782
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  PierosAlbergueElSerbalylaLuna42605791567488295: createLocation(
+    name: "Pieros, Albergue El Serbal y la Luna",
+    latitude: 42.6057915,
+    longitude: -6.7488295
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  VillafrancadelBierzoAlberguedeperegrinosdeVillafrancadelBierzo426045723680648080000003: createLocation(
+    name: "Villafranca del Bierzo, Albergue de peregrinos de Villafranca del Bierzo",
+    latitude: 42.6045723,
+    longitude: -6.80648080000003
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  VillafrancadelBierzoAlbergueAveFnix42603962680825200000004: createLocation(
+    name: "Villafranca del Bierzo, Albergue Ave Fénix",
+    latitude: 42.603962,
+    longitude: -6.80825200000004
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  VillafrancadelBierzoAlberguedelaPiedra426101358681353100000001: createLocation(
+    name: "Villafranca del Bierzo, Albergue de la Piedra",
+    latitude: 42.6101358,
+    longitude: -6.81353100000001
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  VillafrancadelBierzoAlbergueLeo4260848268109422: createLocation(
+    name: "Villafranca del Bierzo, Albergue Leo",
+    latitude: 42.608482,
+    longitude: -6.8109422
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  VillafrancadelBierzoAlbergueHospederaSanNicolsElReal426078076680841069999997: createLocation(
+    name: "Villafranca del Bierzo, Albergue-Hospedería San Nicolás El Real",
+    latitude: 42.6078076,
+    longitude: -6.80841069999997
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  PerejeAlberguedeperegrinosdePereje42626112468438816: createLocation(
+    name: "Pereje, Albergue de peregrinos de Pereje",
+    latitude: 42.6261124,
+    longitude: -6.8438816
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  TrabadeloAlberguedeperegrinosdeTrabadelo426495368822694: createLocation(
+    name: "Trabadelo, Albergue de peregrinos de Trabadelo",
+    latitude: 42.64953,
+    longitude: -6.8822694
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  TrabadeloAlbergueparroquialTrabadelo42649340668823445: createLocation(
+    name: "Trabadelo, Albergue parroquial Trabadelo",
+    latitude: 42.6493406,
+    longitude: -6.8823445
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  TrabadeloAlbergueCrispeta42648117468761861: createLocation(
+    name: "Trabadelo, Albergue Crispeta",
+    latitude: 42.6481174,
+    longitude: -6.8761861
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  TrabadeloAlbergueCaminoyLeyenda4264953688184550000005: createLocation(
+    name: "Trabadelo, Albergue Camino y Leyenda",
+    latitude: 42.64953,
+    longitude: -6.88184550000005
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  LaPorteladeValcarceAlbergueElPeregrino42660075769179964: createLocation(
+    name: "La Portela de Valcarce, Albergue El Peregrino",
+    latitude: 42.6600757,
+    longitude: -6.9179964
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  AmbasmestasAlbergueDasnimas42665357769285268: createLocation(
+    name: "Ambasmestas, Albergue Das Ánimas",
+    latitude: 42.6653577,
+    longitude: -6.9285268
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  AmbasmestasAlbergueCamynos42663157692664300000001: createLocation(
+    name: "Ambasmestas, Albergue Camynos",
+    latitude: 42.663157,
+    longitude: -6.92664300000001
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  AmbasmestasAlbergueCasadelPescador42664343969268477: createLocation(
+    name: "Ambasmestas, Albergue Casa del Pescador",
+    latitude: 42.6643439,
+    longitude: -6.9268477
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  VegadeValcarceAlberguedeperegrinosdeVegadeValcarce426650569452691: createLocation(
+    name: "Vega de Valcarce, Albergue de peregrinos de Vega de Valcarce",
+    latitude: 42.66505,
+    longitude: -6.9452691
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  VegadeValcarceRefugioVegetarianoISANA4266525694631000000004: createLocation(
+    name: "Vega de Valcarce, Refugio Vegetariano ISANA",
+    latitude: 42.66525,
+    longitude: -6.94631000000004
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  VegadeValcarceAlbergueSarracn426638294694140360000006: createLocation(
+    name: "Vega de Valcarce, Albergue Sarracín",
+    latitude: 42.6638294,
+    longitude: -6.94140360000006
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  VegadeValcarceAlbergueSantaMaraMagdalena426653717694697719999999: createLocation(
+    name: "Vega de Valcarce, Albergue Santa María Magdalena",
+    latitude: 42.6653717,
+    longitude: -6.94697719999999
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  VegadeValcarceAlbergueElPaso42665229694738469999993: createLocation(
+    name: "Vega de Valcarce, Albergue El Paso",
+    latitude: 42.665229,
+    longitude: -6.94738469999993
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  RuitelanAlberguePequeoPotala42673072869671559: createLocation(
+    name: "Ruitelan, Albergue Pequeño Potala",
+    latitude: 42.6730728,
+    longitude: -6.9671559
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  LasHerreriasRefugiodeLasHerreras42670710369808835: createLocation(
+    name: "Las Herrerias, Refugio de Las Herrerías",
+    latitude: 42.6707103,
+    longitude: -6.9808835
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  LaFabaAlberguedeLaFaba42683981270066488: createLocation(
+    name: "La Faba, Albergue de La Faba",
+    latitude: 42.6839812,
+    longitude: -7.0066488
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+
+  LaLagunaAlbergueLaEscuela427014559702214619999995: createLocation(
+    name: "La Laguna, Albergue La Escuela",
+    latitude: 42.7014559,
+    longitude: -7.02214619999995
+  ) {
+    id,
+    name,
+    latitude,
+    longitude
+  }
+}
