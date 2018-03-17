@@ -1,0 +1,7 @@
+type SignupUserResponse {
+  id: ID!
+}
+
+extend type Mutation {
+  signupUser(email: String!, password: String!, name: String!): SignupUserResponse
+}

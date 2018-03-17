@@ -1,0 +1,83 @@
+import { fromEvent, FunctionEvent } from 'graphcool-lib'
+import { GraphQLClient } from 'graphql-request'
+import { isEmail } from 'validator'
+import * as bcrypt from 'bcryptjs'
+
+const USER_EXISTS_QUERY = `
+  query UserExists($email: String!) {
+    user: User(email: $email) {
+      id
+    }
+  }
+`
+
+const CREATE_USER_MUTATION = `
+  mutation CreateUser($email: String!, $password: String!, $name: String!) {
+    user: createUser(email: $email, password: $password, name: $name) {
+      id
+    }
+  }
+`
+
+interface User {
+  id: string
+}
+
+interface EventData {
+  email: string
+  password: string,
+  name: string
+}
+
+async function hashPassword (password: string): Promise<string> {
+  const SALT_ROUNDS = 10
+  const salt = bcrypt.genSaltSync(SALT_ROUNDS)
+  return await bcrypt.hash(password, salt)
+}
+
+async function userExists (
+  api: GraphQLClient,
+  email: string
+): Promise<boolean> {
+  const response = await api.request<{ user: User }>(USER_EXISTS_QUERY, { email })
+  return response.user !== null
+}
+
+async function createUser (
+  api: GraphQLClient,
+  email: string,
+  password: string,
+  name: string,
+): Promise<string> {
+  const response = await api.request<{ user: User }>(CREATE_USER_MUTATION, {
+    email, password, name
+  })
+
+  return response.user.id
+}
+
+export default async (event: FunctionEvent<EventData>) => {
+  console.log(JSON.stringify(event))
+
+  try {
+    const graphcool = fromEvent(event)
+    const api = graphcool.api('simple/v1')
+
+    const { email, password, name } = event.data
+
+    if (!isEmail(email))
+      return { error: 'Not a valid email' }
+
+    if (await userExists(api, email))
+      return { error: 'That email address is already used' }
+
+    const hashedPassword = await hashPassword(password)
+    const userId = await createUser(api, email, hashedPassword, name)
+
+    return { data: { id: userId } }
+  } catch (e) {
+    console.error(e)
+
+    return { error: 'There was an unexpected error' }
+  }
+}

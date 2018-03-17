@@ -24,6 +24,11 @@ functions:
       code: src/hello.js
     type: resolver
     schema: src/hello.graphql
+  signup:
+    handler:
+      code: src/signup.ts
+    type: resolver
+    schema: src/signup.graphql
 
 
 # Model/Relation permissions are used to limit the API access
@@ -40,4 +45,3 @@ permissions:
 # https://www.graph.cool/docs/reference/auth/authentication/authentication-tokens-eip7ahqu5o
 # rootTokens:
 #   - mytoken
-

@@ -5,5 +5,13 @@
   "description": "My Graphcool Service",
   "devDependencies": {
     "cheerio": "^1.0.0-rc.2"
+  },
+  "dependencies": {
+    "@types/bcryptjs": "^2.4.1",
+    "@types/validator": "^9.4.0",
+    "bcryptjs": "^2.4.3",
+    "graphcool-lib": "^0.1.4",
+    "graphql-request": "^1.5.1",
+    "validator": "^9.4.1"
   }
 }
