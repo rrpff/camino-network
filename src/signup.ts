@@ -14,7 +14,7 @@ interface EventData {
 }
 
 interface Response {
-  readonly data?: { id: string }
+  readonly data?: { id: string, token: string }
   readonly error?: string
 }
 
@@ -51,8 +51,9 @@ export default async (event: FunctionEvent<EventData>): Promise<Response> => {
 
     const hashedPassword = await hashPassword(password)
     const userId = await createUser(api, email, hashedPassword, name)
+    const token = await graphcool.generateNodeToken(userId, 'User')
 
-    return { data: { id: userId } }
+    return { data: { id: userId, token } }
   } catch (e) {
     console.error(e)
 
