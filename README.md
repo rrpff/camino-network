@@ -19,3 +19,16 @@ mutation {
   }
 }
 ```
+
+### Autocomplete Location Name
+
+```graphql
+query AutocompleteLocation {
+	allLocations(
+    first: 10,
+    filter: { name_contains: "pamplo", }
+  ) {
+    name
+  }
+}
+```
