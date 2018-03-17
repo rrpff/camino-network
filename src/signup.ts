@@ -3,6 +3,21 @@ import { GraphQLClient } from 'graphql-request'
 import { isEmail } from 'validator'
 import * as bcrypt from 'bcryptjs'
 
+interface User {
+  readonly id: string
+}
+
+interface EventData {
+  readonly email: string
+  readonly password: string,
+  readonly name: string
+}
+
+interface Response {
+  readonly data?: { id: string }
+  readonly error?: string
+}
+
 const USER_EXISTS_QUERY = `
   query UserExists($email: String!) {
     user: User(email: $email) {
@@ -19,44 +34,7 @@ const CREATE_USER_MUTATION = `
   }
 `
 
-interface User {
-  id: string
-}
-
-interface EventData {
-  email: string
-  password: string,
-  name: string
-}
-
-async function hashPassword (password: string): Promise<string> {
-  const SALT_ROUNDS = 10
-  const salt = bcrypt.genSaltSync(SALT_ROUNDS)
-  return await bcrypt.hash(password, salt)
-}
-
-async function userExists (
-  api: GraphQLClient,
-  email: string
-): Promise<boolean> {
-  const response = await api.request<{ user: User }>(USER_EXISTS_QUERY, { email })
-  return response.user !== null
-}
-
-async function createUser (
-  api: GraphQLClient,
-  email: string,
-  password: string,
-  name: string,
-): Promise<string> {
-  const response = await api.request<{ user: User }>(CREATE_USER_MUTATION, {
-    email, password, name
-  })
-
-  return response.user.id
-}
-
-export default async (event: FunctionEvent<EventData>) => {
+export default async (event: FunctionEvent<EventData>): Promise<Response> => {
   console.log(JSON.stringify(event))
 
   try {
@@ -80,4 +58,20 @@ export default async (event: FunctionEvent<EventData>) => {
 
     return { error: 'There was an unexpected error' }
   }
+}
+
+async function userExists (api: GraphQLClient, email: string): Promise<boolean> {
+  const response = await api.request<{ user: User }>(USER_EXISTS_QUERY, { email })
+  return response.user !== null
+}
+
+async function createUser (api: GraphQLClient, email: string, password: string, name: string,): Promise<string> {
+  const response = await api.request<{ user: User }>(CREATE_USER_MUTATION, { email, password, name })
+  return response.user.id
+}
+
+async function hashPassword (password: string): Promise<string> {
+  const SALT_ROUNDS = 10
+  const salt = bcrypt.genSaltSync(SALT_ROUNDS)
+  return await bcrypt.hash(password, salt)
 }
