@@ -1,5 +1,9 @@
 # Camino Network
 
+## Albergue List
+
+https://clearskiescamino.com/2016/01/17/google-maps-of-albergues-on-the-camino-frances/
+
 ## Example Queries
 
 ### Sign up user
