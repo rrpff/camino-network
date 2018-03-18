@@ -13,10 +13,8 @@
 #
 # Happy Coding!
 
-
 # In the types.graphql you define your data schema
 types: ./types.graphql
-
 
 functions:
   hello:
@@ -30,15 +28,19 @@ functions:
     type: resolver
     schema: src/signup.graphql
 
-
 # Model/Relation permissions are used to limit the API access
 # To take the burden of thinking about those while development, we
 # preconfigured the wildcard ("*") permission that allows everything
 # Read more here:
 # https://www.graph.cool/docs/reference/auth/authorization/overview-iegoo0heez
 permissions:
-  - operation: "*"
-
+  - operation: User.create
+  - operation: User.read
+    authenticated: true
+  - operation: Trip.create
+    authenticated: true
+  - operation: UserTrips.connect
+    authenticated: true
 
 # Your root tokens used for functions to get full access to the API
 # Read more here:
