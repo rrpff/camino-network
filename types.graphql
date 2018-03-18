@@ -26,6 +26,8 @@ type Stay @model {
 
 type Location @model {
   id: ID! @isUnique
+  createdAt: DateTime!
+  updatedAt: DateTime!
   name: String!
   latitude: Float!
   longitude: Float!
