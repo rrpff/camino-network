@@ -1,0 +1,28 @@
+{
+  "name": "camino-network-frontend",
+  "private": true,
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.42",
+    "@babel/core": "^7.0.0-beta.42",
+    "@babel/preset-env": "^7.0.0-beta.42",
+    "@babel/preset-react": "^7.0.0-beta.42",
+    "@babel/preset-typescript": "^7.0.0-beta.42",
+    "babel-loader": "8.0.0-beta.2",
+    "babel-plugin-emotion": "^9.0.1",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12"
+  },
+  "dependencies": {
+    "@types/react": "^16.0.40",
+    "@types/react-dom": "^16.0.4",
+    "emotion": "^9.0.2",
+    "emotion-server": "^9.0.2",
+    "express": "^4.16.3",
+    "multistream": "^2.1.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-emotion": "^9.0.2",
+    "react-hot-loader": "^4.0.0",
+    "string-to-stream": "^1.1.0"
+  }
+}
