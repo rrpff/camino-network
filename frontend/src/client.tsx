@@ -1,12 +1,8 @@
 import * as React from 'react'
 import { hydrate } from 'react-dom'
-import styled from 'react-emotion'
-
-const Blue = styled.div`
-  color: blue;
-`
+import App from './components/App'
 
 hydrate(
-  <Blue>hello world!</Blue>,
+  <App />,
   document.getElementById('root')
 )

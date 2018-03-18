@@ -5,7 +5,7 @@ const MODE = process.env.NODE_ENV
 assert(MODE, 'process.env.NODE_ENV must be defined')
 
 const BABEL_RULE = {
-  test: /\.js$|\.tsx$/,
+  test: /\.tsx?$/,
   exclude: /node_modules/,
   use: {
     loader: 'babel-loader',
@@ -27,6 +27,9 @@ module.exports = {
   mode: MODE,
   entry: {
     main: [path.resolve(__dirname, 'src', 'client.tsx')]
+  },
+  resolve: {
+    extensions: ['.js', '.ts', '.tsx']
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
