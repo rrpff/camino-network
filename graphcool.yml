@@ -27,6 +27,11 @@ functions:
       code: src/signup.ts
     type: resolver
     schema: src/signup.graphql
+  login:
+    handler:
+      code: src/login.ts
+    type: resolver
+    schema: src/login.graphql
 
 # Model/Relation permissions are used to limit the API access
 # To take the burden of thinking about those while development, we
