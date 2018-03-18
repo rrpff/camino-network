@@ -1,5 +1,5 @@
 {
-  "name": "Camino Network Importer",
+  "name": "camino-network-importer",
   "private": true,
   "dependencies": {
     "cheerio": "^1.0.0-rc.2"
