@@ -35,8 +35,6 @@ const CREATE_USER_MUTATION = `
 `
 
 export default async (event: FunctionEvent<EventData>): Promise<Response> => {
-  console.log(JSON.stringify(event))
-
   try {
     const graphcool = fromEvent(event)
     const api = graphcool.api('simple/v1')
